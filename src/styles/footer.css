@@ -27,6 +27,10 @@
     src: url('../Manrope/static/Manrope-Bold.ttf');
     /* 700 */
 }
+@font-face {
+  font-family: Manrope-ExtraBold;
+  src: url("../Manrope/static/Manrope-ExtraBold.ttf");
+}
 *{
     padding: 0;
     margin: 0;
@@ -37,6 +41,7 @@
     width: 100%;
     background-color: #170521;
     /* height: 218px; */
+    margin-top: 100px;
 }
 
 .footer-container {
@@ -56,7 +61,7 @@
   
   .footer-logo{
     width: 160px;
-
+    height: 64px;
   }
   
   .footer-links {
@@ -84,6 +89,10 @@
     display: flex;
     gap: 25.54px;
   }
+  .wp{
+    width: 16px;
+    height: 16px;
+  }
   
   .copy-right {
     color: #fff;
@@ -98,4 +107,5 @@
     height: 1px;
     background-color: #fff;
   }
+  
   

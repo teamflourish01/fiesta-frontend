@@ -1,0 +1,197 @@
+.provide-card-container {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+
+.provider-card {
+    position: relative;
+    max-width: 400px;
+    min-width: 200px;
+    width: 100%;
+    height: 291px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px; 
+    background: white;
+    border-radius: 30px;
+}
+
+.radius {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 30px; 
+    background: white;
+}
+.provider-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 30px; 
+    padding: 2px; 
+    background: linear-gradient(117.38deg, #FFFFFF 7.8%, #000000 26.29%, #000000 73.69%, #FFFFFF 93.13%);
+    -webkit-mask: 
+        linear-gradient(#fff 0 0) content-box, 
+        linear-gradient(#fff 0 0);
+    -webkit-mask-composite: destination-out;
+            mask-composite: exclude;
+    z-index: 1;
+    opacity: 1; 
+}
+
+.provider-card:hover::before {
+    background: linear-gradient(50.38deg, #FFFFFF 7.8%, #000000 26.29%, #000000 73.69%, #FFFFFF 93.13%);
+    -webkit-mask: 
+        linear-gradient(#fff 0 0) content-box, 
+        linear-gradient(#fff 0 0);
+    -webkit-mask-composite: destination-out;
+            mask-composite: exclude;
+    opacity: 1; 
+    transition: ease-in-out 7s;
+}
+
+.provider-card-desc {
+    max-width: 336px;
+    min-height: 200px;
+    width: 100%;
+    height: 146px;
+    padding: 30px 0 25px;
+}
+
+.card-title {
+    font-family: Manrope-Bold;
+    font-size: 25px;
+    line-height: 35px;
+}
+
+.text-provide {
+    font-family: Manrope-Regular;
+    font-size: 18px;
+    line-height: 26px;
+    padding-top: 10px;
+}
+
+.learn-more {
+    display: inline-flex;
+    align-items: center;
+    font-family: Manrope-SemiBold;
+    font-size: 18px;
+    line-height: 24px;
+    padding-top: 25px;
+    cursor: pointer;
+    gap: 10px;
+}
+
+.icon {
+    display: flex;
+    align-items: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ /* .provide-card-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+}
+
+.provider-card {
+    position: relative;
+    width: 400px;
+    height: 291px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+    background: white;
+    border-radius: 30px;
+}
+
+.radius {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 30px;
+    background: white;
+}
+
+.provider-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 30px;
+    padding: 2px;
+    background: linear-gradient(117.38deg, #FFFFFF 7.8%, #000000 26.29%, #000000 73.69%, #FFFFFF 93.13%);
+    -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+    -webkit-mask-composite: destination-out;
+    mask-composite: exclude;
+    z-index: 1;
+    transition: background 10s ease; 
+}
+
+.provider-card:hover::before {
+    background: linear-gradient(50.38deg, #FFFFFF 7.8%, #000000 26.29%, #000000 73.69%, #FFFFFF 93.13%);
+}
+
+.provider-card-desc {
+    width: 336px;
+    height: 146px;
+    padding: 30px 0 25px;
+}
+
+.card-title {
+    font-family: Manrope-Bold;
+    font-size: 25px;
+    line-height: 35px;
+}
+
+.text-provide {
+    font-family: Manrope-Regular;
+    font-size: 18px;
+    line-height: 26px;
+    padding-top: 10px;
+}
+
+.learn-more {
+    display: inline-flex;
+    align-items: center;
+    font-family: Manrope-SemiBold;
+    font-size: 18px;
+    line-height: 24px;
+    padding-top: 25px;
+    cursor: pointer;
+    gap: 10px;
+}
+
+.icon {
+    display: flex;
+    align-items: center;
+} */

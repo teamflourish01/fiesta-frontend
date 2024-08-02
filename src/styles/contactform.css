@@ -1,0 +1,131 @@
+.heading {
+    font-family: Manrope-ExtraBold;
+    font-size: 50px;
+    line-height: 30px;
+    padding: 100px 0 50px;
+    text-align: center;
+}
+
+.call-back {
+    font-size: 25px;
+    font-family: Manrope-Bold;
+    line-height: 34.15px;
+}
+
+.book-consultation {
+    font-size: 18px;
+    font-family: Manrope-Regular;
+}
+
+.contact-text {
+    padding: 0 0 15px;
+}
+
+.contact-form {
+    max-width: 1320px;
+    min-width: 200px;
+    width: 100%;
+}
+
+.name-contact-row {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+.input-field {
+    /* margin:0 10px 10px; */
+    margin: 0 0 15px 0;
+    font-family: Poppins-Regular;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    /* height: 49px; */
+}
+
+.input-group {
+    border: 1px solid #170521;
+    border-radius: 10px;
+    /* padding: 5px; */
+}
+
+.input {
+    width: 100%;
+    border: none;
+    padding: 14px 0 11px 12px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    outline: none;
+    
+}
+
+input::placeholder {
+    font-family: Manrope-Regular;
+    font-size: 18px;
+    /* margin: 20px 0  0; */
+    line-height: 30px;
+    color: #170521;
+}
+
+textarea.input {
+    height: 100px;
+    /* padding: 0 0 15px; */
+    padding: 11px 0 12px 14px;
+    /* resize: none; */
+    resize: vertical; 
+
+}
+
+
+
+textarea::placeholder {
+    font-family: Manrope-Regular;
+    font-size: 18px;
+    line-height: 24.59px;
+    color: #170521;
+}
+
+.name-contact {
+    max-width: 653px;
+    min-width: 200px;
+    width: 100%;
+}
+
+.contact-button {
+    padding: 15px 0 0;
+}
+
+.btn-contact {
+    /* width: 1320px; */
+    max-width: 1320px;
+    min-width: 200px;
+    width: 100%;
+    background-color: #170521;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 18px;
+    line-height: 20px;
+    font-family: Manrope-SemiBold;
+}
+
+.input-dropdown {
+    width: 100%;
+    border: none;
+    box-sizing: border-box;
+    border-radius: 10px;
+    outline: none;
+/* padding: 10px; */
+padding:  6px 0 6px 14px; 
+font-family: Manrope-Regular;
+font-size: 18px;
+line-height: 24.59px;
+color: #170521;
+}
