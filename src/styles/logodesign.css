@@ -1,0 +1,38 @@
+.plan-container{
+    display: flex;
+    justify-content: space-between;
+}
+.logo-plan{
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logi-idia{
+    font-size: 18px;
+    font-family: Manrope-Regular;
+    line-height: 30px;
+    text-align: center;
+    padding: 10px 0;
+
+}
+.logo-Duration{
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 21px;
+}
+.Design-Duration{
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.Payment-Duration{
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

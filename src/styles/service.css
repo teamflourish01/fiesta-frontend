@@ -1,0 +1,204 @@
+.banner{
+    padding: 10px 0;
+}
+.service-flex{
+    display: flex;
+    justify-content: space-between;
+}
+.services{
+    max-width: 319px;
+    min-width: 200px;
+    width: 100%;
+    border: 1px solid black;
+    height: 245px;
+    border-radius: 20px;
+    position: sticky;
+    top: 6px;
+}
+.social-media{
+    max-width: 941px;
+    min-width: 200px;
+    width: 100%;
+    /* height: 835px; */
+    /* border: 1px solid #000000; */
+}
+.our-services{
+    color: black;
+    font-family: Manrope-Bold;
+    font-size: 25px;
+    text-align: center;
+    padding: 15px 0;
+    line-height: 30px;
+
+}
+.service-top-padding{
+    padding: 100px 0  0 0;
+}
+.social-div{
+    font-size: 18px;
+    line-height: 35px;
+    font-family: Manrope-Medium;
+    padding: 25px 0 15px 20px;
+
+
+}
+.div-flex{
+    display: flex;
+    justify-content: space-between;
+}
+.marketing-social{
+    max-width: 430px;
+    min-width: 200px;
+    width: 100%;
+   border: 1px solid #000000;
+   border-radius: 20px;
+
+}
+.ours-services{
+    max-width: 430px;
+    min-width: 200px;
+    width: 100%;
+   border: 1px solid #000000;
+   border-radius: 20px;
+}
+.s-marketing{
+    font-family:Manrope-ExtraBold ;
+    font-size: 50px;
+    /* line-height: 30px; */
+}
+.Promote{
+    font-family: Manrope-Bold;
+    font-size: 25px;
+    line-height: 30px;
+    padding: 15px 0 0 0 ;
+}
+.media-marketing{
+    font-family: Manrope-Medium;
+    font-size: 22px;
+    line-height: 30px;
+    padding: 15px 0 5px 0;
+}
+.products{
+    font-family: Manrope-Regular;
+    font-size: 18px;
+    line-height: 30px;
+    padding-bottom: 15px;
+}
+.media-social{
+    text-align: center;
+    font-family: Manrope-Medium;
+    font-size: 22px;
+    line-height: 30px;
+}
+.boost{
+    font-family: Manrope-Regular;
+    font-size: 18px;
+    text-align: justify;
+    padding: 25px 0 25px 65px;
+}
+.strategy{
+    padding: 10px 0 10px 28px;
+}
+.adjustments{
+    font-size: 18px;
+    font-family: Manrope-Regular;
+    line-height: 30px;
+    text-align: justify;
+    padding: 15px 0 0px 0;
+
+
+}
+.choose-us{
+    font-size: 50px;
+    /* line-height: 30px; */
+    font-family:Manrope-ExtraBold ;
+    padding: 50px 0 15px 0;
+
+
+}
+.dynamic{
+    font-size: 18px;
+    line-height: 30px;
+    font-family: Manrope-Regular;
+    text-align: justify;
+    padding: 15px 0 0 0;
+    
+}
+.plans-container{
+    max-width: 941px;
+    min-width: 200px;
+    width: 100%;
+}
+.basic-plans{
+    max-width: 305px;
+    min-width: 200px;
+    width: 100%;
+    border: 1px solid #000000;
+    font-family: Manrope-Bold;
+    font-size: 25px;
+    line-height: 30px;
+
+}
+.standard-plans{
+    max-width: 305px;
+    min-width: 200px;
+    width: 100%;
+    border: 1px solid #000000;
+    font-family: Manrope-Bold;
+    font-size: 25px;
+    line-height: 30px;
+}
+.premium-plan{
+    max-width: 305px;
+    min-width: 200px;
+    width: 100%;
+    border: 1px solid #000000;
+    font-family: Manrope-Bold;
+    font-size: 25px;
+    line-height: 30px;
+}
+.plans-flex{
+    display: flex;
+    justify-content: space-between;
+}
+.Basic-Plan{
+    background-color: black;
+    color: white;
+    text-align: center;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    padding: 7px 0 7px 0;
+}
+.image-post{
+    text-align: center;
+    padding: 10px 0;
+    font-size: 18px;
+    font-family: Manrope-Regular;
+    line-height: 30px;
+}
+.price-container{
+    background-color: black;
+    color: white;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.price{
+    text-align: center;
+    font-family:Manrope-ExtraBold ;
+    font-size: 25px;
+    padding: 7px 0;
+   
+
+}
+.month{
+    text-align: center;
+    padding: 10px 0;
+}
+.btn{
+    text-align: right;
+    padding: 50px 0 0 0;
+}
+.style-none{
+    text-decoration: none;
+    color: black;
+}
