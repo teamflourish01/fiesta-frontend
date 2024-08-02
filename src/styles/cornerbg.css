@@ -1,0 +1,11 @@
+.nav-bar-img{
+    background-image: url(../images/navcut.png);
+    background-repeat: no-repeat;
+    background-position: right top;
+
+}
+.footer-top-img{
+    background-image: url(../images/Vector.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+}

@@ -1,40 +1,115 @@
 .provide-card-container {
-    display: flex;
-    align-items: center;
-    gap: 60px;
+  display: flex;
+  align-items: center;
+  gap: 60px;
 }
 
 .provider-card {
-    position: relative;
-    max-width: 400px;
-    min-width: 200px;
-    width: 100%;
-    height: 291px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 15px; 
-    background: white;
+  position: relative;
+  max-width: 400px;
+  min-width: 200px;
+  width: 100%;
+  height: 291px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 15px;
+  background: white;
+  border-radius: 30px;
+  /* border-width: 1px; */
+  border: 1px solid 
+  linear-gradient(
+    50.38deg,
+    #000000 26.29%,
+    #ffffff 7.8%,
+    #ffffff 93.13%
+    #000000 73.69%,
+  );
+  text-decoration: none;
+  transition: all 0.35s;
+  box-sizing: border-box;
+}
+
+.btn-style700 {
+  /* $btn-color:linear-gradient(117.38deg, #FFFFFF 7.8%, #000000 26.29%, #000000 73.69%, #FFFFFF 93.13%) ; */
+  position: relative;
+  border-radius: 30px;
+  border-color: 
+  linear-gradient(
+    50.38deg,
+    #ffffff 7.8%,
+    #000000 26.29%,
+    #000000 73.69%,
+    #ffffff 93.13%
+  );
+  &::before,
+  &::after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-color: linear-gradient(
+      117.38deg,
+      #ffffff 7.8%,
+      #000000 26.29%,
+      #000000 73.69%,
+      #ffffff 93.13%
+    );
+    /* border-radius: $border-radius; */
+    border-style: solid;
+    transition: all 0.35s;
+    content: "";
+    z-index: 1;
     border-radius: 30px;
+  }
+  &::before {
+    width: 0;
+    height: 100%;
+    border-width: 1px 0 1px 0;
+  }
+  &::after {
+    width: 100%;
+    height: 0;
+    border-width: 0 1px 0 1px;
+    border-radius: 30px;
+  }
+  &:hover {
+    border-color: linear-gradient(
+      117.38deg,
+      #ffffff 7.8%,
+      #000000 26.29%,
+      #000000 73.69%,
+      #ffffff 93.13%
+    );
+    /* color: $btn-hover-color; */
+    &::before {
+      width: 100%;
+      border-width: 1px 0 1px 0;
+    }
+    &::after {
+      height: 100%;
+      border-width: 0 1px 0 1px;
+      border-radius: 30px;
+    }
+  }
 }
 
 .radius {
-    position: relative;
-    width: 100%;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    border-radius: 30px; 
-    background: white;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 30px;
+  background: white;
 }
-.provider-card::before {
+/* .provider-card::before {
     content: '';
     position: absolute;
     top: 0;
     left: 0;
-    width: 100%;
-    height: 100%;
+    width: 99%;
+    height: 99%;
     border-radius: 30px; 
     padding: 2px; 
     background: linear-gradient(117.38deg, #FFFFFF 7.8%, #000000 26.29%, #000000 73.69%, #FFFFFF 93.13%);
@@ -56,61 +131,46 @@
             mask-composite: exclude;
     opacity: 1; 
     transition: ease-in-out 7s;
-}
+} */
 
 .provider-card-desc {
-    max-width: 336px;
-    min-height: 200px;
-    width: 100%;
-    height: 146px;
-    padding: 30px 0 25px;
+  max-width: 336px;
+  min-height: 200px;
+  width: 100%;
+  height: 146px;
+  padding: 30px 0 25px;
 }
 
 .card-title {
-    font-family: Manrope-Bold;
-    font-size: 25px;
-    line-height: 35px;
+  font-family: Manrope-Bold;
+  font-size: 25px;
+  line-height: 35px;
 }
 
 .text-provide {
-    font-family: Manrope-Regular;
-    font-size: 18px;
-    line-height: 26px;
-    padding-top: 10px;
+  font-family: Manrope-Regular;
+  font-size: 18px;
+  line-height: 26px;
+  padding-top: 10px;
 }
 
 .learn-more {
-    display: inline-flex;
-    align-items: center;
-    font-family: Manrope-SemiBold;
-    font-size: 18px;
-    line-height: 24px;
-    padding-top: 25px;
-    cursor: pointer;
-    gap: 10px;
+  display: inline-flex;
+  align-items: center;
+  font-family: Manrope-SemiBold;
+  font-size: 18px;
+  line-height: 24px;
+  padding-top: 25px;
+  cursor: pointer;
+  gap: 10px;
 }
 
 .icon {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- /* .provide-card-container {
+/* .provide-card-container {
     display: flex;
     justify-content: center;
     align-items: center;
