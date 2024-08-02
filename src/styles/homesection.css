@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+.main-width{
+    
+}
+@font-face {
+    font-family: Manrope-Light;
+    src: url("../Manrope/static/Manrope-Light.ttf");
+    /* / 300 / */
+}
+
+@font-face {
+    font-family: Manrope-Regular;
+    src: url("../Manrope//static/Manrope-Regular.ttf");
+    /* / 400 / */
+}
+
+@font-face {
+    font-family: Manrope-Medium;
+    src: url("../Manrope//static/Manrope-Medium.ttf");
+    /* / 500 / */
+}
+
+@font-face {
+    font-family: Manrope-SemiBold;
+    src: url("../Manrope/static/Manrope-SemiBold.ttf");
+    /* / 600 / */
+}
+
+@font-face {
+    font-family: Manrope-Bold;
+    src: url('../Manrope/static/Manrope-Bold.ttf');
+    /* / 700 / */
+}
+@font-face {
+    font-family:Manrope-ExtraBold ;
+    src: url("../Manrope/static/Manrope-ExtraBold.ttf");
+}
+.destination-flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.destination-right{
+    max-width: 585px;
+    min-width: 200px;
+    width: 100%;
+  
+}
+.destination-left{
+    max-width: 597px;
+    min-width: 200px;
+    width: 100%;
+  
+    position: relative;
+    display: inline-block;
+    /* background-image: url("../images/closeImage.png");
+    background-repeat: no-repeat;
+    background-position: left;
+    top: 0; */
+}
+.main-image{
+    display: block;
+}
+.corner-image{
+    position: absolute;
+    top: 27px;
+    right: 0;
+    width: 20px;
+    height: 20px;
+}
+.button{
+    background: #170521;
+    color: white;
+    padding: 12px;
+    border-radius: 10px;
+    font-family: Manrope-SemiBold;
+    font-size: 18px;
+}
+.Graphic{
+    font-size: 50px;
+    line-height: 60px;
+    font-family: Manrope-Bold;
+
+}
+.care{
+    font-size: 18px;
+    line-height: 20px;
+    text-align: justify;
+    font-family: Manrope-Regular;
+    padding: 15px 0 30px 0;
+
+}
+.top-right {
+    top: 27px;
+    right: 0;
+  }
+  
+  .bottom-left {
+    top: 96%;
+    left: 0;
+  }
+  
+  .round-img{
+    background-image: url(/_next/static/media/round.bd6cdae9.png);
+    height: 40px;
+    width: 40px;
+    bottom: 55px;
+    right: 129px;
+    position: absolute;
+  }
+  .top-round{
+    background-image: url(/_next/static/media/round.bd6cdae9.png);
+    height: 40px;
+    width: 40px;
+    top: 54px;
+    position: absolute;
+    transform: translateX(-50%);
+    left: 18%;
+}
+.s-round{
+    background-image: url(/_next/static/media/sround.f05ad56e.png);
+    height: 20px;
+    width: 20px;
+    top: 97px;
+    position: absolute;
+    transform: translateX(-50%);
+    left: 14%;
+}
+.rotating{
+    animation: spin 10s linear infinite;
+}
+@keyframes spin{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+  
