@@ -37,7 +37,7 @@ function Provide() {
                                 <p className='title'>What We Provide</p>
                             </div>
                             <div className="provide-card-container">
-                                <div className="provider-card" data-aos="fade-up" data-aos-duration="1000">
+                                <div className="provider-card btn-style700" data-aos="fade-up" data-aos-duration="1000">
                                     <div className="radius">
                                         <Image className="provider-icons" src={SocialMediaImg} alt="Social Media Post" />
                                         <div className="provider-card-desc">

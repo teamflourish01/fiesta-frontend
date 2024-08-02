@@ -14,6 +14,14 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
+    padding: 100px 0 0;
+    
+  }
+  .slick-next {
+right: unset !important;
+  }
+  .slick-next:before{
+    
   }
   
   .service {
