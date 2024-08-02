@@ -1,0 +1,159 @@
+/* .a {
+    border: 1px solid black;
+} */
+
+.date-social {
+    font-family: Manrope-ExtraBold;
+    font-size: 18px;
+    line-height: 24.59px;
+    text-align: left;
+    padding-top: 50px;
+}
+
+.socal-img-top {
+    max-width: 1320px;
+    min-width: 200px;
+    width: 100%;
+    padding: 30px 0;
+}
+
+.blog-social-title {
+    font-family: Manrope-ExtraBold;
+    font-size: 50px;
+    line-height: 60px;
+    padding: 0 0 15px;
+    text-align: left;
+}
+
+.boost-desc {
+    font-family: Manrope-Regular;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: justify;
+    padding: 0 0 30px;
+
+}
+
+.power-title {
+    font-family: Manrope-Bold;
+    font-size: 25px;
+    line-height: 30px;
+    padding: 0 0 5px;
+}
+
+.power-desc {
+    font-family: Manrope-Regular;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: justify;
+}
+
+.img-ul-content {
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    padding: 30px 0;
+    gap: 30px;
+}
+
+.ol {}
+
+.ul-title {
+    font-family: Manrope-Medium;
+    font-size: 22px;
+    line-height: 30px;
+}
+
+.ul-desc {
+    font-family: Manrope-Regular;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: justify;
+    padding: 10px 0;
+}
+
+.tips-main-title {
+    font-family: Manrope-Bold;
+    font-size: 25px;
+    line-height: 30px;
+    padding: 0 0 15px;
+}
+
+.tips-title {
+    font-family: Manrope-Medium;
+    font-size: 22px;
+    line-height: 30px;
+
+}
+
+.tips-desc {
+    font-family: Manrope-Regular;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: justify;
+    padding: 10px 0;
+}
+
+.tips-desc-bottom {
+    font-family: Manrope-Regular;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: justify;
+    padding: 10px 0 30px;
+}
+
+.partner-title {
+    font-family: Manrope-Bold;
+    font-size: 25px;
+    line-height: 30px;
+    padding: 0 0 10px;
+}
+
+.partner-desc {
+    font-family: Manrope-Regular;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: justify;
+}
+
+.partner-ul {
+    padding: 0 0 0 30px;
+}
+
+.partner-content {
+    padding: 0 0 15px;
+
+}
+
+.li {
+    text-align: justify;
+    padding: 0 0 5px;
+}
+
+.partner-point {
+    font-family: Manrope-Medium;
+    font-size: 22px;
+    line-height: 30px;
+}
+
+.partner-point-desc {
+    font-family: Manrope-Regular;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: justify;
+}
+
+.conclusion-title {
+    font-family: Manrope-Bold;
+    font-size: 25px;
+    line-height: 30px;
+    padding: 10px 0 15px 0;
+
+}
+.conclusion-desc{
+    font-family: Manrope-Regular;
+font-size: 18px;
+line-height: 30px;
+text-align: justify;
+
+}

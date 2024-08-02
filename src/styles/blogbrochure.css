@@ -1,0 +1,77 @@
+/* .b {
+    border: 1px solid black;
+} */
+
+.date-brochure {
+    font-family: Manrope-ExtraBold;
+    font-size: 18px;
+    line-height: 24.59px;
+    text-align: left;
+    padding-top: 50px;
+    padding: 50px 0 30px;
+}
+
+.socal-img-top {
+    max-width: 1320px;
+    min-width: 200px;
+    width: 100%;
+    padding: 30px 0;
+}
+
+.img-banner-brochure {
+    padding: 0 0 30px;
+}
+
+.blog-brochure-title {
+    font-family: Manrope-ExtraBold;
+    font-size: 50px;
+    line-height: 60px;
+    padding: 0 0 15px;
+    text-align: justify;
+}
+
+.top-brochure-desc {
+    font-family: Manrope-Regular;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: justify;
+}
+
+.brochure-point-title {
+    font-family: Manrope-Bold;
+    font-size: 25px;
+    line-height: 30px;
+    padding: 15px 0 5px;
+}
+
+.brochure-point-desc {
+    font-family: Manrope-Regular;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: justify;
+}
+
+
+.element-desc{
+    font-family: Manrope-Regular;
+font-size: 18px;
+line-height: 30px;
+text-align: justify;
+
+padding: 0 0 15px;
+}
+
+.critical-title{
+    font-family: Manrope-Medium;
+    font-size: 22px;
+    line-height: 30px;
+}
+.critical-desc{
+    padding: 5px 0;
+    font-family: Manrope-Regular;
+font-size: 18px;
+font-weight: 400;
+line-height: 30px;
+text-align: justify;
+
+}

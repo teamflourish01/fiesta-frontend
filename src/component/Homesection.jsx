@@ -1,3 +1,10 @@
+<<<<<<< HEAD
+import Client from '@/sections/Client'
+import ContactForm from '@/sections/ContactForm'
+import GraphicDesign from '@/sections/GraphicDesign'
+import Provide from '@/sections/Provide'
+import React from 'react'
+=======
 import React from "react";
 import "../styles/homesection.css";
 import ajay from "../images/ajay.png";
@@ -5,10 +12,17 @@ import closeImage from "../images/closeImage.png";
 import Image from "next/image";
 import round from "../images/round.png";
 import sround from "../images/sround.png";
+>>>>>>> c02e0c69b542bf08526692b1d66a15d6d3b07a9d
 
 const Homesection = () => {
   return (
     <>
+<<<<<<< HEAD
+    <Provide/>
+      <Client/>
+      <GraphicDesign/>
+      <ContactForm/>
+=======
       <section>
         <div className="main-width">
           <div className="under-1320">
@@ -47,6 +61,7 @@ const Homesection = () => {
             <hr />
         </div>
       </section>
+>>>>>>> c02e0c69b542bf08526692b1d66a15d6d3b07a9d
     </>
   );
 };

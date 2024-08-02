@@ -9,11 +9,19 @@
     "lint": "next lint"
   },
   "dependencies": {
+<<<<<<< HEAD
+    "aos": "^2.3.4",
+    "next": "14.2.5",
+    "react": "^18",
+    "react-dom": "^18",
+    "react-icons": "^5.2.1"
+=======
     "next": "14.2.5",
     "react": "^18",
     "react-dom": "^18",
     "react-slick": "^0.30.2",
     "slick-carousel": "^1.8.1"
+>>>>>>> c02e0c69b542bf08526692b1d66a15d6d3b07a9d
   },
   "devDependencies": {
     "eslint": "^8",
