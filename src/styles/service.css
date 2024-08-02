@@ -4,6 +4,7 @@
 .service-flex{
     display: flex;
     justify-content: space-between;
+    gap: 60px;
 }
 .services{
     max-width: 319px;

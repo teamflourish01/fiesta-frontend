@@ -1,13 +1,13 @@
 
 .main-width {
   width: 100%;
-  /* background-color: red; */
+  
 }
 .under-1320{
     max-width: 1320px;
     min-width: 200px;
     margin: 0 auto;
-    /* border: 1px solid black; */
+    
 }
 .bg-img{
   /* background-image: url("../images/wave.png"); */
@@ -18,9 +18,10 @@
   max-width: 1320px;
   min-width: 200px;
   margin: 0 auto;
-  /* border: 1px solid black; */
+  
 }
 .all-padding {
+  padding: 0 30px;
 }
 
 * {

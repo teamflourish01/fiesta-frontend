@@ -15,7 +15,7 @@ import hamburger from "../images/hamburger.png"
 import closeImage from "../images/closeImage.png"
 
 
-// import React{useState} from 'react'
+
 import "../styles/navbar.css"
 const Navbar = () => {
     const [clicked, setClicked] = useState(false);
