@@ -38,9 +38,11 @@ function Client() {
               </div>
             </div>
 
+
             <div className="services-design-graphic">
               <div className="design-services">
                 <div className="design-img-container">
+
                                     <div className="design-img-bg">
                                         <Image className="design-emoji" src={designService} alt="Logo" />
                                     </div>
