@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+   
+}
+
+
+
+.title-text {
+    text-align: center;
+  }
+  
+  .tittle-flex {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  .service {
+    font-size: 50px;
+    font-family: Manrope-Bold;
+   
+  }
+  
+  
+  .tranformed-container {
+    max-width: 690px;
+    min-width: 200px;
+    width: 100%;
+    margin: 0 auto;
+    background-image: url("../images/background.png");
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  
+  .transaction-padding {
+    padding: 50px 0 0 0;
+    text-align: center;
+  }
+  
+  .tranformed-text {
+    padding: 20px 0 0 0;
+  }
+  
+  .team {
+    font-size: 18px;
+    font-family: Manrope-Regular;
+    text-align: center;
+    line-height: 30px;
+    color: black;
+  }
+  
+  .name {
+    font-size: 25px;
+    font-family: Manrope-Bold;
+    line-height: 35px;
+    text-align: center;
+  }
+  
+  .position {
+    font-size: 18px;
+    color: #6E6E6E;
+    text-align: center;
+  }
+  
+  .name-padding {
+    padding: 35px 0 0 0;
+  }
+  
+  .slider-container {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  .slides {
+    display: flex;
+    transition: transform 0.7s ease-in-out;
+    transform-style: preserve-3d;
+    
+  }
+.tranformed-container{
+    /* display: block; */
+}
+  .rotate-slide{
+    transform: translateX(-10%);
+    transition: transform 0.7s ease-in-out;
+  }
+  
+  .slide {
+    min-width: 100%;
+    box-sizing: border-box;
+  }
+  
+  .navigation {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    /* transform: translateY(-50%);  */
+  }
+  
+  .slick-dots {
+    bottom: -35px;
+    padding: 0;
+  }
+  
+ .navigation-dots {
+  
+   bottom: 10px;
+   width: 100%;
+   display: flex;
+   justify-content: center;
+   gap: 10px; 
+   padding-top: 15px;
+ }
+ .dot {
+    width: 18px; 
+    height: 1px; 
+    background-color: gray;
+   
+    cursor: pointer;
+    transition: background-color 0.3s;
+    border: 3px solid #00000033;
+    border-radius: 10px;
+  }
+  
+  .dot.active {
+    background-color: black;
+  }
+  .custom-dot {
+  width: 25px;
+  height: 4px;
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+.custom-dot-active {
+  background-color: black;
+}
+.slick-dots{
+    display: flex;
+    gap: 17px;
+    border-radius: 10px;
+}
+
+.custom-dot-inactive {
+  background-color: grey;
+}
+
+  
+  
