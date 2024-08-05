@@ -3,7 +3,8 @@ import '../../styles/blog.css';
 import Image from 'next/image';
 import blogImg from '../../images/blog.png';
 import Link from 'next/link';
-
+import logob from '../../images/bloglogo.png';
+import blogbrochure from '../../images/blogbrochure.jpg';
 
 function Page() {
     return (
@@ -11,7 +12,7 @@ function Page() {
             <section>
                 <div className="main-width">
                     <div className="under-1320">
-                        <div className="all-padding"></div>
+                        <div className="blog-all-padding">
                         <div className="blog-container">
                             <div className="heading">
                                 <p className='title'>Blog</p>
@@ -33,7 +34,7 @@ function Page() {
                                 </div>
                                 <div className="blog-card-container">
                                     <div className="blog-img-container">
-                                        <Image className="blog-img" src={blogImg} alt="Logo" />
+                                        <Image className="blog-img-logo" src={logob} alt="Logo" />
 
                                     </div>
                                     <div className="blog-content">
@@ -47,7 +48,7 @@ function Page() {
                                 </div>
                                 <div className="blog-card-container">
                                     <div className="blog-img-container">
-                                        <Image className="blog-img" src={blogImg} alt="Logo" />
+                                        <Image className="blog-img-logo" src={blogbrochure} alt="Logo" />
 
                                     </div>
                                     <div className="blog-content">
@@ -62,6 +63,7 @@ function Page() {
                                     </div>
                                 </div>
                             </div>
+                        </div>
                         </div>
                     </div>
                 </div>

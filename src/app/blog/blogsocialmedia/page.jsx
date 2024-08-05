@@ -2,7 +2,7 @@ import React from 'react';
 import '../../../styles/blogsocialmedia.css';
 import SocialImgBanner from '../../../images/socialblog.png';
 import Image from 'next/image';
-import imgul from '../../../images/img.png';
+import imgul from '../../../images/socialfull.png';
 
 function page() {
     return (
