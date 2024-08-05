@@ -3,7 +3,8 @@ import ajay from "../../images/ajay.png";
 import "../../styles/service.css";
 import "../../styles/logodesign.css";
 import closeImage from "../../images/closeImage.png";
-
+import pclogo from "../../images/crlogopc.png";
+import mobilelogo from "../../images/crlogomobile.png";
 import Image from "next/image";
 import Link from "next/link";
 // import round from "../images/round.png";
@@ -57,11 +58,11 @@ const page = () => {
               <div className="service-top-padding">
                 <div className="service-flex">
                   <div className="services">
-                    <p className="our-services">our services</p>
+                    <p className="our-services">Our Services</p>
                     <hr />
                     <div className="social-div">
-                    <Link href="/services" className="style-none">
-                      <p style={{ cursor: "pointer" }}>Social Media Post</p>
+                      <Link href="/services" className="style-none">
+                        <p style={{ cursor: "pointer" }}>Social Media Post</p>
                       </Link>
                       <Link href="/logodesign" className="style-none">
                         <p style={{ cursor: "pointer" }}>Logo Design</p>
@@ -100,6 +101,18 @@ const page = () => {
                       <p className="media-marketing">
                         How do we create a logo?
                       </p>
+                      <div className="notion-circle">
+                        <Image
+                          className="pclogo"
+                          src={pclogo}
+                          alt="round logo"
+                        />
+                        <Image
+                          className="mobilelogo"
+                          src={mobilelogo}
+                          alt="round logo"
+                        />
+                      </div>
 
                       <p className="dynamic">
                         As the best logo design company in Ahmedabad we create
@@ -219,8 +232,7 @@ const page = () => {
 
                         <div className="logo-Duration">
                           <p className="logi-idia">
-                          Logo Design Duration - 2 to 4 Working Days
-                            
+                            Logo Design Duration - 2 to 4 Working Days
                           </p>
                         </div>
                         <hr />
@@ -267,12 +279,19 @@ const page = () => {
                         <hr />
 
                         <div className="Design-Duration">
-                          <p className="logi-idia"> Competitors Logo Analysis</p>
+                          <p className="logi-idia">
+                            {" "}
+                            Competitors Logo Analysis
+                          </p>
                         </div>
                         <hr />
 
                         <div className="Payment-Duration">
-                          <p className="logi-idia"> Responsive Profile Pics for all Social Media Accounts</p>
+                          <p className="logi-idia">
+                            {" "}
+                            Responsive Profile Pics for all Social Media
+                            Accounts
+                          </p>
                         </div>
                         <hr />
 
@@ -308,7 +327,7 @@ const page = () => {
 
                         <div className="logo-Duration">
                           <p className="logi-idia">
-                          Logo Design Duration - 2 to 6 Working Days
+                            Logo Design Duration - 2 to 6 Working Days
                           </p>
                         </div>
                         <hr />
@@ -355,22 +374,35 @@ const page = () => {
                         <hr />
 
                         <div className="Design-Duration">
-                          <p className="logi-idia"> Competitors Logo Analysis</p>
+                          <p className="logi-idia">
+                            {" "}
+                            Competitors Logo Analysis
+                          </p>
                         </div>
                         <hr />
 
                         <div className="Payment-Duration">
-                          <p className="logi-idia"> Responsive Profile Pics for all Social Media Accounts</p>
+                          <p className="logi-idia">
+                            {" "}
+                            Responsive Profile Pics for all Social Media
+                            Accounts
+                          </p>
                         </div>
                         <hr />
 
                         <div className="Design-Duration">
-                          <p className="logi-idia"> Letterhead & Envelope Design</p>
+                          <p className="logi-idia">
+                            {" "}
+                            Letterhead & Envelope Design
+                          </p>
                         </div>
                         <hr />
 
                         <div className="Design-Duration">
-                          <p className="logi-idia"> Logo 2D & 3D Animation Video</p>
+                          <p className="logi-idia">
+                            {" "}
+                            Logo 2D & 3D Animation Video
+                          </p>
                         </div>
                         <hr />
 

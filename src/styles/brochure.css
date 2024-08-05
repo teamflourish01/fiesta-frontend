@@ -1,95 +1,122 @@
-.Promotes{
-    font-family: Manrope-Bold;
-    font-size: 25px;
-    line-height: 30px;
-    padding-bottom: 15px;
+.Promotes {
+  font-family: Manrope-Bold;
+  font-size: 25px;
+  line-height: 30px;
+  padding-bottom: 15px;
+  text-align: justify;
 }
-.Personalized{
-    font-size: 22px;
-    font-family: Manrope-Medium;
-    line-height: 30px;
-    /* padding-bottom: 5px; */
+.Personalized {
+  font-size: 22px;
+  font-family: Manrope-Medium;
+  line-height: 30px;
+  /* padding-bottom: 5px; */
 }
-.appealing{
-    padding: 5px 0 5px 0;
-    font-size: 18px;
-    font-family: Manrope-Regular;
-    line-height: 30px;
+.appealing {
+  padding: 5px 0 5px 0;
+  font-size: 18px;
+  font-family: Manrope-Regular;
+  line-height: 30px;
+  text-align: justify;
+}
+.appealings {
+  font-size: 18px;
+  font-family: Manrope-Regular;
+  line-height: 30px;
+  padding: 5px 0 0 0;
+}
+.Simple-clean {
+  font-size: 18px;
+  font-family: Manrope-Regular;
+  line-height: 30px;
+  text-align: center;
+  padding: 25px 0;
+}
+.Standard {
+  font-size: 18px;
+  font-family: Manrope-Regular;
+  line-height: 30px;
+  text-align: center;
+  padding: 40px 0;
+}
+.revisions {
+  font-size: 18px;
+  font-family: Manrope-Regular;
+  line-height: 30px;
+  text-align: center;
+  max-width: 218px;
+  min-width: 100px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 10px 0;
+}
+.images-post {
+  text-align: center;
+  font-size: 18px;
+  font-family: Manrope-Regular;
+  padding: 40px 0;
+}
+.choice-post {
+  text-align: center;
+  padding: 10px 0;
+  font-size: 18px;
+  font-family: Manrope-Regular;
+  line-height: 30px;
+  max-width: 209px;
+  min-width: 100px;
+  width: 100%;
+  margin: 0 auto;
+}
+.custom-post {
+  max-width: 261px;
+  min-width: 100px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 10px 0;
+  font-size: 18px;
+  font-family: Manrope-Regular;
+  line-height: 30px;
+  text-align: center;
+}
+.basic-div {
+  height: 110px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* border-bottom: 1px solid gray; */
+}
+.clean-s {
+  font-size: 18px;
+  font-family: Manrope-Regular;
+  line-height: 30px;
+  text-align: center;
+}
 
+/* Responsive  */
+
+@media screen and (max-width: 1024px) {
+  .Personalized {
+    text-align: justify;
+  }
 
 }
-.appealings{
-    font-size: 18px;
-    font-family: Manrope-Regular;
-    line-height: 30px;
-    padding: 5px 0 0 0;
-}
-.Simple-clean{
-    font-size: 18px;
-    font-family: Manrope-Regular;
-    line-height: 30px;
-    text-align: center;
-    padding: 25px 0;
-}
-.Standard{
-    font-size: 18px;
-    font-family: Manrope-Regular;
-    line-height: 30px;
-    text-align: center;
-    padding: 40px 0;
-}
-.revisions{
-    font-size: 18px;
-    font-family: Manrope-Regular;
-    line-height: 30px;
-    text-align: center;
-    max-width: 218px;
-    min-width: 100px;
-    width: 100%;
-    margin: 0 auto;
-    padding:  10px 0;
-}
-.images-post{
-    text-align: center;
-    font-size: 18px;
-    font-family: Manrope-Regular;
-    padding: 40px 0;
-
-
-}
-.choice-post{
-    text-align: center;
-    padding: 10px 0;
-    font-size: 18px;
-    font-family: Manrope-Regular;
-    line-height: 30px;
-    max-width: 209px;
-    min-width: 100px;
-    width: 100%;
-    margin: 0 auto;
-}
-.custom-post{
-    max-width: 261px;
-    min-width: 100px;
-    width: 100%;
-    margin: 0 auto;
-    padding: 10px 0;
-    font-size: 18px;
-    font-family: Manrope-Regular;
-    line-height: 30px;
-    text-align: center;
-}
-.basic-div{
-height: 110px;
-display: flex;
-align-items: center;
-justify-content: center;
-/* border-bottom: 1px solid gray; */
-
-}
-.clean-s{
-    font-size: 18px;
-    font-family: Manrope-Regular;
-    line-height: 30px;
-    text-align: center;
+@media screen and (max-width: 767px){
+    .promotes{
+        font-size: 18px;
     }
+    .Personalized{
+        font-size: 16px;
+        text-align: justify;
+    }
+    .appealing{
+        font-size: 16px;
+        text-align: justify;
+    }
+    .appealings{
+        font-size: 16px;
+        text-align: justify;
+    }
+    .clean-s{
+        font-size: 16px;
+        text-align: center;
+    }
+} 

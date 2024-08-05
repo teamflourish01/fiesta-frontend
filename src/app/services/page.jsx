@@ -60,7 +60,7 @@ const page = () => {
               <div className="service-top-padding">
                 <div className="service-flex">
                   <div className="services">
-                    <p className="our-services">our services</p>
+                    <p className="our-services">Our Services</p>
                     <hr />
                     <div className="social-div">
                     <Link href="/services" className="style-none">

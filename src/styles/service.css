@@ -1,209 +1,423 @@
-.banner{
-    padding: 10px 0;
+.banner {
+  padding: 10px 0;
 }
-.service-flex{
-    display: flex;
-    justify-content: space-between;
-    gap: 60px;
+.service-flex {
+  display: flex;
+  justify-content: space-between;
+  gap: 60px;
 }
-.services{
-    max-width: 319px;
-    min-width: 200px;
-    width: 100%;
-    border: 1px solid black;
-    height: 245px;
-    border-radius: 20px;
-    position: sticky;
-    top: 6px;
+.services {
+  max-width: 319px;
+  min-width: 200px;
+  width: 100%;
+  border: 1px solid black;
+  height: 245px;
+  border-radius: 20px;
+  position: sticky;
+  top: 6px;
 }
-.social-media{
-    max-width: 941px;
-    min-width: 200px;
-    width: 100%;
-    /* height: 835px; */
-    /* border: 1px solid #000000; */
+.social-media {
+  max-width: 941px;
+  min-width: 200px;
+  width: 100%;
+  /* height: 835px; */
+  /* border: 1px solid #000000; */
 }
-.our-services{
-    color: black;
-    font-family: Manrope-Bold;
-    font-size: 25px;
-    text-align: center;
-    padding: 15px 0;
-    line-height: 30px;
+.our-services {
+  color: black;
+  font-family: Manrope-Bold;
+  font-size: 25px;
+  text-align: center;
+  padding: 15px 0;
+  line-height: 30px;
+}
+.service-top-padding {
+  padding: 100px 0 0 0;
+}
+.social-div {
+  font-size: 18px;
+  line-height: 35px;
+  font-family: Manrope-Medium;
+  padding: 25px 0 15px 20px;
+}
+.div-flex {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+.marketing-social {
+  max-width: 430px;
+  min-width: 200px;
+  width: 100%;
+  border: 1px solid #000000;
+  border-radius: 20px;
+}
+.ours-services {
+  max-width: 430px;
+  min-width: 200px;
+  width: 100%;
+  border: 1px solid #000000;
+  border-radius: 20px;
+}
+.s-marketing {
+  font-family: Manrope-ExtraBold;
+  font-size: 50px;
+  /* line-height: 30px; */
+}
+.Promote {
+  font-family: Manrope-Bold;
+  font-size: 25px;
+  line-height: 30px;
+  padding: 15px 0 0 0;
+}
+.media-marketing {
+  font-family: Manrope-Medium;
+  font-size: 22px;
+  line-height: 30px;
+  padding: 15px 0 5px 0;
+}
+.products {
+  font-family: Manrope-Regular;
+  font-size: 18px;
+  line-height: 30px;
+  padding-bottom: 15px;
+  text-align: justify;
+}
+.media-social {
+  text-align: center;
+  font-family: Manrope-Medium;
+  font-size: 22px;
+  line-height: 30px;
+}
+.boost {
+  font-family: Manrope-Regular;
+  font-size: 18px;
+  text-align: justify;
+  padding: 25px 0 25px 65px;
+}
+.strategy {
+  padding: 10px 0 10px 28px;
+}
+.adjustments {
+  font-size: 18px;
+  font-family: Manrope-Regular;
+  line-height: 30px;
+  text-align: justify;
+  padding: 15px 0 0px 0;
+}
+.choose-us {
+  font-size: 50px;
+  /* line-height: 30px; */
+  font-family: Manrope-ExtraBold;
+  padding: 50px 0 15px 0;
+}
+.dynamic {
+  font-size: 18px;
+  line-height: 30px;
+  font-family: Manrope-Regular;
+  text-align: justify;
+  padding: 15px 0 0 0;
+}
+.plans-container {
+  max-width: 941px;
+  min-width: 200px;
+  width: 100%;
+}
+.basic-plans {
+  max-width: 305px;
+  min-width: 200px;
+  width: 100%;
+  border: 1px solid #000000;
+  font-family: Manrope-Bold;
+  font-size: 25px;
+  line-height: 30px;
+  border-radius: 20px;
+}
+.standard-plans {
+  max-width: 305px;
+  min-width: 200px;
+  width: 100%;
+  border: 1px solid #000000;
+  font-family: Manrope-Bold;
+  font-size: 25px;
+  line-height: 30px;
+  border-radius: 20px;
+}
+.premium-plan {
+  max-width: 305px;
+  min-width: 200px;
+  width: 100%;
+  border: 1px solid #000000;
+  font-family: Manrope-Bold;
+  font-size: 25px;
+  line-height: 30px;
+  border-radius: 20px;
+}
+.plans-flex {
+  display: flex;
+  justify-content: space-between;
+  gap: 13px;
+  overflow-x: scroll;
+}
+.Basic-Plan {
+  background-color: black;
+  color: white;
+  text-align: center;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  padding: 7px 0 7px 0;
+}
+.image-post {
+  text-align: center;
+  padding: 10px 0;
+  font-size: 18px;
+  font-family: Manrope-Regular;
+  line-height: 30px;
+}
+.price-container {
+  background-color: black;
+  color: white;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+.price {
+  text-align: center;
+  font-family: Manrope-ExtraBold;
+  font-size: 25px;
+  padding: 7px 0;
+}
+.month {
+  text-align: center;
+  padding: 10px 0;
+}
+.btn {
+  text-align: right;
+  padding: 50px 0 0 0;
+}
+.style-none {
+  text-decoration: none;
+  color: black;
+}
 
-}
-.service-top-padding{
-    padding: 100px 0  0 0;
-}
-.social-div{
+/* responsive social marketing */
+/* @media (min-width: 768px) and (max-width: 1024px) 
+   @media screen and (max-width: 1024px) */
+
+@media screen and (max-width: 1024px) {
+  .service-flex {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .services {
+    max-width: 100%;
+    height: auto;
+    position: static;
+    margin: 0 auto;
+  }
+
+  .social-media {
+    max-width: 100%;
+    margin: 0 auto;
+  }
+
+  .social-div {
+    display: flex;
+    justify-content: space-around;
     font-size: 18px;
+    padding: 20px;
+  }
+
+  .our-services {
+    font-size: 25px;
+    padding: 10px 0;
     line-height: 35px;
-    font-family: Manrope-Medium;
-    padding: 25px 0 15px 20px;
+    max-width: 100%;
+  }
 
-
-}
-.div-flex{
-    display: flex;
-    justify-content: space-between;
-}
-.marketing-social{
+  .marketing-social {
     max-width: 430px;
-    min-width: 200px;
-    width: 100%;
-   border: 1px solid #000000;
-   border-radius: 20px;
-
-}
-.ours-services{
+  }
+  .ours-services {
     max-width: 430px;
-    min-width: 200px;
-    width: 100%;
-   border: 1px solid #000000;
-   border-radius: 20px;
-}
-.s-marketing{
-    font-family:Manrope-ExtraBold ;
-    font-size: 50px;
+  }
+  .s-marketing {
+    font-size: 30px;
+    text-align: justify;
     /* line-height: 30px; */
-}
-.Promote{
-    font-family: Manrope-Bold;
+  }
+
+  /* .Promote, .media-marketing, .products, .media-social, .boost, .strategy, .adjustments, .dynamic {
+        font-size: 16px;
+      } */
+  .Promote {
     font-size: 25px;
-    line-height: 30px;
-    padding: 15px 0 0 0 ;
-}
-.media-marketing{
-    font-family: Manrope-Medium;
+  }
+  .media-marketing {
     font-size: 22px;
-    line-height: 30px;
-    padding: 15px 0 5px 0;
-}
-.products{
-    font-family: Manrope-Regular;
+  }
+  .products {
     font-size: 18px;
-    line-height: 30px;
-    padding-bottom: 15px;
-}
-.media-social{
+  }
+  .choose-us {
+    font-size: 30px;
+    padding: 30px 0;
     text-align: center;
-    font-family: Manrope-Medium;
+  }
+  .media-social {
     font-size: 22px;
-    line-height: 30px;
-}
-.boost{
-    font-family: Manrope-Regular;
-    font-size: 18px;
-    text-align: justify;
-    padding: 25px 0 25px 65px;
-}
-.strategy{
-    padding: 10px 0 10px 28px;
-}
-.adjustments{
+  }
+  .strategy {
     font-size: 18px;
     font-family: Manrope-Regular;
-    line-height: 30px;
     text-align: justify;
-    padding: 15px 0 0px 0;
+  }
 
-
-}
-.choose-us{
-    font-size: 50px;
-    /* line-height: 30px; */
-    font-family:Manrope-ExtraBold ;
-    padding: 50px 0 15px 0;
-
-
-}
-.dynamic{
-    font-size: 18px;
-    line-height: 30px;
-    font-family: Manrope-Regular;
-    text-align: justify;
-    padding: 15px 0 0 0;
-    
-}
-.plans-container{
-    max-width: 941px;
-    min-width: 200px;
-    width: 100%;
-}
-.basic-plans{
-    max-width: 305px;
-    min-width: 200px;
-    width: 100%;
-    border: 1px solid #000000;
-    font-family: Manrope-Bold;
+  .basic-plans,
+  .standard-plans,
+  .premium-plan {
+    max-width: 100%;
     font-size: 25px;
-    line-height: 30px;
-    border-radius: 20px;
+  }
 
-}
-.standard-plans{
-    max-width: 305px;
-    min-width: 200px;
-    width: 100%;
-    border: 1px solid #000000;
-    font-family: Manrope-Bold;
-    font-size: 25px;
-    line-height: 30px;
-    border-radius: 20px;
-}
-.premium-plan{
-    max-width: 305px;
-    min-width: 200px;
-    width: 100%;
-    border: 1px solid #000000;
-    font-family: Manrope-Bold;
-    font-size: 25px;
-    line-height: 30px;
-    border-radius: 20px;
-}
-.plans-flex{
-    display: flex;
-    justify-content: space-between;
-    gap: 13px;
-}
-.Basic-Plan{
-    background-color: black;
-    color: white;
-    text-align: center;
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
-    padding: 7px 0 7px 0;
-}
-.image-post{
-    text-align: center;
+  .price-container {
     padding: 10px 0;
+  }
+  .price{
+    font-size: 25px;
+  }
+  .month {
     font-size: 18px;
-    font-family: Manrope-Regular;
-    line-height: 30px;
+  }
+
+  .btn {
+    text-align: end;
+    padding: 20px 0;
+  }
 }
-.price-container{
-    background-color: black;
-    color: white;
-    border-bottom-left-radius: 20px;
-    border-bottom-right-radius: 20px;
+
+/* responsive Mobile */
+@media screen and (max-width: 767px) {
+  .service-flex {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .services {
+    max-width: 100%;
+    height: auto;
+    position: static;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .social-media {
+    max-width: 100%;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .social-div {
+    flex-direction: column;
+    align-items: center;
+    font-size: 16px;
+    padding: 15px;
+  }
+
+  .our-services {
+    font-size: 18px;
+    padding: 10px 0;
+    line-height: 30px;
+    max-width: 100%;
+  }
+  .div-flex {
+    flex-direction: column-reverse;
+  }
+  .marketing-social,
+  .ours-services {
+    max-width: 100%;
+    margin: 0 auto;
+  }
+
+  .s-marketing {
+    font-size: 20px;
+    text-align: justify;
+  }
+
+  /* .Promote,
+  .media-marketing,
+  .products,
+  .media-social,
+  .boost,
+  .strategy,
+  .adjustments,
+  .dynamic {
+    font-size: 14px;
+    text-align: justify;
+  } */
+
+  .Promote {
+    font-size: 18px;
+    text-align: justify;
+  }
+
+  .media-marketing {
+    font-size: 16px;
+    text-align: justify;
+  }
+
+  .products {
+    font-size: 16px;
+    text-align: justify;
+  }
+  .boost{
+    font-size: 16px;
+    padding: 20px 0px 30px 24px
+  }
+  .adjustments{
+    font-size: 16px;
+  }
+  .choose-us {
+    font-size: 20px;
+    padding: 20px 0;
+  }
+  .dynamic{
+    font-size: 16px;
+  }
+
+  .media-social {
+    font-size: 16px;
+    text-align: justify;
+    padding: 5px;
+  }
+
+  .strategy {
+    font-size: 16px;
+    text-align: justify;
+  }
+
+  .basic-plans,
+  .standard-plans,
+  .premium-plan {
+    max-width: 100%;
+    font-size: 18px;
+  }
+.image-post{
+    font-size: 16px;
 }
 .price{
-    text-align: center;
-    font-family:Manrope-ExtraBold ;
-    font-size: 25px;
-    padding: 7px 0;
-   
+    font-size: 18px;
+}
+  .price-container {
+    padding: 8px 0;
+  }
 
-}
-.month{
+  .month {
+    font-size: 16px;
+  }
+
+  .btn {
     text-align: center;
-    padding: 10px 0;
-}
-.btn{
-    text-align: right;
-    padding: 50px 0 0 0;
-}
-.style-none{
-    text-decoration: none;
-    color: black;
+    padding: 15px 0;
+  }
 }
