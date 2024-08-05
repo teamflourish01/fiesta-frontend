@@ -1,39 +1,61 @@
-.plan-container{
-    display: flex;
-    justify-content: space-between;
-    gap: 13px;
+.plan-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 13px;
 }
-.logo-plan{
-    height: 50px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.logo-plan {
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-.logi-idia{
-    font-size: 18px;
-    font-family: Manrope-Regular;
-    line-height: 30px;
-    text-align: center;
-    padding: 10px 0;
+.logi-idia {
+  font-size: 18px;
+  font-family: Manrope-Regular;
+  line-height: 30px;
+  text-align: center;
+  padding: 10px 0;
+}
+.logo-Duration {
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 21px;
+}
+.Design-Duration {
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Payment-Duration {
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.notion-circle {
+  text-align: center;
+  padding: 39px 0;
+}
+.mobilelogo{
+    display: none;
+}
 
-}
-.logo-Duration{
-    height: 80px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 0 21px;
-}
-.Design-Duration{
-    height: 50px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+
+@media screen and (max-width:1024px){
     
 }
-.Payment-Duration{
-    height: 80px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+
+@media screen and (max-width:767px){
+    .mobilelogo{
+        display: unset;
+        max-width: 260px;
+        min-width: 200px;
+        width: 100%;
+    }
+    .pclogo{
+        display: none;
+    }
 }

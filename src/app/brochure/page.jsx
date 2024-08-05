@@ -60,7 +60,7 @@ const page = () => {
               <div className="service-top-padding">
                 <div className="service-flex">
                   <div className="services">
-                    <p className="our-services">our services</p>
+                    <p className="our-services">Our Services</p>
                     <hr />
                     <div className="social-div">
                       <Link href="/services" className="style-none">
@@ -117,6 +117,15 @@ const page = () => {
                         Our professional team will craft a design with
                         creativity that not just aligns but is both visually
                         appealing and functionally effective.
+                      </p>
+                      <p className="Personalized">
+                        Comprehensive Design Solutions
+                      </p>
+                      <p className="appealing">
+                        From creating concepts to the final delivery we handle
+                        each step of brochure design carefully with the client
+                        central management system, and this will make us best of
+                        most.
                       </p>
 
                       <p className="Personalized">Turnaround</p>
