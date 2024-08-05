@@ -19,7 +19,7 @@ const page = () => {
       <section>
         <div className="main-width">
           <div className="under-1320">
-            <div className="all-padding"></div>
+            <div className="all-padding">
             <div className="destination-container">
               <div className="destination-flex">
                 <div className="destination-right">
@@ -52,6 +52,7 @@ const page = () => {
               </div>
             </div>
           </div>
+          </div>
             <hr />
         </div>
       </section>
@@ -59,7 +60,7 @@ const page = () => {
       <section>
         <div className="main-width">
           <div className="under-1320">
-            <div className="all-padding"></div>
+            <div className="all-padding">
             <div className="main-title">Who we are?</div>
             <div className="design-company">
               <p>
@@ -92,15 +93,16 @@ const page = () => {
               </p>
             </div>
           </div>
+          </div>
         </div>
       </section>
 
       <section>
         <div className="main-width">
           <div className="under-1320">
-            <div className="all-padding"></div>
+            <div className="all-padding">
             <div className="missision-container">
-              <div className="mission-flex">
+              <div className="mission-main-flex">
                 <div className="our-mission">
                   <div className="icon-group">
                     <div className="img-icon">
@@ -109,9 +111,9 @@ const page = () => {
                   </div>
                   <div className="mission-padding">
                     <div className="mission-flex">
-                      <Image src={arrowleft} />
+                      <Image className="mision-flex-img" src={arrowleft} />
                       <p className="our">Our Mission</p>
-                      <Image src={arrow} />
+                      <Image className="mision-flex-img" src={arrow} />
                     </div>
                   </div>
                   <div className="upgrate">
@@ -133,9 +135,9 @@ const page = () => {
                   </div>
                   <div className="mission-padding">
                     <div className="mission-flex">
-                      <Image src={arrowleft} />
+                      <Image className="mision-flex-img" src={arrowleft} />
                       <p className="our">Our Vision</p>
-                      <Image src={arrow} />
+                      <Image className="mision-flex-img" src={arrow} />
                     </div>
                   </div>
                   <div className="upgrate">
@@ -156,9 +158,9 @@ const page = () => {
                   </div>
                   <div className="mission-padding">
                     <div className="mission-flex">
-                      <Image src={arrowleft} />
+                      <Image className="mision-flex-img" src={arrowleft} />
                       <p className="our">Our Values</p>
-                      <Image src={arrow} />
+                      <Image className="mision-flex-img" src={arrow} />
                     </div>
                   </div>
                   <div className="upgrate">
@@ -174,6 +176,7 @@ const page = () => {
                 </div>
               </div>
             </div>
+          </div>
           </div>
         </div>
       </section>

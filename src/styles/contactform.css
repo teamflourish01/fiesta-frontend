@@ -129,3 +129,37 @@ font-size: 18px;
 line-height: 24.59px;
 color: #170521;
 }
+
+
+@media (max-width:768px){
+    .name-contact-row {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        justify-content: space-between;
+        gap: 15px;
+    }
+    .name-contact {
+        max-width: unset;
+        min-width: unset;
+        width: 100%;
+    }
+    .link-tab {
+        display: flex;
+        flex-direction: column;
+        /* gap: 50px; */
+        list-style: none;
+        /* padding: 0; */
+        /* margin: 0; */
+        max-width: 584px;
+        min-width: 200px;
+        width: 100%;
+        /* border: 1px solid white; */
+        justify-content: space-between;
+    }
+    .link-tab li {
+        position: relative;
+        display: flex;
+        justify-content: center;
+    }
+}

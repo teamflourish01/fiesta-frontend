@@ -34,7 +34,7 @@ const Navbar = () => {
           <div className="main-width">
             <div style={{ padding: "15px 0" }}>
               <div className="under1320width">
-                <div className="all-page-padding">
+                <div className="all-padding"> 
                   <div className="d-flex">
                     <div
                       className="under-d-flex social-icon"
@@ -71,7 +71,7 @@ const Navbar = () => {
     <div className="main-widths">
       <nav className="sticky-top nav2 no-copy-text">
         <div className=" under1320width">
-          <div className="all-page-padding">
+          <div className="all-padding">
             <div className="nav">
               <Link href="/">
               <Image className="desi-logo" src={logo} alt="Logo" />
