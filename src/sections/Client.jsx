@@ -13,7 +13,7 @@ function Client() {
       <section>
         <div className="main-width">
           <div className="under-1320">
-            <div className="all-padding"></div>
+            <div className="all-padding">
             <div className="client-container">
               <div className="heading">
                 <p className="title">Our Valuable Clients</p>
@@ -41,15 +41,15 @@ function Client() {
 
             <div className="services-design-graphic">
               <div className="design-services">
-                <div className="design-img-container">
+                {/* <div className="design-img-container">
 
-                                    <div className="design-img-bg">
+                                     <div className="design-img-bg">
                                         <Image className="design-emoji" src={designService} alt="Logo" />
-                                    </div>
                                 </div>
-                {/* <div className="img-one">
+                                    </div>  */}
+                <div className="img-one">
                   <Image className="design-emoji" src={clientone} alt="Logo" />
-                </div> */}
+                </div>
                 <div className="design-content">
                   <div className="heading-design">
                     <p className="title design-title">
@@ -103,17 +103,18 @@ function Client() {
                     and the results you want.
                   </div>
                 </div>
-                <div className="graphic-img-container">
+                {/* <div className="graphic-img-container">
                                     <div className="graphic-img-bg">
                                         <Image className="graphic-emoji" src={graphicService} alt="Logo" />
                                     </div>
-                                </div>
-                {/* <div className="img-one">
+                                </div> */}
+                <div className="img-one">
                   <Image className="design-emoji" src={clienttwo} alt="Logo" />
-                </div> */}
+                </div>
               </div>
             </div>
           </div>
+        </div>
         </div>
       </section>
     </>

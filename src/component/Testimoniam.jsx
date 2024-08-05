@@ -64,7 +64,7 @@ const Testimoniam = () => {
       <section>
         <div className="main-width">
           <div className="under-1320">
-            <div className="all-padding"></div>
+            <div className="all-padding">
             <div className="title-text">
               <div className="tittle-flex">
                 <Image src={closeImage} alt="Close Icon" />
@@ -87,6 +87,7 @@ const Testimoniam = () => {
                 ))}
               </Slider>
             </div>
+          </div>
           </div>
         </div>
       </section>

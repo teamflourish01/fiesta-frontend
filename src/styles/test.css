@@ -77,7 +77,10 @@
   align-items: center;
 } */
 .provide-card-container {
-  display: flex;
+  /* display: flex; */
+  display: grid;
+      grid-template-columns: repeat(3, 1fr); 
+      justify-items: center;
   align-items: center;
   gap: 60px;
 }
@@ -161,4 +164,18 @@
 .icon {
   display: flex;
   align-items: center;
+}
+
+
+@media  (max-width:1024px){
+  .provide-card-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+}
+}
+@media (max-width: 768px) {
+  .provide-card-container {
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+  }
 }

@@ -16,7 +16,7 @@ function GraphicDesign() {
             <section>
                 <div className="main-width">
                     <div className="under-1320">
-                        <div className="all-padding"></div>
+                        <div className="all-padding">
                         <div className="graphic-design-service">
                             <div className="heading">
                                 <p className='title'>Benefits of Effective Graphic Design Services</p>
@@ -148,7 +148,7 @@ function GraphicDesign() {
                                 </div>
                             </div>
                         </div>
-
+</div>
                     </div>
                 </div>
             </section>

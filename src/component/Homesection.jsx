@@ -31,7 +31,9 @@ const Homesection = () => {
             <div className="all-padding">
             <div className="destination-container">
               <div className="destination-flex">
-                <div className="destination-right" data-aos="fade-up" data-aos-duration="1000">
+                <div className="destination-right"
+                //  data-aos="fade-up" data-aos-duration="1000"
+                 >
                   <p className="Graphic">
                     Destination Of All Your Graphic Design Needs
                   </p>
@@ -40,7 +42,9 @@ const Homesection = () => {
                   </p>
                   <button className="button">Request Proposal</button>
                 </div>
-                <div className="destination-left" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="1000">
+                <div className="destination-left"
+                //  data-aos="fade-up" data-aos-duration="1000" data-aos-delay="1000"
+                 >
                   <Image src={ajay} alt="" className="main-image" ref={mainImageRef} />
                   <div className="round-img"></div>
                   <div className="top-round"></div>

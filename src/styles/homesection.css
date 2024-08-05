@@ -53,9 +53,9 @@
   
 }
 .destination-left{
-    max-width: 597px;
+    /* max-width: 597px;
     min-width: 200px;
-    width: 100%;
+    width: 100%; */
    
     position: relative;
     display: inline-block;
@@ -92,10 +92,11 @@
   
 
 .main-image{
-    display: block;
-    max-width: 597px;
+    /* max-width: 597px;
     min-width: 200px;
     width: 100%;
+    object-fit: contain; */
+    /* height: auto; */
 }
 
 .corner-image{
@@ -142,8 +143,8 @@
     background-image: url(../images/round.png);
     height: 40px;
     width: 40px;
-    bottom: 55px;
-    right: 129px;
+    bottom: 30px;
+    right: 70px;
     position: absolute;
   }
   .top-round{
@@ -152,18 +153,18 @@
     width: 40px;
     top: 54px;
     position: absolute;
-    transform: translateX(-50%);
-    left: 18%;
+    /* transform: translateX(-50%); */
+    left: 30px;
 }
 .s-round{
     background-image: url(../images/Vectorsmall.png);
     /* background-image: url(../images/Vector.png); */
     height: 20px;
     width: 20px;
-    top: 97px;
+    top: 99px;
     position: absolute;
-    transform: translateX(-50%);
-    left: 14%;
+    /* transform: translateX(-50%); */
+    left: 25px;
 }
 .rotating{
     animation: spin 10s linear infinite;
@@ -182,7 +183,26 @@
 
 
 
-
+@media screen and (max-width:1024px){
+    .main-image{
+        max-width: 597px;
+        min-width: 200px;
+        width: 100%;
+        object-fit: contain;
+    }
+    .destination-right {
+        max-width: unset;
+        min-width: unset;
+        width: 100%;
+    }
+    .destination-flex {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        gap: 85px;
+    }
+}
 
 
 
