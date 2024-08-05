@@ -36,85 +36,122 @@
     margin: 0;
     box-sizing: border-box;
 }
-/* .footer-bg-img{
-  background-image: url(../images/Vector.png);
-    background-repeat: no-repeat;
-    background-position: right calc(100% - 600px) ;
+
+.footer-bg {
+  width: 100%;
+  background-color: #170521;
+  margin-top: 100px;
+  position: relative;
 }
 
-.footer-bg{
-    width: 100%;
-    background-color: #170521;
-    margin-top: 100px;
+.footer-bg-img {
+  background-image: url(../images/Vector.png);
+  background-repeat: no-repeat;
+  background-position: right topcalc(100% - 600px);
+  background-size: contain;
 }
 
 .footer-container {
-    color: #fff;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-  }
-.footer-content{
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: relative;
+}
+
+.footer-content {
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 60px;
   padding: 50px 0;
 }
-  
-  .footer-logo{
-    width: 160px;
-    height: 64px;
-  }
-  
-  .footer-links {
-    display: flex;
-  }
-  
-  .link-tab {
-    display: flex;
-    gap: 50px;
-    list-style: none;
-    padding: 0;
-    margin: 0;
-  }
-  
-  .link-tab li {
-    color: #fff;
-    text-decoration: none;
-    cursor: pointer;
-    font-size: 18px;
-    line-height: 24px;
-    font-family:Manrope-Bold;
-  }
-  .footer-social-icons{
-    color: #fff;
-    display: flex;
-    gap: 25.54px;
-  }
-  .wp{
-    width: 16px;
-    height: 16px;
-  }
-  
-  .copy-right {
-    color: #fff;
-    text-align: center;
-    padding: 15px 0;
-    font-size: 18px;
-    line-height: 24px;
-    font-family:Manrope-Bold;
-  }
-  .white-line {
-    width: 100%;
-    height: 1px;
-    background-color: #fff;
-  }
-  
-   */
 
-   .footer-bg {
+.footer-logo {
+  width: 160px;
+  height: 64px;
+}
+
+.footer-links {
+  display: flex;
+}
+
+.link-tab {
+  display: flex;
+  gap: 50px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.link-tab li {
+  position: relative;
+}
+
+.link-tab li a {
+  color: #fff; /* Inherit color from parent li */
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 24px;
+  font-family: Manrope-Bold;
+  transition: color 0.3s, border-bottom 0.3s;
+  padding-bottom: 4px;
+}
+
+.link-tab li a:hover, .link-tab li a.active {
+  color: #fff; /* Highlight the active link in red */
+}
+
+.link-tab li a::after {
+  content: '';
+  display: block;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 2px; /* Thickness of the line */
+  background-color: #fff; /* Line color */
+  transform: scaleX(0);
+  transition: transform 0.3s;
+  transform-origin: bottom right;
+}
+
+.link-tab li a:hover::after, .link-tab li a.active::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+.footer-social-icons {
+  color: #fff;
+  display: flex;
+  gap: 25.54px;
+}
+.footer-social-icons svg {
+  font-size: 20px; /* Adjust the size of the icons */
+}
+.wp {
+  width: 16px;
+  height: 16px;
+}
+
+.copy-right {
+  color: #fff;
+  text-align: center;
+  padding: 15px 0;
+  font-size: 18px;
+  line-height: 24px;
+  font-family: Manrope-Bold;
+}
+
+.white-line {
+  width: 100%;
+  height: 1px;
+  background-color: #fff;
+}
+
+
+   /* .footer-bg {
     width: 100%;
     background-color: #170521;
     margin-top: 100px;
@@ -195,4 +232,4 @@
     width: 100%;
     height: 1px;
     background-color: #fff;
-}
+} */

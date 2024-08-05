@@ -7,6 +7,7 @@ import ContactForm from "@/sections/ContactForm";
 import GraphicDesign from "@/sections/GraphicDesign";
 import Provide from "@/sections/Provide";
 import "../styles/background.css";
+import Test from "@/sections/test";
 
 export default function Home() {
   return (
@@ -29,6 +30,7 @@ export default function Home() {
                     <GraphicDesign />
                     <Testimoniam />
                     <ContactForm />
+                    {/* <Test/> */}
                   </div>
                   </div>
                 </div>

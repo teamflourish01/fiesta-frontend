@@ -138,6 +138,7 @@
     font-family: Manrope-Bold;
     font-size: 25px;
     line-height: 30px;
+    border-radius: 20px;
 
 }
 .standard-plans{
@@ -148,6 +149,7 @@
     font-family: Manrope-Bold;
     font-size: 25px;
     line-height: 30px;
+    border-radius: 20px;
 }
 .premium-plan{
     max-width: 305px;
@@ -157,10 +159,12 @@
     font-family: Manrope-Bold;
     font-size: 25px;
     line-height: 30px;
+    border-radius: 20px;
 }
 .plans-flex{
     display: flex;
     justify-content: space-between;
+    gap: 13px;
 }
 .Basic-Plan{
     background-color: black;

@@ -1,6 +1,7 @@
 .plan-container{
     display: flex;
     justify-content: space-between;
+    gap: 13px;
 }
 .logo-plan{
     height: 50px;

@@ -4,7 +4,8 @@
   gap: 60px;
 }
 
-.provider-card {
+/* .provider-card {
+  --angle: 117.38deg;
   position: relative;
   max-width: 400px;
   min-width: 200px;
@@ -16,49 +17,50 @@
   padding: 15px;
   background: white;
   border-radius: 30px;
-  /* border-width: 1px; */
-  border: 1px solid 
-  linear-gradient(
-    50.38deg,
-    #000000 26.29%,
-    #ffffff 7.8%,
-    #ffffff 93.13%
-    #000000 73.69%,
-  );
+  border: 1.3px solid transparent;
+  background: linear-gradient(white, white) padding-box,
+              linear-gradient(var(--angle), #FFFFFF 7.8%, #000000 26.29%, #000000 73.69%, #FFFFFF 93.13%) border-box;
   text-decoration: none;
-  transition: all 0.35s;
+  transition: all 1s;
   box-sizing: border-box;
+  z-index: 0;
+}
+
+.provider-card::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 30px;
+  border: 1.3px solid transparent;
+  background: linear-gradient(white, white) padding-box,
+              linear-gradient(var( 117deg), #FFFFFF 7.8%, #000000 26.29%, #000000 73.69%, #FFFFFF 93.13%) border-box;
+  z-index: -1;
+  transition: all 1s;
 }
 
 .btn-style700 {
-  /* $btn-color:linear-gradient(117.38deg, #FFFFFF 7.8%, #000000 26.29%, #000000 73.69%, #FFFFFF 93.13%) ; */
+  --angle: 117.38deg;
   position: relative;
   border-radius: 30px;
-  border-color: 
-  linear-gradient(
-    50.38deg,
-    #ffffff 7.8%,
-    #000000 26.29%,
-    #000000 73.69%,
-    #ffffff 93.13%
-  );
+  border: 1.3px solid transparent;
+  background: linear-gradient(white, white) padding-box,
+              linear-gradient(var(--angle), #FFFFFF 7.8%, #000000 26.29%, #000000 73.69%, #FFFFFF 93.13%) border-box;
   &::before,
   &::after {
+    --angle: 60.38deg;
     position: absolute;
     top: 0;
     left: 0;
-    border-color: linear-gradient(
-      117.38deg,
-      #ffffff 7.8%,
-      #000000 26.29%,
-      #000000 73.69%,
-      #ffffff 93.13%
-    );
-    /* border-radius: $border-radius; */
+    border: 1.3px solid transparent;
+    background: linear-gradient(white, white) padding-box,
+                linear-gradient(var(--angle), #FFFFFF 7.8%, #000000 26.29%, #000000 73.69%, #FFFFFF 93.13%) border-box;
     border-style: solid;
-    transition: all 0.35s;
+    transition: all 1s;
     content: "";
-    z-index: 1;
+    z-index: -1;
     border-radius: 30px;
   }
   &::before {
@@ -73,14 +75,9 @@
     border-radius: 30px;
   }
   &:hover {
-    border-color: linear-gradient(
-      117.38deg,
-      #ffffff 7.8%,
-      #000000 26.29%,
-      #000000 73.69%,
-      #ffffff 93.13%
-    );
-    /* color: $btn-hover-color; */
+    border: 1.3px solid transparent;
+    background: linear-gradient(white, white) padding-box,
+                linear-gradient(var(--angle), #FFFFFF 7.8%, #000000 26.29%, #000000 73.69%, #FFFFFF 93.13%) border-box;
     &::before {
       width: 100%;
       border-width: 1px 0 1px 0;
@@ -91,7 +88,7 @@
       border-radius: 30px;
     }
   }
-}
+} */
 
 .radius {
   position: relative;
