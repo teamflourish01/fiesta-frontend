@@ -9,7 +9,7 @@ function ContactForm() {
       <section>
         <div className="main-width">
           <div className="under-1320">
-            <div className="all-padding"></div>
+            <div className="all-padding">
             <div className="contact-container">
               <div className="heading">
                 <p className='title'>Contact Us</p>
@@ -72,7 +72,7 @@ function ContactForm() {
                  
               </div>
             </div>
-
+</div>
           </div>
         </div>
       </section>

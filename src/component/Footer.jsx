@@ -8,7 +8,7 @@ import { RiInstagramFill } from "react-icons/ri";
 // import Image from 'next/image';
 import wpicon from "../images/wp.png";
 import { IoLogoWhatsapp } from "react-icons/io";
-
+ 
 import { MdOutlineWhatsapp } from "react-icons/md";
 import Link from "next/link";
 
@@ -19,13 +19,13 @@ const Footer = () => {
         <div className="main-width footer-bg">
           <div className="under-1320">
             <div className="all-padding">
-              <div className="footer-container">
+              {/* <div className="footer-container"> */}
                 <div className="footer-content">
                   <div className="footer-logo-container">
                     {/* Add your logo here */}
                     <Image className="footer-logo" src={logo} alt="Logo" />
                   </div>
-                  <div className="footer-links">
+                  {/* <div className="footer-links"> */}
                     <ul className="link-tab">
                       <li>
                         <Link className=" links" href="/">
@@ -58,14 +58,14 @@ const Footer = () => {
                         </Link>
                       </li>
                     </ul>
-                  </div>
+                  {/* </div> */}
                   <div className="footer-social-icons">
                     <IoLogoWhatsapp />
                     <CgFacebook />
                     <RiInstagramFill />
                   </div>
                 </div>
-              </div>
+              {/* </div> */}
             </div>
           </div>
           <div className="white-line"></div>

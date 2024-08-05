@@ -48,13 +48,19 @@
   min-width: 200px;
   width: 100%;
 }
-.destination-left {
-  max-width: 597px;
-  min-width: 200px;
-  width: 100%;
 
-  position: relative;
-  display: inline-block;
+.destination-left{
+    /* max-width: 597px;
+    min-width: 200px;
+    width: 100%; */
+   
+    position: relative;
+    display: inline-block;
+    
+    
+    
+    
+
 }
 @keyframes jump {
   0% {
@@ -81,11 +87,14 @@
   animation: jump 2s ease-in-out 1;
 }
 
-.main-image {
-  display: block;
-  max-width: 597px;
-  min-width: 200px;
-  width: 100%;
+
+.main-image{
+    /* max-width: 597px;
+    min-width: 200px;
+    width: 100%;
+    object-fit: contain; */
+    /* height: auto; */
+
 }
 
 .corner-image {
@@ -164,12 +173,53 @@
   to {
     transform: rotate(360deg);
   }
+
 }
 
 @media screen and (max-screen: 1024px) {
   .destination-flex {
     flex-wrap: wrap;
   }
+
+  
+  .round-img{
+    background-image: url(../images/round.png);
+    height: 40px;
+    width: 40px;
+    bottom: 30px;
+    right: 70px;
+    position: absolute;
+  }
+  .top-round{
+    background-image: url(../images/round.png);
+    height: 40px;
+    width: 40px;
+    top: 54px;
+    position: absolute;
+    /* transform: translateX(-50%); */
+    left: 30px;
+}
+.s-round{
+    background-image: url(../images/Vectorsmall.png);
+    /* background-image: url(../images/Vector.png); */
+    height: 20px;
+    width: 20px;
+    top: 99px;
+    position: absolute;
+    /* transform: translateX(-50%); */
+    left: 25px;
+}
+.rotating{
+    animation: spin 10s linear infinite;
+}
+@keyframes spin{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+
 }
 
 
@@ -236,6 +286,7 @@
   transition-delay: 25ms;
 }
 
+
 .c-button--gooey:hover {
   color: #fff;
 }
@@ -258,6 +309,27 @@
   border: none;
   transition: all 1s ease;
   border-radius: 10px;
+
+@media screen and (max-width:1024px){
+    .main-image{
+        max-width: 597px;
+        min-width: 200px;
+        width: 100%;
+        object-fit: contain;
+    }
+    .destination-right {
+        max-width: unset;
+        min-width: unset;
+        width: 100%;
+    }
+    .destination-flex {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        gap: 85px;
+    }
+
 }
 
 .c-button--gooey {

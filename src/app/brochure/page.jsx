@@ -15,7 +15,7 @@ const page = () => {
   return (
     <>
       <section>
-        <div className="main-width">
+        <div className="main-width"> 
           <div className="under-1320">
             <div className="all-padding"></div>
             <div className="destination-container">

@@ -97,6 +97,7 @@ const Homesection = () => {
         <div className="main-width">
           <div className="under-1320">
             <div className="all-padding">
+
               <div className="destination-container">
                 <div className="destination-flex">
                   <div
@@ -146,6 +147,8 @@ const Homesection = () => {
                       className="corner-image bottom-left rotating"
                     />
                   </div>
+
+         
                 </div>
               </div>
             </div>

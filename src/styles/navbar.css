@@ -240,9 +240,9 @@ nav {
   align-items: center;
 }
 
-@media screen and (max-width: 1315px) {
+@media screen and (max-width: 1024px) {
   .navs-main-icon {
-    display: unset;
+    display: unset; 
   }
   .navs-d-flex {
     display: flex;
@@ -338,6 +338,9 @@ nav {
     cursor: pointer;
     color: black;
   }
+  .all-padding {
+    padding: 0 20px;
+  }
 }
 /* .stme {
     border-radius: 10px;
@@ -386,12 +389,19 @@ nav {
     opacity: 1;
   } */
 
+  @media screen and (max-width: 768px) {
+    .all-padding {
+      padding: 0 10px;
+    }
+  }
+
+
 @media screen and (max-width: 600px) {
   .nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background: white;
+    /* background: white; */
     padding: 0px;
     /* border: 1px solid black; */
   }

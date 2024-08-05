@@ -33,7 +33,7 @@ function Provide() {
             <section>
                 <div className="main-width">
                     <div className="under-1320">
-                        <div className="all-padding"></div>
+                        <div className="all-padding">
                         <div className="provide-container">
                             <div className="heading">
                                 <p className='title'>What We Provide</p>
@@ -101,6 +101,7 @@ function Provide() {
                                     </div>
                                 )}
                             </div>
+                        </div>
                         </div>
                     </div>
                 </div>
