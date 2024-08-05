@@ -52,7 +52,7 @@ function Page() {
                                     </div>
                                     <div className="blog-content">
                                         <p className='date'> 08.08.2021</p>
-                                        <p className='blog-card-title'>Boost Your Brand with Effective Social Media Marketing</p>
+                                        <p className='blog-card-title'>Why Professional Brochure and Stationery Design Matters for Your Business</p>
                                         <p className='blog-card-text'>
                                             In the current virtual world, social media has become a crucial tool for businesses
                                             looking to make their attainment, interact with customers, and construct a sturdy brand presence.</p>

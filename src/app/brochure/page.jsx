@@ -63,10 +63,15 @@ const page = () => {
                     <p className="our-services">our services</p>
                     <hr />
                     <div className="social-div">
-                      <p>Social Media Post</p>
-                      <p>Logo Design</p>
-
-                      <p>Brochure Design</p>
+                      <Link href="/services" className="style-none">
+                        <p style={{ cursor: "pointer" }}>Social Media Post</p>
+                      </Link>
+                      <Link href="/logodesign" className="style-none">
+                        <p style={{ cursor: "pointer" }}>Logo Design</p>
+                      </Link>
+                      <Link href="/brochure" className="style-none">
+                        <p style={{ cursor: "pointer" }}>Brochure Design</p>
+                      </Link>
                     </div>
                   </div>
 
@@ -149,7 +154,7 @@ const page = () => {
                         production and timely delivery.
                       </p>
 
-                      <p className="choose-us">Our Plan</p>
+                      <p className="choose-us">Pricing</p>
                     </div>
                     <div className="plans-container">
                       <div className="plans-flex">
@@ -260,7 +265,7 @@ const page = () => {
                             <p className="price">Price</p>
                             <hr />
                             <p className="month">Per Page 250 INR/-</p>
-                            <hr />
+                            {/* <hr /> */}
                           </div>
                         </div>
 
@@ -392,7 +397,7 @@ const page = () => {
                             <p className="price">Price</p>
                             <hr />
                             <p className="month">Per Page 250 INR/-</p>
-                            <hr />
+                            {/* <hr /> */}
                           </div>
                         </div>
 
@@ -523,7 +528,7 @@ const page = () => {
                             <p className="price">Price</p>
                             <hr />
                             <p className="month">Per Page 250 INR/-</p>
-                            <hr />
+                            {/* <hr /> */}
                           </div>
                         </div>
                       </div>

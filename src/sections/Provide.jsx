@@ -8,7 +8,9 @@ import brochureImg from '../images/brochure.png';
 import { FaArrowRightLong } from "react-icons/fa6";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-import '../styles/provide.css';
+// import '../styles/provide.css';
+import '../styles/test.css';
+import Link from 'next/link';
 
 function Provide() {
     const [showSecondCard, setShowSecondCard] = useState(false);
@@ -45,12 +47,14 @@ function Provide() {
                                                 Social Media Post
                                             </div>
                                             <p className='text-provide'>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                                            <Link href="/services" className="style-none">
                                             <p className="learn-more">
                                                 Learn More
                                                 <span className="icon">
                                                     <FaArrowRightLong />
                                                 </span>
                                             </p>
+                                            </Link>
                                         </div>
                                     </div>
                                 </div>
@@ -63,12 +67,14 @@ function Provide() {
                                                     Logo Design
                                                 </div>
                                                 <p className='text-provide'>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                                                <Link href="/logodesign" className="style-none">
                                                 <p className='learn-more'>
                                                     Learn More
                                                     <span className="icon">
                                                         <FaArrowRightLong />
                                                     </span>
                                                 </p>
+                                                </Link>
                                             </div>
                                         </div>
                                     </div>
@@ -82,12 +88,14 @@ function Provide() {
                                                     Brochure Design
                                                 </div>
                                                 <p className='text-provide'>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                                                <Link href="/brochure" className="style-none">
                                                 <p className='learn-more'>
                                                     Learn More
                                                     <span className="icon">
                                                         <FaArrowRightLong />
                                                     </span>
                                                 </p>
+                                                </Link>
                                             </div>
                                         </div>
                                     </div>

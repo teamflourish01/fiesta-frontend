@@ -63,7 +63,9 @@ const page = () => {
                     <p className="our-services">our services</p>
                     <hr />
                     <div className="social-div">
-                      <p>Social Media Post</p>
+                    <Link href="/services" className="style-none">
+                      <p style={{ cursor: "pointer" }}>Social Media Post</p>
+                      </Link>
                       <Link href="/logodesign" className="style-none">
                         <p style={{ cursor: "pointer" }}>Logo Design</p>
                       </Link>
@@ -127,7 +129,7 @@ const page = () => {
                         Our team adapts to the latest trends, ensuring your
                         brand excels in the dynamic social media world.
                       </p>
-                      <p className="choose-us">Our Plan</p>
+                      <p className="choose-us">Pricing</p>
                     </div>
                     <div className="plans-container">
                       <div className="plans-flex">

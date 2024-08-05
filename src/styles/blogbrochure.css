@@ -17,6 +17,12 @@
     width: 100%;
     padding: 30px 0;
 }
+.brochure-img-top{
+    max-width: 1320px;
+    min-width: 200px;
+    width: 100%;
+    padding: 30px 0;
+}
 
 .img-banner-brochure {
     padding: 0 0 30px;
