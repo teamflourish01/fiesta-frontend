@@ -9,3 +9,12 @@
     background-repeat: no-repeat;
     background-position: right bottom;
 }
+
+@media (max-width:1550px){
+    .nav-bar-img{
+        background-image: none;
+    }
+    .footer-top-img{
+        background-image: none;
+    }
+}

@@ -1,7 +1,8 @@
 import React from "react";
 import "../../../styles/blogbrochure.css";
 import Image from "next/image";
-import SocialImgBanner from "../../../images/socialblog.png";
+import SocialImgBanner from "../../../images/blogbrochure.jpg";
+// import SocialImgBanner from "../../../images/matter.png";
 
 function page() {
   return (
