@@ -72,6 +72,7 @@
 
 import React, { useEffect, useRef } from "react";
 import "../styles/homesection.css";
+import "../styles/about.css";
 import ajay from "../images/ajay.png";
 import closeImage from "../images/closeImage.png";
 import Image from "next/image";
