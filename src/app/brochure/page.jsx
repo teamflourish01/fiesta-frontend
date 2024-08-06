@@ -8,6 +8,7 @@ import Image from "next/image";
 import Link from "next/link";
 // import round from "../images/round.png";
 // import sround from "../images/sround.png";
+import "../../styles/about.css"
 import Homesection from "@/component/Homesection";
 import abbg from "../../images/abbg.png";
 
@@ -17,7 +18,7 @@ const page = () => {
       <section>
         <div className="main-width"> 
           <div className="under-1320">
-            <div className="all-padding">
+            <div className="all-padding home">
             <div className="destination-container">
               <div className="destination-flex">
                 <div className="destination-right">

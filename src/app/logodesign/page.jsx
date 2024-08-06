@@ -2,6 +2,8 @@ import React from "react";
 import ajay from "../../images/ajay.png";
 import "../../styles/service.css";
 import "../../styles/logodesign.css";
+import "../../styles/about.css";
+
 import closeImage from "../../images/closeImage.png";
 import pclogo from "../../images/crlogopc.png";
 import mobilelogo from "../../images/crlogomobile.png";
@@ -18,7 +20,7 @@ const page = () => {
       <section>
         <div className="main-width">
           <div className="under-1320">
-            <div className="all-padding"></div>
+            <div className="all-padding home">
             <div className="destination-container">
               <div className="destination-flex">
                 <div className="destination-right">
@@ -48,9 +50,10 @@ const page = () => {
                 </div>
               </div>
             </div>
-          </div>
+            </div>
           <hr />
         </div>
+          </div>
       </section>
       <section>
         <div className="main-width">

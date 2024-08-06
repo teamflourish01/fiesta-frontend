@@ -123,14 +123,14 @@ const Navbar = () => {
                       <div className="navs-main-icon">
                         <div className="navs-icon navs-d-flex">
                           <Link
-                            href=""
+                            href="https://www.instagram.com/fiestadesignstudio?igsh=am8ycWEycXRrZXZw"
                             target="_blank"
                             rel="noopener noreferrer"
                           >
                             <Image src={insta} alt="whatsapp" />
                           </Link>
                           <Link
-                            href=""
+                            href="https://www.facebook.com/people/Fiesta-Design-Studio/100090484164019/?mibextid=ZbWKwL"
                             target="_blank"
                             rel="noopener noreferrer"
                           >
@@ -138,11 +138,11 @@ const Navbar = () => {
                           </Link>
 
                           <Link
-                            href=""
+                            href="https://api.whatsapp.com/send/?phone=7485906551&text&type=phone_number&app_absent=0"
                             target="_blank"
                             rel="noopener noreferrer"
                           >
-                            <Image src={twitter} alt="ytlink" />
+                            <Image src={whatapp} alt="ytlink" />
                           </Link>
                         </div>
                       </div>
