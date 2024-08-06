@@ -136,6 +136,9 @@ textarea::placeholder {
     font-size: 22px;
     line-height: 30px;
   }
+  .name-contact-row {
+    gap: unset;
+  }
 }
 @media (max-width: 768px) {
   .name-contact-row {
@@ -143,7 +146,7 @@ textarea::placeholder {
     flex-direction: column;
     width: 100%;
     justify-content: space-between;
-    gap: 15px;
+    gap: unset;
   }
   .name-contact {
     max-width: unset;
@@ -193,5 +196,13 @@ textarea::placeholder {
 }
 .graphic-services {
     gap: 5px;
+}
+.book-consultation {
+  font-size: 16px;
+  font-family: Manrope-Regular;
+}
+.call-back {
+  font-size: 16px;
+  line-height: 30px;
 }
 }
