@@ -1,6 +1,6 @@
 import React from "react";
 import "../../styles/about.css";
-import ajay from "../../images/ajay.png";
+import aboutimg from "../../images/aboutbanner.png";
 import closeImage from "../../images/closeImage.png";
 import Image from "next/image";
 // import round from "../images/round.png";
@@ -34,7 +34,7 @@ const page = () => {
                  
                 </div>
                 <div className="destination-left">
-                  <Image src={ajay} alt="" className="main-image" />
+                  <Image src={aboutimg} alt="" className="main-image" />
                   <div className="round-img"></div>
                   <div className="top-round"></div>
                   <div className="s-round"></div>
