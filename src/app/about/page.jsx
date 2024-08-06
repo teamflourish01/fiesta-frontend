@@ -1,8 +1,10 @@
 import React from "react";
 import "../../styles/about.css";
+import "../../styles/homesection.css"
 import aboutimg from "../../images/aboutbanner.png";
 import closeImage from "../../images/closeImage.png";
 import Image from "next/image";
+import "../../styles/homesection.css"
 // import round from "../images/round.png";
 // import sround from "../images/sround.png";
 import Homesection from "@/component/Homesection";
@@ -22,7 +24,7 @@ const page = () => {
       <section>
         <div className="main-width">
           <div className="under-1320">
-            <div className="all-padding">
+            <div className="all-padding home">
             <div className="destination-container">
               <div className="destination-flex">
                 <div className="destination-right">
@@ -103,14 +105,14 @@ const page = () => {
       <section>
         <div className="main-width">
           <div className="under-1320">
-            <div className="all-padding">
+            <div className="all-padding home">
             <div className="missision-container">
               <div className="mission-main-flex">
                 <div className="our-mission">
                   <div className="icon-group">
-                    <div className="img-icon">
+                    {/* <div className="img-icon"> */}
                       <Image src={mission} alt="" className="img1" />
-                    </div>
+                    {/* </div> */}
                   </div>
                   <div className="mission-padding">
                     <div className="mission-flex">
