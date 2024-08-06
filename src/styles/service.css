@@ -460,3 +460,63 @@
     text-decoration: underline;
   }
 }
+
+
+
+
+
+
+.pricing-table {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.plan {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 20px;
+  width: 250px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.plan h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.plan ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.plan ul li {
+  padding: 10px 0;
+  border-bottom: 1px solid #ddd;
+}
+
+.plan ul li:last-child {
+  border-bottom: none;
+}
+
+.price {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.basic {
+  background-color: #f9f9f9;
+}
+
+.standard {
+  background-color: #f0f8ff;
+}
+
+.premium {
+  background-color: #fffacd;
+}

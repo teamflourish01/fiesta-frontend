@@ -4,6 +4,8 @@ import ajay from "../../images/ajay.png";
 import "../../styles/service.css";
 import closeImage from "../../images/closeImage.png";
 import Image from "next/image";
+import "../../styles/about.css";
+
 import Link from "next/link";
 // import round from "../images/round.png";
 // import sround from "../images/sround.png";
@@ -18,7 +20,10 @@ const page = () => {
       <section>
         <div className="main-width">
           <div className="under-1320">
-            <div className="all-padding">
+
+            <div className="all-padding home">
+          
+
               <div className="destination-container">
                 <div className="destination-flex">
                   <div className="destination-right">
@@ -50,6 +55,7 @@ const page = () => {
                       alt=""
                       className="corner-image bottom-left rotating"
                     />
+
                   </div>
                 </div>
               </div>
@@ -61,7 +67,7 @@ const page = () => {
       <section>
         <div className="main-width">
           <div className="under-1320">
-            <div className="all-padding">
+            <div className="all-padding home">
               <div className="service-top-padding">
                 <div className="service-flex">
                   <div className="services">
