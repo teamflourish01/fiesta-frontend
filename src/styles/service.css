@@ -84,22 +84,23 @@
   text-align: justify;
 }
 .media-social {
-  text-align: center;
+  text-align: left;
   font-family: Manrope-Medium;
   font-size: 22px;
   line-height: 30px;
+  padding: 15px;
 }
 .boost {
   font-family: Manrope-Regular;
   font-size: 18px;
   text-align: justify;
-  padding: 10px 0 10px 28px;
+  padding: 15px;
 }
 .strategy {
   font-family: Manrope-Regular;
   font-size: 18px;
   text-align: justify;
-  padding: 10px 0 10px 28px;
+  padding: 15px;
 }
 .adjustments {
   font-size: 18px;
@@ -127,38 +128,49 @@
   width: 100%;
 }
 .basic-plans {
-  max-width: 305px;
-  min-width: 200px;
-  width: 100%;
+  /* max-width: 950px; */
+  /* min-width: 230px; */
+  width: 20vw;
   border: 1px solid #000000;
   font-family: Manrope-Bold;
   font-size: 25px;
   line-height: 30px;
   border-radius: 20px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
 }
 .standard-plans {
-  max-width: 305px;
-  min-width: 200px;
-  width: 100%;
+  /* max-width: 950px; */
+  /* min-width: 230px; */
+  width: 20vw;
   border: 1px solid #000000;
   font-family: Manrope-Bold;
   font-size: 25px;
   line-height: 30px;
   border-radius: 20px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
 }
 .premium-plan {
-  max-width: 305px;
-  min-width: 200px;
-  width: 100%;
+  /* max-width: 950px; */
+  /* min-width: 230px; */
+  width: 20vw;
   border: 1px solid #000000;
   font-family: Manrope-Bold;
   font-size: 25px;
   line-height: 30px;
   border-radius: 20px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
 }
 .plans-flex {
-  display: flex;
-  justify-content: space-between;
+  display: grid;
+  /* display: flex; */
+  grid-template-columns: repeat(3, 1fr);
+  /* justify-content: space-between; */
   gap: 13px;
   overflow-x: scroll;
 }
@@ -225,7 +237,7 @@
     z-index: 0;
     margin: 0 auto;
     background: #f4efef;
-    top: 4px;
+    top: 84px;
   }
 
   .social-media {
@@ -296,7 +308,7 @@
   .basic-plans,
   .standard-plans,
   .premium-plan {
-    max-width: 100%;
+    width: 45vw;
     font-size: 25px;
   }
 
@@ -398,7 +410,7 @@
   }
   .boost {
     font-size: 16px;
-    padding: 20px 0px 30px 24px;
+    padding: 15px 0px 30px 15px;
   }
   .adjustments {
     font-size: 16px;
@@ -426,7 +438,7 @@
   .basic-plans,
   .standard-plans,
   .premium-plan {
-    max-width: 100%;
+    width: 85vw;
     font-size: 18px;
   }
   .image-post {
@@ -454,7 +466,7 @@
     z-index: 0;
     margin: 0 auto;
     background: #f4efef;
-    top: 4px;
+    top: 84px;
   }
   .underline {
     text-decoration: underline;
