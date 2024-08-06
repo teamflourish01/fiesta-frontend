@@ -3,19 +3,18 @@
   width: 100%;
   
 }
-.under-1320{
+/* .under-1320{
     max-width: 1320px;
     min-width: 200px;
-    margin: 0 auto;
-    
-}
+    margin: 0 auto; 
+} */
 .bg-img{
   /* background-image: url("../images/wave.png"); */
   background-repeat: no-repeat;
   background-position: right;
 }
 .under-1320 {
-  max-width: 1320px;
+  max-width: 1380px;
   min-width: 200px;
   margin: 0 auto;
   
