@@ -10,9 +10,9 @@ function ContactForm() {
         <div className="main-width">
           <div className="under-1320">
             <div className="all-padding">
-            <div className="contact-container">
+            <div className="contact-container" id="contact">
               <div className="heading">
-                <p className='title'>Contact Us</p>
+                <p className='title ' >Contact Us</p>
               </div>
               <div className="contact-content-container">
                 <div className="contact-text">

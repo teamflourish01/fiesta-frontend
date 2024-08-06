@@ -49,11 +49,11 @@ const Footer = () => {
                       Blog
                     </Link>
                   </li>
-                  <li>
+                  {/* <li>
                     <Link className="links" href="/NewsEvent">
                       Portfolio
                     </Link>
-                  </li>
+                  </li> */}
                   <li>
                     <Link className="links" href="/contact">
                       Contact Us

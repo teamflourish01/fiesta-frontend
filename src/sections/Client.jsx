@@ -6,6 +6,11 @@ import designService from "../images/designservice.png";
 import graphicService from "../images/graphics.png";
 import clientone from "../images/clientone.png";
 import clienttwo from "../images/clienttwo.png";
+import one from '../images/one.png';
+import two from '../images/two.png';
+import three from '..//images/three.png';
+import four from '../images/four.png';
+
 
 function Client() {
   return (
@@ -24,16 +29,16 @@ function Client() {
               </p>
               <div className="logo-card-container">
                 <div className="logo-card">
-                  <Image className="client-logo" src={clientLogo} alt="Logo" />
+                  <Image className="client-logo" src={one} alt="Logo" />
                 </div>
                 <div className="logo-card">
-                  <Image className="client-logo" src={clientLogo} alt="Logo" />
+                  <Image className="client-logo" src={two} alt="Logo" />
                 </div>
                 <div className="logo-card">
-                  <Image className="client-logo" src={clientLogo} alt="Logo" />
+                  <Image className="client-logo" src={three} alt="Logo" />
                 </div>
                 <div className="logo-card">
-                  <Image className="client-logo" src={clientLogo} alt="Logo" />
+                  <Image className="client-logo" src={four} alt="Logo" />
                 </div>
               </div>
             </div>
