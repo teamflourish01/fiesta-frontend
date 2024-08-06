@@ -70,7 +70,7 @@ const Footer = () => {
                   <IoLogoWhatsapp />
                   </a>
                   <a
-                    href="https://www.facebook.com/profile.php?id=100090484164019&mibextid=ZbWKwL"
+                    href="https://www.facebook.com/people/Fiesta-Design-Studio/100090484164019/?mibextid=ZbWKwL"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
