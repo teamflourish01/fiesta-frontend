@@ -146,9 +146,11 @@
   color: #fff;
   display: flex;
   gap: 25.54px;
+
 }
 .footer-social-icons svg {
   font-size: 20px; /* Adjust the size of the icons */
+  color: #fff;
 }
 .wp {
   width: 16px;
@@ -187,4 +189,16 @@
     .footer-bg {
       margin-top: 50px;
     }
+}
+
+@media screen and  (max-width:1024px){
+  .footer-content {
+    gap: 30px;
+}
+.link-tab {
+  gap: 15px;
+}
+.footer-content {
+  padding-bottom: 50px;
+}
 }

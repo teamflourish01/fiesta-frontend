@@ -1,7 +1,7 @@
 .heading {
   font-family: Manrope-ExtraBold;
   font-size: 50px;
-  line-height: 30px;
+  /* line-height: 30px; */
   padding: 100px 0 50px;
   text-align: center;
 }
@@ -130,14 +130,14 @@ textarea::placeholder {
   .heading {
     padding: 50px 0 30px;
     font-size: 30px;
-    line-height: 30px;
+    /* line-height: 30px; */
   }
   .call-back {
     font-size: 22px;
     line-height: 30px;
   }
   .name-contact-row {
-    gap: unset;
+    gap: 14px;
   }
 }
 @media (max-width: 768px) {
@@ -174,7 +174,7 @@ textarea::placeholder {
   .heading {
     padding: 50px 0 20px;
     font-size: 20px;
-    line-height: 30px;
+    /* line-height: 30px; */
   }
   .client-text {
     padding-bottom: 20px;
