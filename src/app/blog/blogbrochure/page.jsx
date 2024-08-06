@@ -10,7 +10,7 @@ function page() {
       <section>
         <div className="main-width">
           <div className="under-1320 b">
-            <div className="all-padding"></div>
+            <div className="all-padding">
             <div className="blog-brochure-container">
               <div className="date-brochure">08.08.2021</div>
               <div className="brochure-top-content">
@@ -296,6 +296,7 @@ function page() {
                   </div>
                 </div>
               </div>
+            </div>
             </div>
           </div>
         </div>

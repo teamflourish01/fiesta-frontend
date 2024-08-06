@@ -90,7 +90,7 @@ const Navbar = () => {
                 >
                   <div className="under-nav-flex">
                     <li className="naves">
-                      <Link className="  under active " href="/">
+                      <Link className="under" href="/">
                         <span className="do">Home</span>
                       </Link>
                     </li>
