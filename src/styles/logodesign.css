@@ -4,6 +4,9 @@
   gap: 13px;
   overflow-x: scroll;
 }
+.plan-container::-webkit-scrollbar {
+  display: none;
+}
 .logo-plan {
   height: 50px;
   display: flex;

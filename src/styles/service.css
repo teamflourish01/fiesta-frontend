@@ -93,9 +93,12 @@
   font-family: Manrope-Regular;
   font-size: 18px;
   text-align: justify;
-  padding: 25px 0 25px 65px;
+  padding: 10px 0 10px 28px;
 }
 .strategy {
+  font-family: Manrope-Regular;
+  font-size: 18px;
+  text-align: justify;
   padding: 10px 0 10px 28px;
 }
 .adjustments {
@@ -116,7 +119,7 @@
   line-height: 30px;
   font-family: Manrope-Regular;
   text-align: justify;
-  padding: 15px 0 0 0;
+  padding: 0;
 }
 .plans-container {
   max-width: 941px;
@@ -192,6 +195,7 @@
 .month {
   text-align: center;
   padding: 10px 0;
+  font-size: 18px;
 }
 .btn {
   text-align: right;
@@ -233,12 +237,12 @@
     display: flex;
     justify-content: space-around;
     font-size: 18px;
-    padding: 20px;
+    padding: 12px 0px 5px 0;
   }
 
   .our-services {
     font-size: 25px;
-    padding: 10px 0;
+    padding: 15px 0;
     line-height: 35px;
     max-width: 100%;
   }
@@ -308,9 +312,11 @@
 
   .btn {
     text-align: end;
-    padding: 50px 0;
+    padding: 50px 0 0 0;
   }
-  
+  .underline {
+    text-decoration: underline;
+  }
 }
 
 /* responsive Mobile */
@@ -439,7 +445,7 @@
 
   .btn {
     text-align: center;
-    padding: 50px 0;
+    padding: 50px 0 0 0;
   }
   .services {
     max-width: 100%;
@@ -450,5 +456,7 @@
     background: #f4efef;
     top: 4px;
   }
-  
+  .underline {
+    text-decoration: underline;
+  }
 }
