@@ -301,7 +301,14 @@ align-items: center;
 .navs-main-icon {
   display: unset; 
 }
-
+.desi-logo {
+  width: 120px;
+  height: 50px;
+}
+.menu-icon {
+  height: 18px;
+  width: 18px;
+  }
 .navs-d-flex {
   display: flex;
   flex-wrap: wrap;
@@ -337,7 +344,7 @@ align-items: center;
   align-items: baseline;
   justify-content: flex-end;
   position: fixed;
-  top: 87.5px;
+  top: 75.5px;
   right: -300px;
   width: 300px;
   max-height: 1500px;
@@ -405,7 +412,7 @@ align-items: center;
   align-items: baseline;
   justify-content: flex-end;
   position: fixed;
-  top: 83.5px;
+  top: 75.5px;
   right: -300px;
   width: 250px;
   height: 100vh;

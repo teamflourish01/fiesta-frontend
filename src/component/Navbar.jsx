@@ -1,6 +1,6 @@
 "use client";
 
-import react, { useState } from "react";
+import React, { useState, useEffect, useRef } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import flogo from "../images/flogo.webp";
@@ -14,12 +14,33 @@ import closeImage from "../images/closeImage.png";
 import whatapp from "../images/whatapp.png";
 
 import "../styles/navbar.css";
+
 const Navbar = () => {
   const [clicked, setClicked] = useState(false);
+  const navbarRef = useRef(null);
 
-  const handleclick = () => {
+  const handleClick = () => {
     setClicked(!clicked);
   };
+
+  const handleClickOutside = (event) => {
+    if (navbarRef.current && !navbarRef.current.contains(event.target)) {
+      setClicked(false);
+    }
+  };
+
+  useEffect(() => {
+    if (clicked) {
+      document.addEventListener("click", handleClickOutside);
+    } else {
+      document.removeEventListener("click", handleClickOutside);
+    }
+
+    return () => {
+      document.removeEventListener("click", handleClickOutside);
+    };
+  }, [clicked]);
+
   return (
     <>
       <section className="screen-tablet-hidden">
@@ -30,10 +51,7 @@ const Navbar = () => {
                 <div className="under1320width">
                   <div className="all-padding">
                     <div className="d-flex">
-                      <div
-                        className="under-d-flex social-icon"
-                        // style={{ padding: "0 0 0 5px" }}
-                      >
+                      <div className="under-d-flex social-icon">
                         <>
                           <Image src={mail} alt="" />
                           <p className="infoexamplemail">
@@ -62,7 +80,6 @@ const Navbar = () => {
                         >
                           <Image src={facebook} alt="Facebook" />
                         </Link>
-
                         <Link
                           href="https://api.whatsapp.com/send/?phone=7485906551&text&type=phone_number&app_absent=0"
                           target="_blank"
@@ -81,14 +98,12 @@ const Navbar = () => {
       </section>
 
       <div className="main-widths">
-        <nav className="sticky-top nav2 no-copy-text">
-          <div className=" under1320width">
+        <nav ref={navbarRef} className="sticky-top nav2 no-copy-text">
+          <div className="under1320width">
             <div className="all-padding">
               <div className="nav">
                 <Link href="/">
                   <Image className="desi-logo" src={flogo} alt="Logo" />
-
-                  {/* <img className="desi-logo" src={flonixlogoblack} alt="" /> */}
                 </Link>
 
                 <div>
@@ -111,29 +126,21 @@ const Navbar = () => {
                           <span className="do">About Us</span>
                         </Link>
                       </li>
-
                       <li className="naves">
                         <Link className="under" href="/services">
                           <span className="do">Services</span>
                         </Link>
                       </li>
-
                       <li className="naves">
                         <Link className="under" href="/blog">
                           <span className="do">Blogs</span>
                         </Link>
                       </li>
-                      {/* <li className="naves">
-                        <Link className="under" href="/NewsEvent">
-                          <span className="do"> Portfolio</span>
-                        </Link>
-                      </li> */}
                       <li className="naves">
                         <Link className="under" href="/contact">
                           <span className="do">Contact Us</span>
                         </Link>
                       </li>
-
                       <div className="navs-main-icon">
                         <div className="navs-icon navs-d-flex">
                           <Link
@@ -150,7 +157,6 @@ const Navbar = () => {
                           >
                             <Image src={facebook} alt="Facebook" />
                           </Link>
-
                           <Link
                             href="https://api.whatsapp.com/send/?phone=7485906551&text&type=phone_number&app_absent=0"
                             target="_blank"
@@ -164,13 +170,7 @@ const Navbar = () => {
                   </ul>
                 </div>
 
-                {/* <div id="mobile" onClick={handleclick}>
-                <i
-                  id="bar"
-                  className={clicked ? "fas fa-times" : "fas fa-bars"}
-                ></i>
-              </div> */}
-                <div id="mobile" onClick={handleclick}>
+                <div id="mobile" onClick={handleClick}>
                   <Image
                     id="bar"
                     className="menu-icon"
