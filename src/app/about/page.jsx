@@ -170,7 +170,7 @@ const page = () => {
                   </div>
                   <div className="upgrate">
                   <div className="hover-content">
-                    <p className="client">
+                    <p className="clients">
                       We prioritize innovation and excellence, consistently
                       delivering impactful design solutions. Our approach is
                       rooted in collaboration and integrity, ensuring strong,
