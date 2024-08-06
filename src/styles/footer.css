@@ -267,4 +267,7 @@
     margin: 0 auto;
       padding-bottom: 100px;
     }
+    .footer-bg {
+      margin-top: 50px;
+    }
 }
