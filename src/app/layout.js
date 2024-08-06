@@ -15,13 +15,13 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={inter.className}>
-        <div className="nav-bar-img">
+        {/* <div className="nav-bar-img"> */}
           <div className="footer-top-img">
             <Navbar />
             {children}
             <Footer />
           </div>
-        </div>
+        {/* </div> */}
       </body>
     </html>
   );

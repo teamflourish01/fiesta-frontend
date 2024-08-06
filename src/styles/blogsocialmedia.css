@@ -211,6 +211,7 @@
     }
     .socal-img-top {
         padding: 20px 0;
+        object-fit: cover;
     }
     .boost-desc {
         padding: 0 0 20px;
