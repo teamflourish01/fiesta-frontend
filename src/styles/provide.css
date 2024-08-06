@@ -259,6 +259,9 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr); 
 }
+.heading{
+  padding: 50px 0 30px !important;
+}
 }
 
 @media screen and (max-width: 768px) {

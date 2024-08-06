@@ -130,7 +130,17 @@ line-height: 24.59px;
 color: #170521;
 }
 
-
+@media (max-width:1024px){
+.heading{
+    padding: 50px 0 30px;
+    font-size: 30px;
+    line-height: 30px;
+}
+.call-back{
+    font-size: 22px;
+    line-height: 30px;
+}
+}
 @media (max-width:768px){
     .name-contact-row {
         display: flex;
