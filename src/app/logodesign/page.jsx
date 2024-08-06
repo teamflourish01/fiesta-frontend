@@ -11,6 +11,7 @@ import Link from "next/link";
 // import sround from "../images/sround.png";
 import Homesection from "@/component/Homesection";
 import abbg from "../../images/abbg.png";
+import logodesign from "../../images/logodesign.png"
 const page = () => {
   return (
     <>
@@ -30,7 +31,7 @@ const page = () => {
                   </div>
                 </div>
                 <div className="destination-left">
-                  <Image src={ajay} alt="" className="main-image" />
+                  <Image src={logodesign} alt="" className="main-image" />
                   <div className="round-img"></div>
                   <div className="top-round"></div>
                   <div className="s-round"></div>

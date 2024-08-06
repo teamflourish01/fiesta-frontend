@@ -184,8 +184,10 @@ nav {
   width: 30px;
 }
 .under:hover {
-  color: #0096ea;
-  transition: transform 4.3s;
+  border-bottom: 1px solid #170521;
+  transition: transform 0.3s;
+
+  
 }
 /* .naves .under:hover {
     color: #f9a526;
@@ -302,7 +304,7 @@ nav {
     align-items: baseline;
     justify-content: flex-end;
     position: fixed;
-    top: 123.5px;
+    top: 83.5px;
     right: -300px;
     width: 300px;
     /* border: 1px solid black; */
