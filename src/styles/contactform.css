@@ -205,4 +205,7 @@ textarea::placeholder {
   font-size: 16px;
   line-height: 30px;
 }
+.input-dropdown {
+  padding: 6px 0 6px 8px;
+}
 }
