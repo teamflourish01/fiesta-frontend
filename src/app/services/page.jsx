@@ -86,7 +86,7 @@ const page = () => {
                       <p className="media-marketing">
                         What is social media marketing?
                       </p>
-                      <p className="products">
+                      <p className="products products-copy">
                         Social media marketing is promoting products or services
                         through social media platforms to build brand awareness,
                         engage with audiences, and drive business results.
