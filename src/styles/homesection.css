@@ -139,8 +139,10 @@
   background-image: url(../images/round.png);
   height: 40px;
   width: 40px;
-  bottom: 55px;
-  right: 129px;
+  /* bottom: 55px; */
+  bottom: 30px;
+  right: 70px;
+  /* right: 129px; */
   position: absolute;
 }
 .top-round {
@@ -150,17 +152,18 @@
   top: 54px;
   position: absolute;
   transform: translateX(-50%);
-  left: 18%;
+  /* left: 18%; */
+  left: 30px;
 }
 .s-round {
   background-image: url(../images/Vectorsmall.png);
   /* background-image: url(../images/Vector.png); */
   height: 20px;
   width: 20px;
-  top: 97px;
+  top: 99px;
   position: absolute;
   transform: translateX(-50%);
-  left: 14%;
+  left: 25px;
 }
 .rotating {
   animation: spin 10s linear infinite;
@@ -267,7 +270,7 @@
       text-align: justify;
     }
     .home{
-      padding: 0 20px 30px;
+      padding-bottom: 30px;
     }
   
 
