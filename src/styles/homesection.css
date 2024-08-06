@@ -352,7 +352,7 @@
   transform: scale(1.5) translateY(0) translateZ(0);
 }
 .Graphic{
-  font-size: 30px;
-    line-height: 40px;
-    padding-top: 50px;
+  /* font-size: 30px; */
+    /* line-height: 40px; */
+    /* padding-top: 50px; */
 }

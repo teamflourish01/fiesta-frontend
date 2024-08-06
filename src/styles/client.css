@@ -52,6 +52,7 @@
     align-items: center;
     justify-content: space-between; */
     gap: 49px;
+    align-items: center;
 }
 
 .design-img-bg {
@@ -163,7 +164,17 @@
     width: 100%;
 }
   @media (max-width:1024px){
-   
+    .logo-card-container {
+        display: flex;
+        justify-content: left;
+        /* flex-direction: row; */
+        gap: 14.6px;
+        overflow-x: scroll;
+        text-align: left;
+        align-items: left;
+    }
+    
+    
     .design-services {
         /* display: flex; */
         display: grid;

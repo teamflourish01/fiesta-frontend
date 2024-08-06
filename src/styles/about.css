@@ -177,3 +177,48 @@ line-height: 30px;
       width: 65px;
   }
 }
+
+
+@media screen and (max-width:500px) {
+  .round-img {
+    background-image: url(/_next/static/media/round.bd6cdae9.png);
+    height: 40px;
+    width: 40px;
+    /* bottom: 55px; */
+    bottom: -8px;
+    right: 22px;
+    /* right: 129px; */
+    position: absolute;
+}
+
+.top-round {
+  background-image: url(/_next/static/media/round.bd6cdae9.png);
+  height: 40px;
+  width: 40px;
+  top: 20px;
+  position: absolute;
+  transform: translateX(-50%);
+  /* left: 18%; */
+  left: 9px;
+}
+
+
+.s-round {
+  background-image: url(/_next/static/media/Vectorsmall.f05ad56e.png);
+  /* background-image: url(../images/Vector.png); */
+  height: 20px;
+  width: 20px;
+  top: 63px;
+  position: absolute;
+  transform: translateX(-50%);
+  left: 0px;
+}
+
+.main-image {
+  max-width: 597px;
+  min-width: 200px;
+  width: 100%;
+  object-fit: contain;
+  height: auto;
+}
+}
