@@ -308,7 +308,17 @@ const page = () => {
                       </div>
                     </div>
                     <div className="btn">
-                      <button className="button">Request Proposal</button>
+                    <Link className="links" href="/contact/#contact">
+                    <button className="c-button c-button--gooey">
+                      Request Proposal
+                      <div className="c-button__blobs">
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                      </div>
+                    </button>
+                    </Link>
+                      {/* <button className="button">Request Proposal</button> */}
                     </div>
                   </div>
                 </div>

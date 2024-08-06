@@ -15,6 +15,10 @@
     overflow-x: scroll;
 }
 
+.logo-card-container::-webkit-scrollbar {
+    display: none; /* For Chrome, Safari, and Opera */
+  }
+
 .logo-card {
     display: flex;
     align-items: center;
@@ -23,7 +27,7 @@
     max-width:319px;
     min-width: 200px;
     width: 100%;
-    height: 185px;
+    /* height: 185px; */
     gap: 0px;
     border-radius: 10px;
     border: 1px solid #fff;
@@ -34,7 +38,8 @@
     max-width:254px;
     min-width:100px;
     width: 100%;
-    height: 91px;
+    height: 185px;
+    object-fit: contain;
 }
 
 .services-design-graphic {
@@ -223,6 +228,10 @@
         font-size: 30px;
         line-height: 40px;
         text-align: justify;
+    }
+    .design-title {
+        line-height: unset;
+        text-align: left;
     }
   }
 

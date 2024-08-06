@@ -109,11 +109,11 @@ const Navbar = () => {
                           <span className="do">Blogs</span>
                         </Link>
                       </li>
-                      <li className="naves">
+                      {/* <li className="naves">
                         <Link className="under" href="/NewsEvent">
                           <span className="do"> Portfolio</span>
                         </Link>
-                      </li>
+                      </li> */}
                       <li className="naves">
                         <Link className="under" href="/contact">
                           <span className="do">Contact Us</span>

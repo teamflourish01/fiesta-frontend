@@ -331,14 +331,6 @@
   transition-delay: 25ms;
 }
 
-/* .c-button--gooey .c-button__blobs div:nth-child(4) {
-  left: 100%;
-  transition-delay: 35ms;
-}
-.c-button--gooey .c-button__blobs div:nth-child(5) {
-  left: 100%;
-  transition-delay: 45ms;
-}  */
 
 .c-button--gooey:hover {
   border-radius: 10px;

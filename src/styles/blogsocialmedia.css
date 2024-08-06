@@ -189,6 +189,7 @@
     }
     .blog-social-title {
         font-size: 30px;
+        line-height: unset;
     }
 }
 
