@@ -2,7 +2,7 @@ import Homesection from '@/component/Homesection';
 import ContactForm from '@/sections/ContactForm';
 import Image from 'next/image';
 import React from 'react';
-import service from "../../images/service.png";
+import service from "../../images/contactemoji.png";
 import closeImage from "../../images/closeImage.png";
 
 

@@ -157,6 +157,8 @@
 // }
 
 // export default GraphicDesign;
+
+
 "use client";
 
 import React, { useEffect, useRef } from 'react';
@@ -172,38 +174,38 @@ import chance from '../images/chance.png';
 import improvment from '../images/improvment.png';
 
 function GraphicDesign() {
-    const gridContainerRef = useRef(null);
+    // const gridContainerRef = useRef(null);
 
-    useEffect(() => {
-        const container = gridContainerRef.current;
-        if (!container) return;
+    // useEffect(() => {
+    //     const container = gridContainerRef.current;
+    //     if (!container) return;
 
-        // Faster scroll
-        const scrollSpeed = 10; // Increase this value for faster scrolling
-        const scrollAmount = 2; // Increase this value for more scrolling per interval
+    //     // Faster scroll
+    //     const scrollSpeed = 10; // Increase this value for faster scrolling
+    //     const scrollAmount = 2; // Increase this value for more scrolling per interval
 
-        const autoScroll = () => {
-            if (container.scrollLeft + container.clientWidth >= container.scrollWidth) {
-                container.scrollLeft = 0; // Reset to the start
-            } else {
-                container.scrollLeft += scrollAmount; // Scroll forward
-            }
-        };
+    //     const autoScroll = () => {
+    //         if (container.scrollLeft + container.clientWidth >= container.scrollWidth) {
+    //             container.scrollLeft = 0; // Reset to the start
+    //         } else {
+    //             container.scrollLeft += scrollAmount; // Scroll forward
+    //         }
+    //     };
 
-        const scrollInterval = setInterval(autoScroll, scrollSpeed);
+    //     const scrollInterval = setInterval(autoScroll, scrollSpeed);
 
-        const handleMouseEnter = () => clearInterval(scrollInterval);
-        const handleMouseLeave = () => setInterval(autoScroll, scrollSpeed);
+    //     const handleMouseEnter = () => clearInterval(scrollInterval);
+    //     const handleMouseLeave = () => setInterval(autoScroll, scrollSpeed);
 
-        container.addEventListener('mouseenter', handleMouseEnter);
-        container.addEventListener('mouseleave', handleMouseLeave);
+    //     container.addEventListener('mouseenter', handleMouseEnter);
+    //     container.addEventListener('mouseleave', handleMouseLeave);
 
-        return () => {
-            clearInterval(scrollInterval);
-            container.removeEventListener('mouseenter', handleMouseEnter);
-            container.removeEventListener('mouseleave', handleMouseLeave);
-        };
-    }, []);
+    //     return () => {
+    //         clearInterval(scrollInterval);
+    //         container.removeEventListener('mouseenter', handleMouseEnter);
+    //         container.removeEventListener('mouseleave', handleMouseLeave);
+    //     };
+    // }, []);
 
     return (
         <>
@@ -216,7 +218,7 @@ function GraphicDesign() {
                                     <p className='title'>Benefits of Effective Graphic Design Services</p>
                                 </div>
                                 <div className="benefit-points">
-                                    <div className="grid-container" ref={gridContainerRef}>
+                                    <div className="grid-container">
                                         <div className="grid-item">
                                             <div className="brand">
                                                 <div className="brand-button">
