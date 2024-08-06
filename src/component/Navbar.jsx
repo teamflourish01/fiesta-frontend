@@ -37,12 +37,22 @@ const Navbar = () => {
                         <>
                           <Image src={mail} alt="" />
                           <p className="infoexamplemail">
-                            <a href=" ">fiesta9847@gmail.com</a>
+                            <a
+                              href="https://mail.google.com/mail/?view=cm&fs=1&to=fiestadesign2020@gmail.com"
+                              target="_blank"
+                              rel="noopener noreferrer"
+                            >
+                              fiestadesign2020@gmail.com
+                            </a>
                           </p>
                         </>
                       </div>
                       <div className="social-icon under-d-flex">
-                        <Link href="https://www.instagram.com/fiestadesignstudio/?igsh=am8ycWEycXRrZXZw" target="_blank" rel="noopener noreferrer">
+                        <Link
+                          href="https://www.instagram.com/fiestadesignstudio/?igsh=am8ycWEycXRrZXZw"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
                           <Image src={insta} alt="whatsapp" />
                         </Link>
                         <Link
@@ -53,7 +63,11 @@ const Navbar = () => {
                           <Image src={facebook} alt="Facebook" />
                         </Link>
 
-                        <Link href="https://api.whatsapp.com/send/?phone=7485906551&text&type=phone_number&app_absent=0" target="_blank" rel="noopener noreferrer">
+                        <Link
+                          href="https://api.whatsapp.com/send/?phone=7485906551&text&type=phone_number&app_absent=0"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
                           <Image src={whatapp} alt="ytlink" />
                         </Link>
                       </div>
@@ -72,7 +86,7 @@ const Navbar = () => {
             <div className="all-padding">
               <div className="nav">
                 <Link href="/">
-                  <Image className="desi-logo" src={logo} alt="Logo" />
+                  <Image className="desi-logo" src={flogo} alt="Logo" />
 
                   {/* <img className="desi-logo" src={flonixlogoblack} alt="" /> */}
                 </Link>
