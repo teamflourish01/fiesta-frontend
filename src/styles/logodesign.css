@@ -1,6 +1,8 @@
 .plan-container {
-  display: flex;
-  justify-content: space-between;
+  display: grid;
+  /* display: flex; */
+  grid-template-columns: repeat(3, 1fr);
+  /* justify-content: space-between; */
   gap: 13px;
   overflow-x: scroll;
 }
