@@ -48,7 +48,7 @@ function Client() {
                                 </div>
                                     </div>  */}
                 <div className="img-one">
-                  <Image className="design-emoji" src={clientone} alt="Logo" />
+                  <Image className="design-emoji-top" src={clientone} alt="Logo" />
                 </div>
                 <div className="design-content">
                   <div className="heading-design">
@@ -109,7 +109,7 @@ function Client() {
                                     </div>
                                 </div> */}
                 <div className="img-one">
-                  <Image className="design-emoji" src={clienttwo} alt="Logo" />
+                  <Image className="design-emoji-bottom" src={clienttwo} alt="Logo" />
                 </div>
               </div>
             </div>

@@ -157,5 +157,13 @@ right: unset !important;
   background-color: grey;
 }
 
-  
+  @media(max-width:1024px){
+    .tittle-flex {
+      padding: 50px 0 0;
+    }
+    .service {
+      font-size: 30px;
+      line-height: 30px;
+    }
+  }
   

@@ -96,7 +96,7 @@ const Homesection = () => {
       <section>
         <div className="main-width">
           <div className="under-1320">
-            <div className="all-padding">
+            <div className="all-padding home">
 
               <div className="destination-container">
                 <div className="destination-flex">
