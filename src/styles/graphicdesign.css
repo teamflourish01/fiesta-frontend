@@ -147,16 +147,25 @@
         padding-bottom: 50px;
     }
     .hire-us-text {
-        font-size: 22px;
-       
+        font-size: 22px; 
     }
 }
 @media (max-width: 768px) {
     .grid-container {
-        display: grid;
+        overflow-x: scroll;
+        /* display: grid;
         grid-template-columns: repeat(1, 1fr);
         grid-gap: 10px;
-        gap: 10px;
-        padding-bottom: 100px;
+        gap: 10px; */
+        padding-bottom: 50px;
+    }
+    .hire-us-text {
+        font-size: 18px;
+        line-height: 30px; 
+    }
+    .hire-us-desc {
+        font-size: 16px;
+        line-height: 25px;
+        padding: 15px 17px;
     }
 }

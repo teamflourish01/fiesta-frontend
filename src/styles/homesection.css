@@ -49,18 +49,13 @@
   width: 100%;
 }
 
-.destination-left{
-    /* max-width: 597px;
+.destination-left {
+  /* max-width: 597px;
     min-width: 200px;
     width: 100%; */
-   
-    position: relative;
-    display: inline-block;
-    
-    
-    
-    
 
+  position: relative;
+  display: inline-block;
 }
 @keyframes jump {
   0% {
@@ -87,14 +82,12 @@
   animation: jump 2s ease-in-out 1;
 }
 
-
-.main-image{
-    /* max-width: 597px;
+.main-image {
+  /* max-width: 597px;
     min-width: 200px;
     width: 100%;
     object-fit: contain; */
-    /* height: auto; */
-
+  /* height: auto; */
 }
 
 .corner-image {
@@ -177,7 +170,6 @@
   to {
     transform: rotate(360deg);
   }
-
 }
 
 @media screen and (max-screen: 1024px) {
@@ -185,8 +177,7 @@
     flex-wrap: wrap;
   }
 
-  
-  .round-img{
+  .round-img {
     background-image: url(../images/round.png);
     height: 40px;
     width: 40px;
@@ -194,7 +185,7 @@
     right: 70px;
     position: absolute;
   }
-  .top-round{
+  .top-round {
     background-image: url(../images/round.png);
     height: 40px;
     width: 40px;
@@ -202,8 +193,8 @@
     position: absolute;
     /* transform: translateX(-50%); */
     left: 30px;
-}
-.s-round{
+  }
+  .s-round {
     background-image: url(../images/Vectorsmall.png);
     /* background-image: url(../images/Vector.png); */
     height: 20px;
@@ -212,21 +203,19 @@
     position: absolute;
     /* transform: translateX(-50%); */
     left: 25px;
-}
-.rotating{
+  }
+  .rotating {
     animation: spin 10s linear infinite;
+  }
 }
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }
-@keyframes spin{
-    from{
-        transform: rotate(0deg);
-    }
-    to{
-        transform: rotate(360deg);
-    }
-
-}
-
 
 .c-button {
   color: #fff; /* Default text color white */
@@ -245,37 +234,50 @@
   border-radius: 10px;
 }
 
-@media screen and (max-width:1024px){
-    .main-image{
-        max-width: 597px;
-        min-width: 200px;
-        width: 100%;
-        object-fit: contain;
-    }
-    .destination-right {
-        max-width: unset;
-        min-width: unset;
-        width: 100%;
-    }
-    .destination-flex {
-        display: flex;
-        flex-wrap: wrap;
-        align-items: center;
-        justify-content: center;
-        gap: 30px;
-    }
-    .Graphic {
-      padding: 50px 0 0;
-      font-size: 30px;
-      line-height: 40px;
-      text-align: justify;
-    }
-    .home{
-      padding-bottom: 30px;
-    }
-  
+@media screen and (max-width: 1024px) {
+  .main-image {
+    max-width: 597px;
+    min-width: 200px;
+    width: 100%;
+    object-fit: contain;
+  }
+  .destination-right {
+    max-width: unset;
+    min-width: unset;
+    width: 100%;
+  }
+  .destination-flex {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+  }
+  .Graphic {
+    padding: 50px 0 0;
+    font-size: 30px;
+    line-height: 40px;
+    text-align: justify;
+  }
+  .home {
+    padding-bottom: 30px;
+  }
+}
 
-
+@media screen and (max-width: 768px) {
+  .Graphic {
+    padding: 30px 0 0;
+    font-size: 20px;
+    line-height: 30px;
+  }
+  .care {
+    font-size: 16px;
+    line-height: 20px;
+    padding: 15px 0 20px 0;
+  }
+  .destination-flex {
+    gap: 25px;
+  }
 }
 
 .c-button--gooey {
@@ -294,7 +296,7 @@
   filter: url(#goo);
   overflow: hidden;
   position: absolute;
-  
+
   top: 0;
   left: 0;
   bottom: -3px;
@@ -306,7 +308,7 @@
   background-color: #fff; /* Blob color white */
   width: 34%;
   height: 100%;
- border: 1px solid 170521;
+  border: 1px solid 170521;
   border-radius: 100%;
   position: absolute;
   transform: scale(1.4) translateY(125%) translateZ(0);
@@ -322,10 +324,10 @@
   transition-delay: 60ms;
 }
 
- .c-button--gooey .c-button__blobs div:nth-child(3) {
+.c-button--gooey .c-button__blobs div:nth-child(3) {
   left: 66%;
   transition-delay: 25ms;
-} 
+}
 
 /* .c-button--gooey .c-button__blobs div:nth-child(4) {
   left: 100%;
@@ -335,7 +337,6 @@
   left: 100%;
   transition-delay: 45ms;
 }  */
-
 
 .c-button--gooey:hover {
   border-radius: 10px;

@@ -215,8 +215,24 @@
     }
   }
 
-  @media (max-width:532px){
-    .design-emoji {
+  @media (max-width:768px){
+    
+  }
+
+
+
+
+
+
+
+
+
+  @media (max-width:530px){
+    .design-emoji-top {
         height: auto;
+        width: 100%;
+    }
+    .design-emoji-bottom {
+        width: 100%;
     }
   }

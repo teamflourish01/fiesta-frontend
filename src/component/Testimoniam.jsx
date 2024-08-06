@@ -67,9 +67,9 @@ const Testimoniam = () => {
             <div className="all-padding">
             <div className="title-text">
               <div className="tittle-flex">
-                <Image src={closeImage} alt="Close Icon" />
+                <Image src={closeImage} alt="Close Icon" className="cross" />
                 <p className="service">Client’s review of our services</p>
-                <Image src={closeImage} alt="Close Icon" />
+                <Image src={closeImage} alt="Close Icon" className="cross" />
               </div>
             </div>
             <div className="transaction-padding">
