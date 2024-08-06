@@ -12,6 +12,9 @@ import icon2 from "../../images/icon2.png";
 import icon3 from "../../images/icon3.png";
 import arrow from "../../images/arrow.png";
 import arrowleft from "../../images/arrowleft.png";
+import mission from "../../images/mission.png";
+import vision from "../../images/vision.png";
+import values from "../../images/values.png"
 
 const page = () => {
   return (
@@ -106,7 +109,7 @@ const page = () => {
                 <div className="our-mission">
                   <div className="icon-group">
                     <div className="img-icon">
-                      <Image src={icon1} alt="" className="img1" />
+                      <Image src={mission} alt="" className="img1" />
                     </div>
                   </div>
                   <div className="mission-padding">
@@ -129,9 +132,9 @@ const page = () => {
                 </div>
                 <div className="our-mission">
                   <div className="icon-group">
-                    <div className="img-icon">
-                      <Image src={icon2} alt="" className="img1" />
-                    </div>
+                   
+                      <Image src={vision} alt="" className="img1" />
+                   
                   </div>
                   <div className="mission-padding">
                     <div className="mission-flex">
@@ -152,9 +155,9 @@ const page = () => {
                 </div>
                 <div className="our-mission">
                   <div className="icon-group">
-                    <div className="img-icon">
-                      <Image src={icon3} alt="" className="img1" />
-                    </div>
+                   
+                      <Image src={values} alt="" className="img1" />
+                 
                   </div>
                   <div className="mission-padding">
                     <div className="mission-flex">
@@ -164,6 +167,7 @@ const page = () => {
                     </div>
                   </div>
                   <div className="upgrate">
+                  <div className="hover-content">
                     <p className="client">
                       We prioritize innovation and excellence, consistently
                       delivering impactful design solutions. Our approach is
@@ -172,6 +176,7 @@ const page = () => {
                       client-centric approach, respecting and fulfilling the
                       unique needs and values of each client.
                     </p>
+                    </div>
                   </div>
                 </div>
               </div>

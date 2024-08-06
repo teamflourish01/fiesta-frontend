@@ -8,6 +8,7 @@ import Link from "next/link";
 // import sround from "../images/sround.png";
 import Homesection from "@/component/Homesection";
 import abbg from "../../images/abbg.png";
+import service from "../../images/service.png"
 
 const page = () => {
   return (
@@ -15,7 +16,7 @@ const page = () => {
       <section>
         <div className="main-width">
           <div className="under-1320">
-            <div className="all-padding"></div>
+            <div className="all-padding">
             <div className="destination-container">
               <div className="destination-flex">
                 <div className="destination-right">
@@ -32,7 +33,7 @@ const page = () => {
                   </div>
                 </div>
                 <div className="destination-left">
-                  <Image src={ajay} alt="" className="main-image" />
+                  <Image src={service} alt="" className="main-image" />
                   <div className="round-img"></div>
                   <div className="top-round"></div>
                   <div className="s-round"></div>
@@ -48,6 +49,7 @@ const page = () => {
                   />
                 </div>
               </div>
+            </div>
             </div>
           </div>
           <hr />
