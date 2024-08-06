@@ -1,4 +1,5 @@
-import React from "react";
+"use client";
+import React, { useState } from "react";
 import ajay from "../../images/ajay.png";
 import "../../styles/service.css";
 import closeImage from "../../images/closeImage.png";
@@ -10,48 +11,54 @@ import Link from "next/link";
 // import sround from "../images/sround.png";
 import Homesection from "@/component/Homesection";
 import abbg from "../../images/abbg.png";
-import service from "../../images/service.png"
+import service from "../../images/service.png";
 
 const page = () => {
+  const [selectedPage, setSelectedPage] = useState("/services");
   return (
     <>
       <section>
         <div className="main-width">
           <div className="under-1320">
+
             <div className="all-padding home">
-            <div className="destination-container">
-              <div className="destination-flex">
-                <div className="destination-right">
-                  <p className="Graphic">
-                    We are Specialized Social Media Marketing service provider
-                  </p>
-                  <div className="care">
-                    <li>
-                      Best Social Media Marketing service providers in Ahmedabad
-                    </li>
-                    <li className="banner">
-                      banner with sample of Social Media Graphical images
-                    </li>
+          
+
+              <div className="destination-container">
+                <div className="destination-flex">
+                  <div className="destination-right">
+                    <p className="Graphic">
+                      We are Specialized Social Media Marketing service provider
+                    </p>
+                    <div className="care">
+                      <li>
+                        Best Social Media Marketing service providers in
+                        Ahmedabad
+                      </li>
+                      <li className="banner">
+                        banner with sample of Social Media Graphical images
+                      </li>
+                    </div>
+                  </div>
+                  <div className="destination-left">
+                    <Image src={service} alt="" className="main-image" />
+                    <div className="round-img"></div>
+                    <div className="top-round"></div>
+                    <div className="s-round"></div>
+                    <Image
+                      src={closeImage}
+                      alt=""
+                      className="corner-image top-right rotating"
+                    />
+                    <Image
+                      src={closeImage}
+                      alt=""
+                      className="corner-image bottom-left rotating"
+                    />
+
                   </div>
                 </div>
-                <div className="destination-left">
-                  <Image src={service} alt="" className="main-image" />
-                  <div className="round-img"></div>
-                  <div className="top-round"></div>
-                  <div className="s-round"></div>
-                  <Image
-                    src={closeImage}
-                    alt=""
-                    className="corner-image top-right rotating"
-                  />
-                  <Image
-                    src={closeImage}
-                    alt=""
-                    className="corner-image bottom-left rotating"
-                  />
-                </div>
               </div>
-            </div>
             </div>
           </div>
           <hr />
@@ -67,14 +74,31 @@ const page = () => {
                     <p className="our-services">Our Services</p>
                     <hr />
                     <div className="social-div">
-                    <Link href="/services" className="style-none">
-                      <p style={{ cursor: "pointer" }}>Social Media Post</p>
+                      <Link href="/services" className="style-none">
+                        <p
+                          style={{ cursor: "pointer" }}
+                          className={
+                            selectedPage === "/services" ? "underline" : ""
+                          }
+                          onClick={() => setSelectedPage("/services")}
+                        >
+                          Social Media Post
+                        </p>
                       </Link>
                       <Link href="/logodesign" className="style-none">
-                        <p style={{ cursor: "pointer" }}>Logo Design</p>
+                        <p
+                          style={{ cursor: "pointer" }}
+                          className={
+                            selectedPage === "/logodesign" ? "underline" : ""
+                          }
+                          onClick={() => setSelectedPage("/logodesign")}
+                        >
+                          Logo Design
+                        </p>
                       </Link>
                       <Link href="/brochure" className="style-none">
-                        <p style={{ cursor: "pointer" }}>Brochure Design</p>
+                        <p style={{ cursor: "pointer" }} className={selectedPage === "/brochure" ? "underline" : ""}
+                          onClick={() => setSelectedPage("/brochure")}>Brochure Design</p>
                       </Link>
                     </div>
                   </div>
