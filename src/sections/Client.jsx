@@ -6,10 +6,10 @@ import designService from "../images/designservice.png";
 import graphicService from "../images/graphics.png";
 import clientone from "../images/clientone.png";
 import clienttwo from "../images/clienttwo.png";
-import one from '../images/one.png';
-import two from '../images/two.png';
-import three from '..//images/three.png';
-import four from '../images/four.png';
+import one from "../images/one.png";
+import two from "../images/two.png";
+import three from "..//images/three.png";
+import four from "../images/four.png";
 
 
 function Client() {
@@ -94,7 +94,7 @@ function Client() {
                   <div className="design-description size">
                     Graphic design is a service that is connected to all age
                     groups, genders, cultures, religions, castes, and countries.
-                    Though it's maximum chances for any businesses can make
+                    Though it&apos;s maximum chances for any businesses can make
                     their spotlight with Graphic Design services. But how can
                     any business utilize this perk of Graphic Design services?
                     <br />
