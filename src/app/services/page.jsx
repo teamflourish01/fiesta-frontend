@@ -13,7 +13,7 @@ import Homesection from "@/component/Homesection";
 import abbg from "../../images/abbg.png";
 import service from "../../images/service.png";
 
-const page = () => {
+const Page = () => {
   const [selectedPage, setSelectedPage] = useState("/services");
   return (
     <>
@@ -331,4 +331,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default Page;

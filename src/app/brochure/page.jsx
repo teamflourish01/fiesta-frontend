@@ -246,7 +246,7 @@ const page = () => {
 
                           <div className="basic-div">
                             <p className="clean-s">
-                              Typically 1-2 weeks, depending on the designer's
+                              Typically 1-2 weeks, depending on the designer&apos;s
                               schedule and client responsiveness
                             </p>
                           </div>

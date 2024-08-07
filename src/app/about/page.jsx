@@ -39,18 +39,18 @@ const page = () => {
                  
                 </div>
                 <div className="destination-left">
-                  <Image src={aboutimg} alt="" className="main-image" />
+                  <Image src={aboutimg} alt="aboutimg" className="main-image" />
                   <div className="round-img"></div>
                   <div className="top-round"></div>
                   <div className="s-round"></div>
                   <Image
                     src={closeImage}
-                    alt=""
+                    alt="closeimage1"
                     className="corner-image top-right rotating"
                   />
                   <Image
                     src={closeImage}
-                    alt=""
+                    alt="closeimage"
                     className="corner-image bottom-left rotating"
                   />
                 </div>
