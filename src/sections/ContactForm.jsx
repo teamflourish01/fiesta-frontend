@@ -2,6 +2,8 @@
 
 import React, { useState } from 'react';
 import '../styles/contactform.css';
+import "../styles/about.css";
+
 import { FaChevronDown } from 'react-icons/fa';
 
 
@@ -45,7 +47,7 @@ function ContactForm() {
       <section>
         <div className="main-width">
           <div className="under-1320">
-            <div className="all-padding">
+            <div className="all-padding home">
             <div className="contact-container" id="contact">
               <div className="heading">
                 <p className='title ' >Contact Us</p>

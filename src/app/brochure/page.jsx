@@ -407,7 +407,7 @@ const page = () => {
                           <div className="price-container">
                             <p className="price">Price</p>
                             <hr />
-                            <p className="month">Per Page 250 INR/-</p>
+                            <p className="month">Per Page 500 INR/-</p>
                             {/* <hr /> */}
                           </div>
                         </div>
@@ -538,7 +538,7 @@ const page = () => {
                           <div className="price-container">
                             <p className="price">Price</p>
                             <hr />
-                            <p className="month">Per Page 250 INR/-</p>
+                            <p className="month">Per Page 1000 INR/-</p>
                             {/* <hr /> */}
                           </div>
                         </div>

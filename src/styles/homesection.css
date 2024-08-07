@@ -48,6 +48,9 @@
   min-width: 200px;
   width: 100%;
 }
+.destination-container{
+  padding: 21px 0 0 0;
+}
 
 .destination-left {
   /* max-width: 597px;
@@ -218,7 +221,7 @@
 }
 
 .c-button {
-  color: #fff; /* Default text color white */
+  color: #fff; 
   font-weight: 700;
   font-size: 16px;
   text-decoration: none;
@@ -228,7 +231,7 @@
   vertical-align: middle;
   position: relative;
   z-index: 1;
-  background: #170521; /* Default background color */
+  background: #170521; 
   border: none;
   transition: all 1s ease;
   border-radius: 10px;
