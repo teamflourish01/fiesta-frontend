@@ -43,19 +43,19 @@ const Testimoniam = () => {
       position: "Director at Bright Solutions",
     },
     {
-      text: "Fiesta's work on our website redesign was outstanding. They truly understood our vision and brought it to life in a way that was both modern and functional.",
-      name: "Aisha Khan",
-      position: "Marketing Manager at InnovateTech",
+      text: "Working with Fiesta was a fantastic experience. Their designers brought our vision to life with exceptional creativity and professionalism. The new graphics have significantly enhanced our marketing materials. Highly recommended!",
+      name: "Maulik Navadia",
+      position: "CEO at Greenfield Enterprises",
     },
     {
-      text: "Working with Fiesta was a fantastic experience. Their expertise and dedication were evident in every step of the process. Highly recommend!",
-      name: "Michael Brown",
-      position: "CEO at Growth Ventures",
+      text: "The graphic design team at Fiesta delivered eye-catching and engaging designs that perfectly captured our brand's essence. Their work has made a noticeable impact on our customer engagement and overall brand image. Thank you!",
+      name: "Prince Mendapara",
+      position: "Founder at Codercat",
     },
     {
-      text: "Working with Fiesta was a fantastic experience. Their expertise and dedication were evident in every step of the process. Highly recommend!",
-      name: "Michael Brown",
-      position: "CEO at Growth Ventures",
+      text: "Fiesta provides innovative and timely graphic design solutions for our company. Their ability to understand our needs and deliver top-notch designs within tight deadlines was truly impressive. We look forward to collaborating with them again!",
+      name: "Satyen Mori",
+      position: "Founder at Mori Builders",
     },
   ];
 

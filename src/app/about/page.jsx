@@ -169,8 +169,8 @@ const page = () => {
                     </div>
                   </div>
                   <div className="upgrate">
-                  <div className="hover-content">
-                    <p className="clients">
+               
+                    <p className="client">
                       We prioritize innovation and excellence, consistently
                       delivering impactful design solutions. Our approach is
                       rooted in collaboration and integrity, ensuring strong,
@@ -178,7 +178,7 @@ const page = () => {
                       client-centric approach, respecting and fulfilling the
                       unique needs and values of each client.
                     </p>
-                    </div>
+                   
                   </div>
                 </div>
               </div>
