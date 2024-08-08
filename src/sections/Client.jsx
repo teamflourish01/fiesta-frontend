@@ -143,6 +143,7 @@ import one from "../images/one.png";
 import two from "../images/two.png";
 import three from "..//images/three.png";
 import four from "../images/four.png";
+
 import five from "../images/five.png";
 import six from "../images/six.png";
 import seven from "../images/seven.png";
@@ -150,6 +151,7 @@ import eight from "../images/eight.png";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+
 
 function Client() {
   const sliderSettings = {
@@ -346,6 +348,7 @@ function Client() {
                     </div>
                   </div>
                 </div>
+
                 <div className="graphic-services">
                   <div className="design-content">
                     <div className="heading-graphic">
@@ -373,6 +376,8 @@ function Client() {
                       shorted from our side and you will get the growth you
                       crave and the results you want.
                     </div>
+
+            
                   </div>
                   {/* <div className="graphic-img-container">
                                     <div className="graphic-img-bg">

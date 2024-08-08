@@ -313,7 +313,7 @@ const page = () => {
                           <p className="month">Price</p>
 
                           <hr />
-                          <p className="month">INR 1,999/-</p>
+                          <p className="month">INR 4,999/-</p>
                         </div>
                       </div>
 
@@ -414,7 +414,7 @@ const page = () => {
                           <p className="month">Price</p>
 
                           <hr />
-                          <p className="month">INR 1,999/-</p>
+                          <p className="month">INR 7,999/-</p>
                         </div>
                       </div>
                     </div>

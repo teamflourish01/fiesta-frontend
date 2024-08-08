@@ -39,18 +39,18 @@ const page = () => {
                  
                 </div>
                 <div className="destination-left">
-                  <Image src={aboutimg} alt="" className="main-image" />
+                  <Image src={aboutimg} alt="aboutimg" className="main-image" />
                   <div className="round-img"></div>
                   <div className="top-round"></div>
                   <div className="s-round"></div>
                   <Image
                     src={closeImage}
-                    alt=""
+                    alt="closeimage1"
                     className="corner-image top-right rotating"
                   />
                   <Image
                     src={closeImage}
-                    alt=""
+                    alt="closeimage"
                     className="corner-image bottom-left rotating"
                   />
                 </div>
@@ -169,8 +169,8 @@ const page = () => {
                     </div>
                   </div>
                   <div className="upgrate">
-                  <div className="hover-content">
-                    <p className="clients">
+               
+                    <p className="client">
                       We prioritize innovation and excellence, consistently
                       delivering impactful design solutions. Our approach is
                       rooted in collaboration and integrity, ensuring strong,
@@ -178,7 +178,7 @@ const page = () => {
                       client-centric approach, respecting and fulfilling the
                       unique needs and values of each client.
                     </p>
-                    </div>
+                   
                   </div>
                 </div>
               </div>
