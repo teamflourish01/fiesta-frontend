@@ -8,6 +8,7 @@ import blogbrochure from "../../images/blogbrochure.jpg";
 import Homesection from "@/component/Homesection";
 import aboutimg from "../../images/aboutbanner.png";
 import closeImage from "../../images/closeImage.png";
+import service from '../../images/blogbanner.png';
 
 function Page() {
   return (
@@ -20,17 +21,11 @@ function Page() {
               <div className="destination-flex">
                 <div className="destination-right">
                   <p className="Graphic">
-                  We are Specialized Graphic Design Services Provider
+                  Blog
                   </p>
-                  <div className="care">
-                    <li>Best Graphics providers in Ahmedabad</li>
-                    <li className="service-padding">All services are at one place</li>
-                    <li>Best industry experts</li>
-                  </div>
-                 
                 </div>
                 <div className="destination-left">
-                  <Image src={aboutimg} alt="" className="main-image" />
+                  <Image src={service} alt="" className="main-image" />
                   <div className="round-img"></div>
                   <div className="top-round"></div>
                   <div className="s-round"></div>
@@ -47,9 +42,9 @@ function Page() {
                 </div>
               </div>
             </div>
+            </div>
           </div>
-          </div>
-            <hr />
+          <hr />
         </div>
       </section>
       <section>
