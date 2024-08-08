@@ -25,8 +25,8 @@ right: unset !important;
   }
   
   .service {
-    font-size: 50px;
-    font-family: Manrope-Bold;
+    font-size: 45px;
+    font-family: Manrope-ExtraBold;
    
   }
   
@@ -47,14 +47,14 @@ right: unset !important;
   }
   
   .tranformed-text {
-    padding: 20px 0 0 0;
+    padding: 28px 0 0 0;
   }
   
   .team {
     font-size: 18px;
     font-family: Manrope-Regular;
     text-align: center;
-    line-height: 30px;
+    /* line-height: 30px; */
     color: black;
     height: 90px;
   }
@@ -71,10 +71,11 @@ right: unset !important;
     color: #6E6E6E;
     text-align: center;
     padding:  0 0 15px;
+    line-height: 20px;
   }
   
   .name-padding {
-    padding: 35px 0 0 0;
+    padding: 42px 0 0 0;
   }
   
   .slider-container {
