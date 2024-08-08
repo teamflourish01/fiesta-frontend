@@ -21,14 +21,6 @@ function page() {
                   <p className="Graphic">
                   Contact Us
                   </p>
-                  {/* <div className="care">
-                    <li>
-                      Best Social Media Marketing service providers in Ahmedabad
-                    </li>
-                    <li className="banner">
-                      banner with sample of Social Media Graphical images
-                    </li>
-                  </div> */}
                 </div>
                 <div className="destination-left">
                   <Image src={service} alt="" className="main-image" />

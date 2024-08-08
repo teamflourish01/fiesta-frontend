@@ -26,18 +26,21 @@ function page() {
                   Your Business
                 </div>
                 <div className="top-brochure-desc">
+                <p className="br-space">
                   In the digital world, professional brochure and stationery
                   design remain crucial for business success. These traditional
                   marketing materials offer tangible benefits that digital
                   strategies alone can&apos;t match, providing a physical brand
                   experience and enhancing credibility.
-                  <br />
+                  </p>
+                  <p className="br-space">
                   Investing in high-quality print materials from the best
                   brochure design company in Ahmedabad can set your business
                   apart. Well-designed brochures and stationery create lasting
                   impressions, deliver comprehensive information, and complement
                   your digital marketing efforts, making them essential tools
                   for growing your business in a competitive marketplace.
+                  </p>
                 </div>
               </div>
               <div className="brochure-bottom-content">
@@ -47,6 +50,7 @@ function page() {
                       First Impressions Matter
                     </div>
                     <div className="brochure-point-desc">
+                    <p className="br-space">
                       First impressions are the whole lot in business. When a
                       potential customer or partner gets your brochure or
                       business card, it is often their first bodily interaction
@@ -54,7 +58,8 @@ function page() {
                       brochure or stationery immediately communicates your
                       agency&apos;s dedication to satisfaction and attention to
                       detail.
-                      <br />
+                      </p>
+                      <p className="br-space">
                       Think about it: Would you be more inspired by a sleek,
                       beautifully designed brochure or a hastily printed,
                       widespread-searching flyer? The fine of your marketing
@@ -62,6 +67,7 @@ function page() {
                       pleasantness of your products or services. By investing in
                       professional design, you&apos;re investing in your brand&apos;s
                       popularity.
+                      </p>
                     </div>
                   </div>
                   <div className="brochure-point">
@@ -69,6 +75,7 @@ function page() {
                       Tangible Brand Experience
                     </div>
                     <div className="brochure-point-desc">
+                    <p className="br-space">
                       In the digital era, bodily marketing substances offer a
                       unique, tangible logo revel in. A brochure permits
                       potential clients to interact in a manner that a website
@@ -76,12 +83,14 @@ function page() {
                       paper, the weight of a business card, and the general
                       design are satisfactory, creating a multi-sensory
                       experience that can leave a long-lasting impact.
-                      <br />
+                      </p>
+                      <p className="br-space">
                       Moreover, well designed stationery serves as a constant
                       reminder of your brand. A customer could pin your business
                       card to their bulletin board or maintain your brochure on
                       their desk, supplying ongoing publicity in your brand long
                       after the initial interaction.
+                      </p>
                     </div>
                   </div>
                   <div className="brochure-point">
@@ -89,6 +98,7 @@ function page() {
                       Comprehensive Information Delivery
                     </div>
                     <div className="brochure-point-desc">
+                    <p className="br-space">
                       While digital marketing is excellent for quick, bite-sized
                       information, brochures offer a more comprehensive way to
                       present your products or services. A well-designed
@@ -96,11 +106,14 @@ function page() {
                       information, exhibit your full variety of services, and
                       tell your brand story in a visually appealing and
                       easy-to-digest format.
-                      <br />A brochure permits you to review your services
+                      </p>
+                      <p className="br-space">
+                      A brochure permits you to review your services
                       cohesively for agencies with a couple of products or
                       services. This is particularly valuable for B2B businesses
                       or industries where unique statistics are vital to the
                       decision-making technique.
+                      </p>
                     </div>
                   </div>
                   <div className="brochure-point">
@@ -108,19 +121,22 @@ function page() {
                       Credibility and Professionalism
                     </div>
                     <div className="brochure-point-desc">
+                    <p className="br-space">
                       Professional brochures and stationery design lend
                       credibility to your business. They show that you&apos;ve
                       invested time and resources into developing brilliant
                       marketing materials, which indicates that you may convey
                       the identical stage of care and professionalism to your
                       paintings with clients.
-                      <br />
+                      </p>
+                      <p className="br-space">
                       This is especially essential for small companies or
                       startups looking to establish themselves in aggressive
                       markets. High-quality marketing materials can help stage
                       the playing field, allowing smaller corporations to offer
                       themselves as polished and expert as their large
                       competitors.
+                      </p>
                     </div>
                   </div>
                   <div className="brochure-point">
@@ -128,18 +144,21 @@ function page() {
                       Targeted Marketing
                     </div>
                     <div className="brochure-point-desc">
+                    <p className="br-space">
                       Brochures and other print materials provide exceptional
                       possibilities for targeted marketing. You can create
                       exclusive brochure versions tailored to targeted audiences
                       or marketplace segments. This customisation stage allows
                       you to efficiently deal with various client company&apos;s
                       particular wishes and ache factors.
-                      <br />
+                      </p>
+                      <p className="br-space">
                       For example, if you&apos;re attending a trade show, you may
                       create a specialised brochure highlighting the goods or
                       services that are most relevant to that specific audience.
                       This focused method increases the effectiveness of your
                       advertising efforts.
+                      </p>
                     </div>
                   </div>
                   <div className="brochure-point">
@@ -147,6 +166,7 @@ function page() {
                       Complementing Digital Marketing Efforts
                     </div>
                     <div className="brochure-point-desc">
+                    <p className="br-space">
                       Professional brochure and stationery design should
                       complement your online efforts rather than replace digital
                       marketing. A properly designed brochure can attract
@@ -155,11 +175,13 @@ function page() {
                       can sell the provision of your brochure, encouraging
                       interested potentialities to request a physical replica
                       for an extra targeted approach.
-                      <br />
+                      </p>
+                      <p className="br-space">
                       This integration of print and digital marketing creates a
                       consistent brand experience across all channels,
                       reinforcing your message and increasing the chance of
                       conversion.
+                      </p>
                     </div>
                   </div>
                   <div className="brochure-point">
@@ -167,17 +189,20 @@ function page() {
                       Long-Term Value and Spreadability
                     </div>
                     <div className="brochure-point-desc">
+                    <p className="br-space">
                       Unlike digital businesses that disappear after a fixed
                       time, brochures and stationery have a much longer
                       lifespan. A well crafted brochure is saved for months or
                       years, mainly if it contains valuable information or
                       serves as a reference manual.
-                      <br />
+                      </p>
+                      <p className="br-space">
                       Additionally, print materials have aLong-Term Value and
                       Spreadability. A satisfied customer could proportion your
                       brochure with a colleague or friend, extending your attain
                       beyond the initial recipient. This phrase-of-mouth
                       marketing can be enormously effective and price-effective.
+                      </p>
                     </div>
                   </div>
                   <div className="brochure-point">
@@ -185,17 +210,20 @@ function page() {
                       Shaping Your Presence Online
                     </div>
                     <div className="brochure-point-desc">
+                    <p className="br-space">
                       In an era where inboxes are flooded with emails and social
                       media feeds are crowded with ads, a bodily brochure or a
                       superbly designed piece of stationery can assist your
                       business stand out. The novelty of receiving something
                       tangible can seize the interest in a way that digital
                       marketing occasionally needs help to acquire.
-                      <br />
+                      </p>
+                      <p className="br-space">
                       Moreover, a few industries and demographics still prefer
                       physical marketing materials. By offering both digital and
                       print options, you ensure that you&apos;re catering to all
                       preferences and maximising your reach.
+                      </p>
                     </div>
                   </div>
                   <div className="brochure-point">
@@ -271,8 +299,9 @@ function page() {
                       </div>
                     </div>
                     <div className="brochure-point">
-                      <div className="brochure-point-title">Conclusion</div>
+                      <div className="brochure-point-title-conclusion">Conclusion</div>
                       <div className="brochure-point-desc">
+                      <p className="br-space">
                         Professional brochures and stationery design remain
                         essential to a complete marketing strategy. They provide
                         tangible advantages that digital marketing alone can&apos;t
@@ -282,7 +311,8 @@ function page() {
                         brand&apos;s belief and increasing your probability of making
                         an enduring impression on potential customers and
                         companions.
-                        <br />
+                        </p>
+                        <p className="br-space">
                         Remember, your brochure and stationery are frequently
                         the primary physical products prospects have with your
                         brand. Make sure they reflect the excellence and
@@ -291,6 +321,7 @@ function page() {
                         substances can emerge as effective equipment for
                         developing your business and standing out in
                         ultra-modern competitive markets.
+                        </p>
                       </div>
                     </div>
                   </div>
