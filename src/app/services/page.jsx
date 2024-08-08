@@ -12,6 +12,7 @@ import Link from "next/link";
 import Homesection from "@/component/Homesection";
 import abbg from "../../images/abbg.png";
 import service from "../../images/service.png";
+import serviceb from "../../images/serviceb.png";
 
 const Page = () => {
   const [selectedPage, setSelectedPage] = useState("/services");
@@ -20,10 +21,7 @@ const Page = () => {
       <section>
         <div className="main-width">
           <div className="under-1320">
-
             <div className="all-padding home">
-          
-
               <div className="destination-container">
                 <div className="destination-flex">
                   <div className="destination-right">
@@ -41,7 +39,7 @@ const Page = () => {
                     </div>
                   </div>
                   <div className="destination-left">
-                    <Image src={service} alt="" className="main-image" />
+                    <Image src={serviceb} alt="" className="main-image" />
                     <div className="round-img"></div>
                     <div className="top-round"></div>
                     <div className="s-round"></div>
@@ -55,7 +53,6 @@ const Page = () => {
                       alt=""
                       className="corner-image bottom-left rotating"
                     />
-
                   </div>
                 </div>
               </div>
@@ -97,8 +94,15 @@ const Page = () => {
                         </p>
                       </Link>
                       <Link href="/brochure" className="style-none">
-                        <p style={{ cursor: "pointer" }} className={selectedPage === "/brochure" ? "underline" : ""}
-                          onClick={() => setSelectedPage("/brochure")}>Brochure Design</p>
+                        <p
+                          style={{ cursor: "pointer" }}
+                          className={
+                            selectedPage === "/brochure" ? "underline" : ""
+                          }
+                          onClick={() => setSelectedPage("/brochure")}
+                        >
+                          Brochure Design
+                        </p>
                       </Link>
                     </div>
                   </div>
@@ -124,10 +128,11 @@ const Page = () => {
                           </p>
                           <hr />
                           <div className="boost">
-                            <p>Boost Brand Visibility</p>
-                            <p>Engage with Your Audience</p>
-                            <p>Drive Conversions</p>
-                            <p>Stay Ahead of Trends</p>
+                            <li>Boost Brand Visibility</li>
+                            <li>Engage with Your Audience</li>
+                            <li>Drive Conversions</li>
+                            <li>Stay Ahead of Trends</li>
+                            <li>Builds Customer Trust</li>
                           </div>
                         </div>
                         <div className="ours-services">
@@ -136,20 +141,24 @@ const Page = () => {
                           </p>
                           <hr />
                           <div className="strategy">
-                            <p>Strategy Development</p>
-                            <p>Content Creation</p>
-                            <p>Social Media Management</p>
-                            <p>Advertising Campaigns</p>
-                            <p>Analytics & Reporting</p>
+                            <li>Strategy Development</li>
+                            <li>Content Creation</li>
+                            <li>Social Media Management</li>
+                            <li>Advertising Campaigns</li>
+                            <li>Analytics & Reporting</li>
                           </div>
                         </div>
                       </div>
 
-                      <p className="adjustments">
-                        Detailed analytics to measure the effectiveness of your
-                        social media campaigns. Regular reports and insights to
+                      <div className="adjustments">
+                        <p>Detailed analytics to measure the effectiveness of your
+                        social media campaigns.
+                        </p>
+                        <p>
+                         Regular reports and insights to
                         guide strategy adjustments and improvements.
-                      </p>
+                        </p>
+                      </div>
                       <p className="choose-us">Why Choose Us?</p>
                       <p className="dynamic">
                         At Fiesta, we blend Graphic design skills with advanced
@@ -157,7 +166,7 @@ const Page = () => {
                         Our team adapts to the latest trends, ensuring your
                         brand excels in the dynamic social media world.
                       </p>
-                      <p className="choose-us">Pricing</p>
+                      <p className="Pricing">Pricing</p>
                     </div>
                     <div className="plans-container">
                       <div className="plans-flex">
@@ -308,16 +317,16 @@ const Page = () => {
                       </div>
                     </div>
                     <div className="btn">
-                    <Link className="links" href="/contact/#contact">
-                    <button className="c-button c-button--gooey">
-                      Request Proposal
-                      <div className="c-button__blobs">
-                        <div></div>
-                        <div></div>
-                        <div></div>
-                      </div>
-                    </button>
-                    </Link>
+                      <Link className="links" href="/contact/#contact">
+                        <button className="c-button c-button--gooey">
+                          Request Proposal
+                          <div className="c-button__blobs">
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                          </div>
+                        </button>
+                      </Link>
                       {/* <button className="button">Request Proposal</button> */}
                     </div>
                   </div>

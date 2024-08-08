@@ -14,9 +14,9 @@ import icon2 from "../../images/icon2.png";
 import icon3 from "../../images/icon3.png";
 import arrow from "../../images/arrow.png";
 import arrowleft from "../../images/arrowleft.png";
-import mission from "../../images/mission.png";
-import vision from "../../images/vision.png";
-import values from "../../images/values.png"
+import mission from "../../images/mission.webp";
+import vision from "../../images/vision.webp";
+import values from "../../images/values.webp"
 
 const page = () => {
   return (
@@ -105,7 +105,7 @@ const page = () => {
       <section>
         <div className="main-width">
           <div className="under-1320">
-            <div className="all-padding home">
+            <div className="all-padding ">
             <div className="missision-container">
               <div className="mission-main-flex">
                 <div className="our-mission">
