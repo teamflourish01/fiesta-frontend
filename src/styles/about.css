@@ -1,5 +1,5 @@
 .main-title{
-font-size: 50px;
+font-size: 45px;
 padding: 100px 0 50px 0;
 text-align: center;
 font-family:Manrope-ExtraBold ;
@@ -7,17 +7,17 @@ font-family:Manrope-ExtraBold ;
 }
 .member{
     
-    padding: 10px 0;
+    padding: 5px 0;
 }
 .design-company{
     font-size: 18px;
-    line-height: 30px;
+    /* line-height: 30px; */
     text-align: justify;
     font-family: Manrope-Regular;
 
 }
 .members{
-    padding: 15px 0 100px 0;
+    padding: 5px 0 100px 0;
 }
 .missision-container{
     max-width: 1320px; 
@@ -38,8 +38,8 @@ font-family:Manrope-ExtraBold ;
     
 }
 .mision-flex-img{
-/* max-width: 120px; */
-max-width: 75px;
+max-width: 110px;
+/* max-width: 75px; */
 min-width: 10px;
 width: 100%;
 }
@@ -98,8 +98,8 @@ width: 100%;
     align-items: center;
   }
   .our{
-font-family:Manrope-ExtraBold ;
-font-size: 23px;
+font-family:Manrope-Bold ;
+font-size: 25px;
 line-height: 30px;
   }
   .mission-padding{
@@ -116,7 +116,7 @@ line-height: 30px;
   .client{
     text-align: justify;
     font-size: 18px;
-    line-height: 30px;
+    /* line-height: 30px; */
     font-family: Manrope-Regular;
 
   }

@@ -49,6 +49,7 @@
   max-width: 430px;
   min-width: 200px;
   width: 100%;
+  /* height: fit-content; */
   border: 1px solid #000000;
   border-radius: 20px;
 }
@@ -61,7 +62,7 @@
 }
 .s-marketing {
   font-family: Manrope-ExtraBold;
-  font-size: 50px;
+  font-size: 45px;
   /* line-height: 30px; */
 }
 .Promote {
@@ -74,13 +75,13 @@
   font-family: Manrope-Medium;
   font-size: 22px;
   line-height: 30px;
-  padding: 15px 0 5px 0;
+  padding: 7px 0 2px 0;
 }
 .products {
   font-family: Manrope-Regular;
   font-size: 18px;
-  line-height: 30px;
-  padding-bottom: 15px;
+  /* line-height: 30px; */
+  padding-bottom: 7px;
   text-align: justify;
 }
 .media-social {
@@ -88,36 +89,42 @@
   font-family: Manrope-Medium;
   font-size: 22px;
   line-height: 30px;
-  padding: 15px;
+   padding: 10px 0 10px 25px;;
 }
 .boost {
   font-family: Manrope-Regular;
   font-size: 18px;
   text-align: justify;
-  padding: 15px;
+  padding: 10px 0 10px 25px;
 }
 .strategy {
   font-family: Manrope-Regular;
   font-size: 18px;
   text-align: justify;
-  padding: 15px;
+  padding: 10px 0 10px 25px;
 }
 .adjustments {
   font-size: 18px;
   font-family: Manrope-Regular;
   line-height: 30px;
   text-align: justify;
-  padding: 15px 0 0px 0;
+  padding: 7px 0 0px 0;
 }
 .choose-us {
-  font-size: 50px;
+  font-size: 45px;
   /* line-height: 30px; */
   font-family: Manrope-ExtraBold;
-  padding: 50px 0 15px 0;
+  padding: 30px 0 7px 0;
+}
+.Pricing{
+  font-size: 45px;
+  /* line-height: 30px; */
+  font-family: Manrope-ExtraBold;
+  padding: 30px 0 5px 0;
 }
 .dynamic {
   font-size: 18px;
-  line-height: 30px;
+  /* line-height: 30px; */
   font-family: Manrope-Regular;
   text-align: justify;
   padding: 0;
