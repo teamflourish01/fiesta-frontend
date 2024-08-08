@@ -48,12 +48,12 @@ function Provide() {
                                             </div>
                                             <p className='text-provide'>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
                                             <Link href="/services" className="style-none">
-                                            <p className="learn-more">
+                                            <div className="learn-more">
                                                 Learn More
                                                 <span className="icon">
                                                     <FaArrowRightLong />
                                                 </span>
-                                            </p>
+                                            </div>
                                             </Link>
                                         </div>
                                     </div>
@@ -68,12 +68,12 @@ function Provide() {
                                                 </div>
                                                 <p className='text-provide'>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
                                                 <Link href="/logodesign" className="style-none">
-                                                <p className='learn-more'>
+                                                <div className='learn-more'>
                                                     Learn More
                                                     <span className="icon">
                                                         <FaArrowRightLong />
                                                     </span>
-                                                </p>
+                                                </div>
                                                 </Link>
                                             </div>
                                         </div>
@@ -89,12 +89,12 @@ function Provide() {
                                                 </div>
                                                 <p className='text-provide'>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
                                                 <Link href="/brochure" className="style-none">
-                                                <p className='learn-more'>
+                                                <div className='learn-more'>
                                                     Learn More
                                                     <span className="icon">
                                                         <FaArrowRightLong />
                                                     </span>
-                                                </p>
+                                                </div>
                                                 </Link>
                                             </div>
                                         </div>

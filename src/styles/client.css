@@ -1,258 +1,229 @@
 .client-text {
-    text-align: center;
-    font-family: Manrope-Regular;
-    font-size: 18px;
-    line-height: 20px;
-    padding-bottom: 27px;
+  text-align: center;
+  font-family: Manrope-Bold;
+  font-size: 25px;
+  line-height: 30px;
+  padding-bottom: 22px;
 }
 
 .logo-card-container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    /* flex-direction: row; */
-    gap: 14.6px;
-    overflow-x: scroll;
+  gap: 30.6px;
+  text-align: center;
 }
 
 .logo-card-container::-webkit-scrollbar {
-    display: none; /* For Chrome, Safari, and Opera */
-  }
+  display: none;
+}
 
 .logo-card {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: #ECF2F8;
-    max-width:319px;
-    min-width: 200px;
-    width: 100%;
-    /* height: 185px; */
-    gap: 0px;
-    border-radius: 10px;
-    border: 1px solid #fff;
-    opacity: 0px;
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+  max-width: 319px;
+  min-width: 200px;
+  width: 100%;
+  gap: 0px;
+  border-radius: 10px;
+  border: 1px solid #fff;
+  opacity: 0px;
+  margin: 0 15px;
 }
 
 .client-logo {
-    max-width:254px;
-    min-width:100px;
-    width: 100%;
-    height: 185px;
-    object-fit: contain;
+  /* max-width:254px;
+    min-width:100px; */
+  /* width: 100%;
+    height: 185px; */
+  width: 250px;
+  height: 240px;
+  object-fit: contain;
 }
 
 .services-design-graphic {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    flex-direction: column;
-    padding-top: 100px;
+  /* display: flex; */
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  padding-top: 100px;
 }
 
 .design-services {
-    display: flex;
-    /* display: grid;
-        grid-template-columns: repeat(2, 1fr); 
-    align-items: center;
-    justify-content: space-between; */
-    gap: 49px;
-    align-items: center;
+  display: flex;
+  gap: 49px;
+  align-items: center;
 }
 
 .design-img-bg {
-    /* width: 507px; */
-    max-width: 507px;
-    min-width: 200px;
-    width: 100%;
-    height: 482px;
-    border-radius: 10px;
-    background-color: #2E68BC;
-    position: relative;
+  max-width: 507px;
+  min-width: 200px;
+  width: 100%;
+  height: 482px;
+  border-radius: 10px;
+  background-color: #2e68bc;
+  position: relative;
 }
 
 .design-emoji-top {
-    max-width: 507px;
-    min-width: 200px;
-    /* width: 100%; */
-    height: auto;
-    object-fit: contain;
+  max-width: 507px;
+  min-width: 200px;
+  height: auto;
+  object-fit: contain;
 }
 .design-emoji-bottom {
-    /* max-width: 507px;
-    min-width: 200px;
-    width: 100%; */
-    height: auto;
-    /* object-fit: contain; */
+  height: auto;
 }
-.design-content{
-    max-width: 764px;
-    min-width:200px ;
-    width:100%
+.design-content {
+  max-width: 764px;
+  min-width: 200px;
+  width: 100%;
 }
 .heading-design {
-    font-family: Manrope-ExtraBold;
-    font-size: 50px;
-    line-height: 30px;
-    /* padding: 0 0 15px; */
-    /* text-align: center; */
+  font-family: Manrope-ExtraBold;
+  font-size: 45px;
+  line-height: 55px;
 }
-.heading-graphic{
-    font-family: Manrope-ExtraBold;
-    font-size: 49px;
-    line-height: 60px;
-    /* padding: 0 0 15px; */
-    /* text-align: center; */
+.heading-graphic {
+  font-family: Manrope-ExtraBold;
+  font-size: 45px;
+  line-height: 55px;
 }
 .design-title {
-    line-height: 60px;
-    text-align: left;
+  /* line-height: 60px; */
+  text-align: left;
 }
 
 .design-description {
-    padding: 15px 0;
-    font-family: Manrope-Regular;
-    font-size: 18px;
-    line-height: 30px;
-    text-align: justify;
+  padding: 15px 0 5px;
+  font-family: Manrope-Regular;
+  font-size: 18px;
+  /* line-height: 30px; */
+  text-align: justify;
 }
 
 .li-text {
-    padding-left: 20px;
+  padding-left: 20px;
 }
 
 .li-text li {
-    font-family: Manrope-SemiBold;
-    font-size: 18px;
-    line-height: 30px;
+  font-family: Manrope-SemiBold;
+  font-size: 18px;
+  line-height: 30px;
+  margin: 0 0 10px;
 }
-.graphic-services{
-    display: flex;
-    /* display: grid;
-        grid-template-columns: repeat(2, 1fr);  */
-    justify-content: space-between;
-    align-items: center;
-    gap: 49px;
-    padding-top: 100px;
-    /* justify-items: end; */
+.graphic-services {
+  display: flex;
+
+  justify-content: space-between;
+  align-items: center;
+  gap: 49px;
+  padding-top: 100px;
 }
-/* .size{
-    max-width: 764px;
-    min-width: 200px;
-    width: 57.8%;
-} */
 
 .graphic-img-bg {
-    width: 507px;
-    /* max-width: 507px;
-    min-width: 200px;
-    width: 100%; */
-    height: 482px;
-    border-radius: 10px;
-    background-color: #464177;
-    position: relative;
+  width: 507px;
+
+  height: 482px;
+  border-radius: 10px;
+  background-color: #464177;
+  position: relative;
 }
 
 .graphic-emoji {
-    position: absolute;
-    top: 44%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    display: flex;
-    justify-content: center;
+  position: absolute;
+  top: 44%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.design-img-container {
+  max-width: 507px;
+  min-width: 200px;
+  width: 100%;
+}
+
+.logo-height {
+  width: 100% !important;
+  height: auto;
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+}
+
+.client-logo-utpal {
+  width: 250px;
+  height: 240px;
+}
+.space {
+  padding: 0 0 5px;
+}
+@media (max-width: 1024px) {
+  .logo-card-container {
+    gap: 14.6px;
+
     align-items: center;
+  }
+
+  .design-services {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    align-items: center;
+    justify-items: center;
+    gap: 49px;
+  }
+  .graphic-services {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    justify-items: center;
+    align-items: center;
+    gap: 30px;
+    padding-top: 50px;
+  }
+  .design-content {
+    order: 1;
+    max-width: unset;
+    min-width: unset;
+  }
+  .img-one {
+    order: 2;
+  }
+  .services-design-graphic {
+    padding-top: 50px;
+  }
+  .design-emoji {
+    height: 539px;
+  }
+  .heading-design {
+    font-size: 30px;
+    line-height: 40px;
+    text-align: justify;
+  }
+  .design-services {
+    gap: 30px;
+  }
+  .heading-graphic {
+    font-size: 30px;
+    line-height: 40px;
+    text-align: justify;
+  }
+  .design-title {
+    line-height: unset;
+    text-align: left;
+  }
 }
 
-.design-img-container{
-    max-width: 507px;
-    min-width: 200px;
+@media (max-width: 768px) {
+}
+
+@media (max-width: 530px) {
+  .design-emoji-top {
+    height: auto;
     width: 100%;
+  }
+  .design-emoji-bottom {
+    width: 100%;
+  }
 }
-  @media (max-width:1024px){
-    .logo-card-container {
-        display: flex;
-        justify-content: left;
-        /* flex-direction: row; */
-        gap: 14.6px;
-        overflow-x: scroll;
-        text-align: left;
-        align-items: left;
-    }
-    
-    
-    .design-services {
-        /* display: flex; */
-        display: grid;
-            grid-template-columns: repeat(1, 1fr); 
-        align-items: center;
-        justify-items: center;
-        gap: 49px;
-    }
-    .graphic-services{
-        /* display: flex; */
-        display: grid;
-            grid-template-columns: repeat(1, 1fr); 
-            justify-items: center;
-        /* justify-content: space-between; */
-        align-items: center;
-        gap: 30px;
-        padding-top: 50px;
-    }
-    .design-content{
-        order: 1;
-        max-width: unset;
-        min-width: unset;
-    }
-    .img-one{
-        order: 2;
-    }
-    .services-design-graphic {
-        padding-top: 50px;
-    }
-    .design-emoji {
-        /* max-width: unset;
-        min-width: unset;
-        */
-        height: 539px;
-        /* width: unset; */
-    }
-    .heading-design {
-        font-size: 30px;
-        line-height: 40px;
-        text-align: justify;
-    }
-    .design-services {
-        gap: 30px;
-    }
-    .heading-graphic {
-        font-size: 30px;
-        line-height: 40px;
-        text-align: justify;
-    }
-    .design-title {
-        line-height: unset;
-        text-align: left;
-    }
-  }
-
-  @media (max-width:768px){
-    
-  }
-
-
-
-
-
-
-
-
-
-  @media (max-width:530px){
-    .design-emoji-top {
-        height: auto;
-        width: 100%;
-    }
-    .design-emoji-bottom {
-        width: 100%;
-    }
-  }
