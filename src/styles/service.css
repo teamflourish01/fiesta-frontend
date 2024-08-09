@@ -1,6 +1,9 @@
 .banner {
   padding: 10px 0;
 }
+.side-padding{
+  padding: 0 0 0 25px;
+}
 .box-p{
   padding-top: 7px;
 }
@@ -74,20 +77,21 @@
 .Promote {
   font-family: Manrope-Bold;
   font-size: 25px;
-  line-height: 30px;
+  /* line-height: 30px; */
   padding: 15px 0 0 0;
 }
 .media-marketing {
-  font-family: Manrope-Medium;
+  font-family: Manrope-SemiBold;
+
   font-size: 22px;
-  line-height: 30px;
+  /* line-height: 30px; */
   padding: 7px 0 2px 0;
 }
 .products {
   font-family: Manrope-Regular;
   font-size: 18px;
   /* line-height: 30px; */
-  /* padding-bottom: 7px; */
+  padding-top: 2px;
   text-align: justify;
 }
 .media-social {
@@ -112,7 +116,7 @@
 .adjustments {
   font-size: 18px;
   font-family: Manrope-Regular;
-  line-height: 30px;
+  /* line-height: 30px; */
   text-align: justify;
   padding: 7px 0 0px 0;
 }
@@ -120,7 +124,7 @@
   font-size: 45px;
   /* line-height: 30px; */
   font-family: Manrope-ExtraBold;
-  padding: 30px 0 5px 0;
+  padding: 30px 0 7px 0;
 }
 .Pricing{
   font-size: 45px;
@@ -248,6 +252,9 @@
 .btn-req{
   padding: 30px 10px 0 10px;
 }
+.pro-padding{
+  padding-top: 2px;
+}
 /* responsive social marketing */
 /* @media (min-width: 768px) and (max-width: 1024px) 
    @media screen and (max-width: 1024px) */
@@ -255,7 +262,10 @@
 @media screen and (max-width: 1024px) {
   .service-flex {
     flex-direction: column;
-    gap: 20px;
+    gap: 50px;
+  }
+  .Pricing{
+    text-align: center;
   }
   .responsive{
     display: unset;
@@ -306,7 +316,7 @@
 
   .social-div {
     /* display: flex; */
-    text-align: center;
+    text-align: left;
     font-size: 18px;
     padding: 0px 0px 5px 0;
   }
@@ -327,7 +337,8 @@
   .s-marketing {
     font-size: 30px;
     text-align: justify;
-    padding: 50px 0px 30px;
+   padding-bottom: 15px;
+    text-align: center;
     /* line-height: 30px; */
   }
 
@@ -346,11 +357,12 @@
     padding: 0;
   }
   .products-copy {
-    padding: 0 0 15px 0;
+    /* padding: 0 0 15px 0; */
   }
   .choose-us {
     font-size: 30px;
-    padding: 50px 0 30px 0;
+    padding: 30px 0 7px 0;
+
     text-align: center;
   }
   .media-social {
@@ -394,7 +406,7 @@
 @media screen and (max-width: 767px) {
   .service-flex {
     flex-direction: column;
-    gap: 15px;
+    gap: 0px;
   }
 
   .services {
@@ -435,8 +447,8 @@
 
   .s-marketing {
     font-size: 20px;
-    text-align: justify;
-    padding: 50px 0px 20px;
+    text-align: left;
+    padding: 50px 0px 15px;
   }
 
   /* .Promote,
@@ -453,19 +465,19 @@
 
   .Promote {
     font-size: 18px;
-    text-align: justify;
+    text-align: left;
   }
 
   .media-marketing {
     font-size: 16px;
     text-align: justify;
-    padding: 10px 0 5px 0;
+    padding: 7px 0 2px 0;
   }
 
   .products {
     font-size: 16px;
     text-align: justify;
-    padding: 0px 0px 10px 0px;
+    padding: 0;
   }
   .boost {
     font-size: 16px;
@@ -473,11 +485,11 @@
   }
   .adjustments {
     font-size: 16px;
-    padding: 10px 0px 0px;
+    padding: 7px 0px 0px;
   }
   .choose-us {
     font-size: 20px;
-    padding: 50px 0px 20px 0px;
+    padding: 30px 0px 7px 0px;
   }
   .dynamic {
     font-size: 16px;
