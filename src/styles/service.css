@@ -1,13 +1,19 @@
 .banner {
   padding: 10px 0;
 }
+.box-p{
+  padding-top: 7px;
+}
+.responsive{
+  display: none;
+}
 .service-flex {
   display: flex;
   justify-content: space-between;
   gap: 60px;
 }
 .services {
-  max-width: 319px;
+  max-width: 257px;
   min-width: 200px;
   width: 100%;
   border: 1px solid black;
@@ -17,7 +23,7 @@
   top: 84px;
 }
 .social-media {
-  max-width: 941px;
+  max-width: 970px;
   min-width: 200px;
   width: 100%;
   /* height: 835px; */
@@ -81,7 +87,7 @@
   font-family: Manrope-Regular;
   font-size: 18px;
   /* line-height: 30px; */
-  padding-bottom: 7px;
+  /* padding-bottom: 7px; */
   text-align: justify;
 }
 .media-social {
@@ -114,7 +120,7 @@
   font-size: 45px;
   /* line-height: 30px; */
   font-family: Manrope-ExtraBold;
-  padding: 30px 0 7px 0;
+  padding: 30px 0 5px 0;
 }
 .Pricing{
   font-size: 45px;
@@ -130,14 +136,14 @@
   padding: 0;
 }
 .plans-container {
-  max-width: 941px;
+  max-width: 970px;
   min-width: 200px;
   width: 100%;
 }
 .basic-plans {
-  /* max-width: 950px; */
-  /* min-width: 230px; */
-  width: 20vw;
+  max-width: 950px;
+  min-width: 230px;
+  width: 100%;
   border: 1px solid #000000;
   font-family: Manrope-Bold;
   font-size: 25px;
@@ -147,10 +153,11 @@
   display: flex;
   flex-direction: column;
 }
+
 .standard-plans {
-  /* max-width: 950px; */
-  /* min-width: 230px; */
-  width: 20vw;
+  max-width: 950px;
+  min-width: 230px;
+  width: 100%;
   border: 1px solid #000000;
   font-family: Manrope-Bold;
   font-size: 25px;
@@ -161,9 +168,9 @@
   flex-direction: column;
 }
 .premium-plan {
-  /* max-width: 950px; */
-  /* min-width: 230px; */
-  width: 20vw;
+  max-width: 950px;
+  min-width: 230px;
+  width: 100%;
   border: 1px solid #000000;
   font-family: Manrope-Bold;
   font-size: 25px;
@@ -180,6 +187,7 @@
   /* justify-content: space-between; */
   gap: 13px;
   overflow-x: scroll;
+  justify-items: center;
 }
 .plans-flex::-webkit-scrollbar {
   display: none; /* For Chrome, Safari, and Opera */
@@ -194,7 +202,7 @@
 }
 .image-post {
   text-align: center;
-  padding: 10px 0;
+  padding: 10px ;
   font-size: 18px;
   font-family: Manrope-Regular;
   line-height: 30px;
@@ -209,7 +217,7 @@
   text-align: center;
   font-family: Manrope-ExtraBold;
   font-size: 25px;
-  padding: 7px 0;
+  padding: 10px;
 }
 .month {
   text-align: center;
@@ -224,7 +232,22 @@
   text-decoration: none;
   color: black;
 }
+.req{
+  width: 100%;
+  background-color: #000000;
+  color: white;
+  padding: 12px 0;
+  border-radius: 10px ;
+  
+  cursor: pointer;
+  font-size: 18px;
+  font-family: Manrope-SemiBold;
 
+
+}
+.btn-req{
+  padding: 30px 10px 0 10px;
+}
 /* responsive social marketing */
 /* @media (min-width: 768px) and (max-width: 1024px) 
    @media screen and (max-width: 1024px) */
@@ -234,9 +257,37 @@
     flex-direction: column;
     gap: 20px;
   }
+  .responsive{
+    display: unset;
+    display: unset;
+    position: sticky;
+    /* top: 0; */
+    top: 75px;
+    border-radius: 10px;
+  }
   .service-top-padding {
     padding: 50px 0px 0px 0px;
   }
+  .arrow{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 25px;
+  }
+  .servicess {
+    max-width: 100%;
+    height: auto;
+    position: -webkit-sticky;
+    position: sticky;
+    z-index: 0;
+    margin: 0 auto;
+    background: #FDEDE7;
+    top: 84px;
+    border: 1px solid black;
+    border-radius: 20px;
+  }
+
+
   .services {
     max-width: 100%;
     height: auto;
@@ -245,6 +296,7 @@
     margin: 0 auto;
     background: #f4efef;
     top: 84px;
+    display: none;
   }
 
   .social-media {
@@ -253,8 +305,8 @@
   }
 
   .social-div {
-    display: flex;
-    justify-content: space-around;
+    /* display: flex; */
+    text-align: center;
     font-size: 18px;
     padding: 12px 0px 5px 0;
   }
@@ -320,7 +372,7 @@
   }
 
   .price-container {
-    padding: 10px 0;
+    /* padding: 10px 0; */
   }
   .price {
     font-size: 25px;
@@ -446,6 +498,7 @@
   .standard-plans,
   .premium-plan {
     width: 85vw;
+    /* width: 22vw; */
     font-size: 18px;
   }
   .image-post {
@@ -455,7 +508,7 @@
     font-size: 18px;
   }
   .price-container {
-    padding: 8px 0;
+    /* padding: 8px 0; */
   }
 
   .month {
@@ -523,7 +576,7 @@
 
 .price {
   text-align: center;
-  margin-top: 20px;
+  /* margin-top: 20px; */
   font-size: 24px;
   font-weight: bold;
 }
@@ -539,3 +592,18 @@
 .premium {
   background-color: #fffacd;
 }
+.border-b{
+
+  border: 1px solid black ;
+  
+  width: 100%;
+}
+.service-dev{
+  display: flex;
+  justify-content: space-between;
+}
+.cursor-pointer{
+  cursor: pointer;
+}
+
+

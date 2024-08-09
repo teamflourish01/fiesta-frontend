@@ -545,17 +545,14 @@ const page = () => {
                       </div>
                     </div>
 
-                    <div className="btn">
-                    <Link className="links" href="/contact/#contact">
-                    <button className="c-button c-button--gooey">
-                      Request Proposal
-                      <div className="c-button__blobs">
-                        <div></div>
-                        <div></div>
-                        <div></div>
-                      </div>
-                    </button>
-                    </Link>
+                    <div className="btn-req">
+                      <Link className="links" href="/contact/#contact">
+                        <button className="req">
+                     REQUEST PROPOSAL
+
+              
+                        </button>
+                      </Link>
                       {/* <button className="button">Request Proposal</button> */}
                     </div>
                   </div>

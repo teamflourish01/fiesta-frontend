@@ -18,16 +18,16 @@
 .logi-idia {
   font-size: 18px;
   font-family: Manrope-Regular;
-  line-height: 30px;
+  line-height: 20px;
   text-align: center;
-  padding: 10px 0;
+  padding: 10px;
 }
 .logo-Duration {
   height: 80px;
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 0 21px;
+  /* padding: 0 21px; */
 }
 .Design-Duration {
   height: 50px;
@@ -43,7 +43,7 @@
 }
 .notion-circle {
   text-align: center;
-  padding: 39px 0;
+  padding: 2px 0;
 }
 .mobilelogo {
   display: none;
