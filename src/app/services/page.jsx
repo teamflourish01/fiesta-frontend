@@ -67,12 +67,6 @@ const Page = () => {
           <hr />
         </div>
       </section>
-      <section>
-        <div className="main-width">
-          <div className="under-1320">
-              <div className="service-top-padding">
-            <div className="all-padding">
-                <div className="service-flex">
                 <div className="responsive">
                   <div className="servicess">
                     <div className="arrow">
@@ -132,6 +126,12 @@ const Page = () => {
                       )}
                       </div>
                   </div>
+      <section>
+        <div className="main-width">
+          <div className="under-1320">
+              <div className="service-top-padding">
+            <div className="all-padding">
+                <div className="service-flex">
 
 
                   <div className="services">

@@ -39,6 +39,7 @@ const page = () => {
                     We are Specialized Logo Design Services Provider
                   </p>
                   <div className="care">
+                  
                     <li>Best logo providers in Ahmedabad</li>
                     <li className="banner">Best industry experts</li>
                   </div>
@@ -66,13 +67,7 @@ const page = () => {
         </div>
           </div>
       </section>
-      <section>
-        <div className="main-width">
-          <div className="under-1320">
-                  <div className="all-padding">
-              <div className="service-top-padding">
-                <div className="service-flex">
-                <div className="responsive">
+      <div className="responsive">
                   <div className="servicess">
                     <div className="arrow">
                       <p className="our-services">Our Services</p>
@@ -131,6 +126,13 @@ const page = () => {
                       )}
                       </div>
                   </div>
+      <section>
+        <div className="main-width">
+          <div className="under-1320">
+                  <div className="all-padding">
+              <div className="service-top-padding">
+                <div className="service-flex">
+                
 
 
                   <div className="services">
