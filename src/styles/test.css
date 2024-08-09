@@ -37,12 +37,12 @@
 }
 
 .provider-card:hover {
-  /* --border-angle: 60.38deg;
+  --border-angle: 60.38deg;
   background: 
   linear-gradient(white, white) padding-box,
-  linear-gradient(var(--border-angle), #FFFFFF 7.8%, #000000 26.29%, #000000 73.69%, #FFFFFF 93.13%) border-box; */
+  linear-gradient(var(--border-angle), #FFFFFF 7.8%, #000000 26.29%, #000000 73.69%, #FFFFFF 93.13%) border-box;
 
-  animation: border-spin 5s ease-in;
+  /* animation: border-spin 5s ease-in; */
 }
 
 @keyframes border-spin {

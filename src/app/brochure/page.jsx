@@ -30,14 +30,14 @@ const page = () => {
           <div className="under-1320">
             <div className="all-padding home">
               <div className="destination-container">
-                <div className="destination-flex">
-                  <div className="destination-right">
-                    <p className="Graphic">
+                <div className="destination-flex-about">
+                  <div className="destination-right-about">
+                    <p className="Graphic-about">
                       We are Specialized Brochure Design Services Provider
                     </p>
-                    <div className="care">
+                    <div className="care-about">
                       <li>Best Brochure providers in Ahmedabad</li>
-                      <li className="banner">
+                      <li className="banner-about">
                         Banner with sample of brochure images
                       </li>
                     </div>

@@ -151,3 +151,20 @@
         line-height: initial;
     }
 } 
+
+@media screen and (max-width: 768px) {
+  .Graphic-about {
+    padding: 30px 0 0;
+    font-size: 20px;
+    line-height: 27px;
+  }
+  .care-about {
+    font-size: 16px;
+    line-height: 20px;
+    padding: 10px 0 20px 0;
+    
+  }
+  .destination-flex-service {
+    gap: 30px;
+  }
+}
