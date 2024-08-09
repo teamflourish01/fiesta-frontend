@@ -5,7 +5,8 @@ import ajay from "../../images/ajay.png";
 import "../../styles/service.css";
 import "../../styles/brochure.css";
 import drop from "../../images/drop.png";
-
+import aboutimg from "../../images/aboutbanner.png";
+import brimg from "../../images/brimg.png"
 import closeImage from "../../images/closeImage.png";
 import Image from "next/image";
 import Link from "next/link";
@@ -42,7 +43,7 @@ const page = () => {
                     </div>
                   </div>
                   <div className="destination-left">
-                    <Image src={ajay} alt="" className="main-image" />
+                    <Image src={brimg} alt="" className="main-image" />
                     <div className="round-img"></div>
                     <div className="top-round"></div>
                     <div className="s-round"></div>
@@ -64,6 +65,48 @@ const page = () => {
           <hr />
         </div>
       </section>
+
+
+      {/* <section>
+        <div className="main-width">
+          <div className="under-1320">
+            <div className="all-padding home">
+            <div className="destination-container">
+              <div className="destination-flex-about">
+                <div className="destination-right-about">
+                  <p className="Graphic-about">
+                  We are Specialized Graphic Design Services Provider
+                  </p>
+                  <div className="care-about">
+                    <li>Best Graphics providers in Ahmedabad</li>
+                    <li className="service-padding-about">All services are at one place</li>
+                    <li>Best industry experts</li>
+                  </div>
+                 
+                </div>
+                <div className="destination-left">
+                  <Image src={brimg} alt="aboutimg" className="main-image" />
+                  <div className="round-img"></div>
+                  <div className="top-round"></div>
+                  <div className="s-round"></div>
+                  <Image
+                    src={closeImage}
+                    alt="closeimage1"
+                    className="corner-image top-right rotating"
+                  />
+                  <Image
+                    src={closeImage}
+                    alt="closeimage"
+                    className="corner-image bottom-left rotating"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          </div>
+            <hr />
+        </div>
+      </section> */}
       <section>
         <div className="main-width">
           <div className="under-1320">
@@ -127,6 +170,7 @@ const page = () => {
                       )}
                     </div>
                   </div>
+
                   <div className="services">
                     <p className="our-services">Our Services</p>
                     <hr />

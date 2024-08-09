@@ -70,15 +70,15 @@ const Page = () => {
       <section>
         <div className="main-width">
           <div className="under-1320">
-            <div className="all-padding">
               <div className="service-top-padding">
+            <div className="all-padding">
                 <div className="service-flex">
                 <div className="responsive">
                   <div className="servicess">
                     <div className="arrow">
                       <p className="our-services">Our Services</p>
                       <Image  onClick={toggleDropdown} src={drop} className="cursor-pointer"/>
-                      {/* <p onClick={toggleDropdown} className="cursor-pointer">V</p> */}
+                      
                       </div>
                       {isOpen && (
                       <div className="social-div">
