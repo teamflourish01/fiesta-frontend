@@ -186,11 +186,28 @@ right: unset !important;
     .team {
       font-size: 16px;
       text-align: justify;
-      line-height: 25px;
+      line-height: 21px;
       /* height: 175px; */
     }
     .cross{
       display: none;
+    }
+    .service {
+      font-size: 20px;
+      line-height: unset;
+      text-align: left;
+    }
+    .tranformed-text{
+      padding: unset;
+    }
+    .name{
+      font-size: 18px;
+    }
+    .position{
+      font-size: 16px;
+    }
+    .name-padding{
+      padding: unset;
     }
   }
 

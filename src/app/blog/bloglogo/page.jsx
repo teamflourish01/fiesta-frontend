@@ -50,7 +50,7 @@ function page() {
               <div className="brochure-bottom-content">
                 <div className="brochure-points">
                   <div className="brochure-point">
-                    <div className="brochure-point-title">
+                    <div className="brochure-social-title">
                       The Power of First Impressions
                     </div>
                     <div className="brochure-point-desc">
@@ -74,7 +74,7 @@ function page() {
                     </div>
                   </div>
                   <div className="brochure-point">
-                    <div className="brochure-point-title">
+                    <div className="brochure-social-title">
                       Building Brand Recognition
                     </div>
                     <div className="brochure-point-desc">
@@ -99,7 +99,7 @@ function page() {
                     </div>
                   </div>
                   <div className="brochure-point">
-                    <div className="brochure-point-title">
+                    <div className="brochure-social-title">
                       Communicating Brand Values and Personality
                     </div>
                     <div className="brochure-point-desc">
@@ -122,7 +122,7 @@ function page() {
                     </div>
                   </div>
                   <div className="brochure-point">
-                    <div className="brochure-point-title">
+                    <div className="brochure-social-title">
                       Differentiation in a Crowded Market
                     </div>
                     <div className="brochure-point-desc">
@@ -144,7 +144,7 @@ function page() {
                     </div>
                   </div>
                   <div className="brochure-point">
-                    <div className="brochure-point-title">
+                    <div className="brochure-social-title">
                       Fostering Brand Loyalty
                     </div>
                     <div className="brochure-point-desc">
@@ -168,7 +168,7 @@ function page() {
                     </div>
                   </div>
                   <div className="brochure-point">
-                    <div className="brochure-point-title">
+                    <div className="brochure-social-title">
                       Adaptability for Long-Term Success
                     </div>
                     <div className="brochure-point-desc">
@@ -189,7 +189,7 @@ function page() {
                     </div>
                   </div>
                   <div className="brochure-point">
-                    <div className="brochure-point-title">
+                    <div className="brochure-social-title">
                       The Investment in Professional Design
                     </div>
                     <div className="brochure-point-desc">
@@ -211,7 +211,7 @@ function page() {
                     </div>
                   </div>
                   <div className="brochure-point">
-                    <div className="brochure-point-title">Conclusion</div>
+                    <div className="brochure-social-title">Conclusion</div>
                     <div className="brochure-point-desc">
                       {/* <p> */}
                       <p className="br-space">

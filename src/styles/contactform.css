@@ -213,4 +213,10 @@ textarea::placeholder {
 .input-dropdown {
   padding: 6px 0 6px 8px;
 }
+.input{
+  font-size: 16px;
+}
+.contact-container{
+  padding-bottom: unset;
+}
 }

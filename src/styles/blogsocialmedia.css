@@ -182,6 +182,8 @@
     .img-ul-content {
         flex-wrap: wrap;
         justify-content: center;
+        gap: 7px;
+        padding: 7px 0 7px;
     }
     .points {
         max-width: unset;
@@ -197,6 +199,18 @@
         font-size: 30px;
         line-height: unset;
     }
+    .date-social {
+      padding-top: 50px;
+    }
+    .socal-img-top {
+      padding: 15px 0 30px;
+    }
+    .conclusion-title {
+      font-family: Manrope-Bold;
+      font-size: 25px;
+      line-height: 30px;
+      padding: 10px 0 2px 0;
+  }
 }
 
 @media(max-width:767px){
