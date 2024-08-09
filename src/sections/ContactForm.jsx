@@ -47,7 +47,7 @@ function ContactForm() {
       <section>
         <div className="main-width">
           <div className="under-1320">
-            <div className="all-padding home">
+            <div className="all-padding">
             <div className="contact-container" id="contact">
               <div className="heading">
                 <p className='title ' >Contact Us</p>

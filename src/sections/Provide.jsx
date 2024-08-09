@@ -38,15 +38,15 @@ function Provide() {
                             <div className="heading">
                                 <p className='title'>What We Provide</p>
                             </div>
-                            <div className="provide-card-container">
-                                <div className="provider-card btn-style700" data-aos="fade-up" data-aos-duration="1000">
+                            <div className="provide-card-container ">
+                                <div className="provider-card btn-style700 " data-aos="fade-up" data-aos-duration="1000">
                                     <div className="radius">
                                         <Image className="provider-icons" src={SocialMediaImg} alt="Social Media Post" />
                                         <div className="provider-card-desc">
                                             <div className="card-title">
                                                 Social Media Post
                                             </div>
-                                            <p className='text-provide'>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                                            <p className='text-provide'>Boost your brand's presence with social media expertise.</p>
                                             <Link href="/services" className="style-none">
                                             <div className="learn-more">
                                                 Learn More
@@ -66,7 +66,7 @@ function Provide() {
                                                 <div className="card-title">
                                                     Logo Design
                                                 </div>
-                                                <p className='text-provide'>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                                                <p className='text-provide'>Design a unique logo that defines your brand.</p>
                                                 <Link href="/logodesign" className="style-none">
                                                 <div className='learn-more'>
                                                     Learn More
@@ -87,7 +87,7 @@ function Provide() {
                                                 <div className="card-title">
                                                     Brochure Design
                                                 </div>
-                                                <p className='text-provide'>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                                                <p className='text-provide'>Create professional brochures that captivate your audience.</p>
                                                 <Link href="/brochure" className="style-none">
                                                 <div className='learn-more'>
                                                     Learn More

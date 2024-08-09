@@ -179,7 +179,7 @@
     grid-template-columns: repeat(1, 1fr);
     justify-items: center;
     align-items: center;
-    gap: 30px;
+    gap: 25px;
     padding-top: 50px;
   }
   .design-content {
@@ -207,15 +207,26 @@
   .heading-graphic {
     font-size: 30px;
     line-height: 40px;
-    text-align: justify;
+    text-align: left;
   }
   .design-title {
     line-height: unset;
     text-align: left;
   }
+  .client-text {
+    padding-bottom: 22px;
+    font-size: 22px;
+    text-align: left;
+  }
+  .li-text li {
+    line-height: 20px;
+  }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
+  .client-text {
+    padding-bottom: 20px;
+  }
 }
 
 @media (max-width: 530px) {
