@@ -6,6 +6,7 @@ import "../../styles/homesection.css"
 
 import service from "../../images/contactemoji.png";
 import closeImage from "../../images/closeImage.png";
+import '../../styles/contact.css';
 
 
 function page() {
@@ -16,19 +17,11 @@ function page() {
           <div className="under-1320">
             <div className="all-padding home">
             <div className="destination-container">
-              <div className="destination-flex">
+              <div className="destination-flex-contact">
                 <div className="destination-right">
                   <p className="Graphic">
                   Contact Us
                   </p>
-                  {/* <div className="care">
-                    <li>
-                      Best Social Media Marketing service providers in Ahmedabad
-                    </li>
-                    <li className="banner">
-                      banner with sample of Social Media Graphical images
-                    </li>
-                  </div> */}
                 </div>
                 <div className="destination-left">
                   <Image src={service} alt="" className="main-image" />

@@ -671,11 +671,12 @@
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         gap: 47px;
-        row-gap: 25px;
+        row-gap: 20px;
         padding-bottom: 50px;
     }
     .hire-us-text {
         font-size: 22px;
+        padding: 8px 0 7px;
     }
 }
 
@@ -732,20 +733,29 @@
     }
     .hire-us-text {
         font-size: 18px;
-        line-height: 30px;
+        line-height: unset;
+        padding:12px 0 12px 10px;
+        text-align: left;
     }
     .hire-us-desc {
         font-size: 16px;
-        line-height: 25px;
-        padding: 15px 10px;
+        line-height: unset;
+        padding: 10px;
     }
     .brand {
-        width: 1500px;
+        /* width: 1500px; */
         height: unset;
     }
     .brand-button {
         max-width: 788px;
         min-width: 200px;
         width: 100%;
+    }
+    .text {
+        padding: 11px 0 11px 45px;
+        font-size: 16px;
+    }
+    .benefit-tables {
+        gap: 15px;
     }
 }

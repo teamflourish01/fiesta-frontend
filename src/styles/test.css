@@ -1,8 +1,7 @@
-
 .provide-card-container {
   display: grid;
-      grid-template-columns: repeat(3, 1fr); 
-      justify-items: center;
+  grid-template-columns: repeat(3, 1fr);
+  justify-items: center;
   align-items: center;
   gap: 60px;
 }
@@ -18,14 +17,20 @@
   color: black;
   /* padding: 15px; */
   padding: 35px 32px;
-  
+
   --border-angle: 117.38deg;
   border: solid 1.5px transparent;
   border-radius: 30px;
 
-  background: 
-    linear-gradient(white, white) padding-box,
-    linear-gradient(var(--border-angle), #FFFFFF 7.8%, #000000 26.29%, #000000 73.69%, #FFFFFF 93.13%) border-box;
+  background: linear-gradient(white, white) padding-box,
+    linear-gradient(
+        var(--border-angle),
+        #ffffff 7.8%,
+        #000000 26.29%,
+        #000000 73.69%,
+        #ffffff 93.13%
+      )
+      border-box;
 
   position: relative;
   transition: background 5s linear infinite;
@@ -71,7 +76,8 @@
   font-size: 18px;
   line-height: 26px;
   padding: 10px 0 25px;
-  text-align: justify;
+  color: #6e6e6e;
+  /* text-align: justify; */
 }
 
 .learn-more {
@@ -90,29 +96,42 @@
   display: flex;
   align-items: center;
 }
-.radius{
+.radius {
   height: 221px;
 }
 
-
-@media  (max-width:1024px){
+@media (max-width: 1024px) {
   .provide-card-container {
     display: grid;
-    grid-template-columns: repeat(2, 1fr); 
+    grid-template-columns: repeat(2, 1fr);
     grid-gap: 38px;
-}
-.card-title {
-  font-size: 22px;
-}
-.client-text {
-  padding-bottom: 20px;
-}
+  }
+  .card-title {
+    font-size: 22px;
+  }
 
+  .text-provide {
+    line-height: unset;
+  }
 }
 @media (max-width: 768px) {
   .provide-card-container {
-      display: grid;
-      grid-template-columns: repeat(1, 1fr);
-      grid-gap: 20px;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 20px;
+  }
+  .card-title {
+    font-size: 18px;
+    line-height: unset;
+  }
+  .provider-card {
+    padding: 38px 23px 38px 32px;
+  }
+  .text-provide {
+    line-height: unset;
+    font-size: 16px;
+  }
+  .learn-more {
+    font-size: 16px;
   }
 }
