@@ -221,8 +221,11 @@
 }
 @media (max-width: 767px) {
   .blog-all-padding {
-    padding: 0 10px;
+    padding: unset;
   }
+  .destination-flex-blog {
+    gap: 197px;
+}
   /* .blog-card-container {
           flex-wrap: wrap ;
       } */
@@ -241,4 +244,19 @@
   .all-padding {
     padding: 0 10px;
   }
+  .home {
+    padding-bottom: 30px;
+}
+.heading {
+  font-size: 20px;
+  padding: 50px 0 30px;
+}
+.date{
+  font-size: 16px;
+}
+.blog-card-title {
+  font-size: 16px;
+  text-align: left;
+  line-height: unset;
+}
 }

@@ -123,35 +123,58 @@
 }
 }
 @media (max-width: 767px) {
+  .date-brochure {
+    padding: 30px 0 15px;
+}
   .blog-brochure-title {
     font-size: 20px;
-    line-height: 30px;
-    text-align: justify;
+    line-height: unset;
+    text-align: left;
   }
   .brochure-img-top {
     padding: unset;
   }
   .img-banner-brochure {
-    padding: 0 0 20px;
+    padding: 0 0 30px;
   }
   .top-brochure-desc {
     font-size: 16px;
-    line-height: 25px;
+    line-height: unset;
   }
   .brochure-point-desc {
     font-size: 16px;
-    line-height: 25px;
+    line-height: unset;
   }
   .brochure-point-title {
     font-family: Manrope-Bold;
     font-size: 18px;
-    line-height: 30px;
+    line-height: unset;
     padding: 10px 0 5px;
   }
   .brochure-point-title {
     font-size: 18px;
   }
   .blog-brochure-container {
-    padding: 0 10px;
+    padding: unset;
+  }
+  .element-desc {
+    font-size: 16px;
+    line-height: unset;
+  }
+  .critical-title {
+    font-size: 16px;
+    line-height: unset;
+  }
+  .critical-desc {
+    font-size: 16px;
+    line-height: unset;
+  }
+  .brochure-point-title-conclusion {
+    font-size: 18px;
+    line-height: unset;
+  }
+  .brochure-social-title {
+    font-size: 18px;
+    line-height: unset;
   }
 }
