@@ -125,7 +125,8 @@ textarea::placeholder {
   border-radius: 10px;
   outline: none;
   /* padding: 10px; */
-  padding: 6px 0 6px 14px;
+  /* padding: 6px 0 6px 14px; */
+  padding: 9px 0 10px 12px;
   font-family: Manrope-Regular;
   font-size: 18px;
   line-height: 24.59px;
@@ -182,9 +183,7 @@ textarea::placeholder {
     font-size: 20px;
     /* line-height: 30px; */
   }
-  .client-text {
-    padding-bottom: 20px;
-  }
+ 
   .design-description {
     font-size: 16px;
     line-height: 25px;

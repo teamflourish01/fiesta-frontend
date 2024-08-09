@@ -74,7 +74,7 @@ function Page() {
                         </p>
                       </div>
                       <div className="read-more-container">
-                        <Link href="blog/blogsocialmedia" className="read-more">
+                        <Link href="blog/blogsocialmedia" className="read-more color">
                           Read More ➔
                         </Link>
                       </div>
@@ -100,7 +100,7 @@ function Page() {
                         </p>
                       </div>
                       <div className="read-more-container">
-                        <Link href="blog/bloglogo" className="read-more">
+                        <Link href="blog/bloglogo" className="read-more color-two">
                           Read More ➔
                         </Link>
                       </div>
@@ -127,7 +127,7 @@ function Page() {
                         </p>
                       </div>
                       <div className="read-more-container">
-                        <Link href="blog/blogbrochure" className="read-more">
+                        <Link href="blog/blogbrochure" className="read-more color-three">
                           Read More ➔
                         </Link>
                       </div>

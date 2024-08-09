@@ -671,11 +671,12 @@
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         gap: 47px;
-        row-gap: 25px;
+        row-gap: 20px;
         padding-bottom: 50px;
     }
     .hire-us-text {
         font-size: 22px;
+        padding: 8px 0 7px;
     }
 }
 

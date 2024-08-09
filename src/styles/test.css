@@ -71,7 +71,7 @@
   font-size: 18px;
   line-height: 26px;
   padding: 10px 0 25px;
-  text-align: justify;
+  /* text-align: justify; */
 }
 
 .learn-more {
@@ -104,10 +104,11 @@
 .card-title {
   font-size: 22px;
 }
-.client-text {
-  padding-bottom: 20px;
-}
 
+
+.text-provide {
+  line-height: unset;
+}
 }
 @media (max-width: 768px) {
   .provide-card-container {

@@ -163,6 +163,7 @@
   width: 100%;
   border-radius: 10px;
   height: 503px;
+  object-fit: cover;
 }
 .points {
   /* max-width: 676px;
