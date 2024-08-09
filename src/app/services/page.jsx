@@ -10,10 +10,7 @@ import "../../styles/about.css";
 import Link from "next/link";
 // import round from "../images/round.png";
 // import sround from "../images/sround.png";
-import Homesection from "@/component/Homesection";
-import abbg from "../../images/abbg.png";
-import service from "../../images/service.png";
-import serviceb from "../../images/serviceb.png";
+import serviceb from "../../images/service.png";
 
 const Page = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -29,12 +26,12 @@ const Page = () => {
           <div className="under-1320">
             <div className="all-padding home">
               <div className="destination-container">
-                <div className="destination-flex">
-                  <div className="destination-right">
-                    <p className="Graphic">
+                <div className="destination-flex-service">
+                  <div className="destination-right-about">
+                    <p className="Graphic-about">
                       We are Specialized Social Media Marketing service provider
                     </p>
-                    <div className="care">
+                    <div className="care-about">
                       <li>
                         Best Social Media Marketing service providers in
                         Ahmedabad
