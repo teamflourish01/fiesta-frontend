@@ -78,7 +78,8 @@
   text-align: center;
 }
 .basic-div {
-  height: 110px;
+  /* height: 110px; */
+  height: 125px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -87,8 +88,9 @@
 .clean-s {
   font-size: 18px;
   font-family: Manrope-Regular;
-  line-height: 30px;
+  line-height: 20px;
   text-align: center;
+  padding: 10px;
 }
 
 /* Responsive  */

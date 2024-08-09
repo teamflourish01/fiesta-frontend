@@ -1,8 +1,12 @@
-import React from "react";
+"use client"
+
+
+import React,{useState} from "react";
 import ajay from "../../images/ajay.png";
 import "../../styles/service.css";
 import "../../styles/logodesign.css";
 import "../../styles/about.css";
+import drop from "../../images/drop.png"
 
 import closeImage from "../../images/closeImage.png";
 import pclogo from "../../images/crlogopc.png";
@@ -15,6 +19,13 @@ import Homesection from "@/component/Homesection";
 import abbg from "../../images/abbg.png";
 import logodesign from "../../images/logodesign.png"
 const page = () => {
+  const [isOpen, setIsOpen] = useState(false);
+
+  const toggleDropdown = () => {
+    setIsOpen(!isOpen);
+  };
+  const [selectedPage, setSelectedPage] = useState("/services");
+
   return (
     <>
       <section>
@@ -61,6 +72,56 @@ const page = () => {
             <div className="all-padding">
               <div className="service-top-padding">
                 <div className="service-flex">
+                <div className="responsive">
+                  <div className="servicess">
+                    <div className="arrow">
+                      <p className="our-services">Our Services</p>
+                      <Image  onClick={toggleDropdown} src={drop} className="cursor-pointer"/>
+                      {/* <p onClick={toggleDropdown} className="cursor-pointer">V</p> */}
+                      </div>
+                      {isOpen && (
+                      <div className="social-div">
+                      <hr />
+                        <Link href="/services" className="style-none">
+                          <p
+                            style={{ cursor: "pointer" }}
+                            className={
+                              selectedPage === "/services" ? "underline" : ""
+                            }
+                            onClick={() => setSelectedPage("/services")}
+                          >
+                            Social Media Post
+                          </p>
+                          
+                        </Link>
+                        <Link href="/logodesign" className="style-none">
+                          <p
+                            style={{ cursor: "pointer" }}
+                            className={
+                              selectedPage === "/logodesign" ? "underline" : ""
+                            }
+                            onClick={() => setSelectedPage("/logodesign")}
+                          >
+                            Logo Design
+                          </p>
+                        </Link>
+                        <Link href="/brochure" className="style-none">
+                          <p
+                            style={{ cursor: "pointer" }}
+                            className={
+                              selectedPage === "/brochure" ? "underline" : ""
+                            }
+                            onClick={() => setSelectedPage("/brochure")}
+                          >
+                            Brochure Design
+                          </p>
+                        </Link>
+                      </div>
+                      )}
+                      </div>
+                  </div>
+
+
                   <div className="services">
                     <p className="our-services">Our Services</p>
                     <hr />
@@ -419,19 +480,16 @@ const page = () => {
                       </div>
                     </div>
 
-                     <div className="btn">
-                     <Link className="links" href="/contact/#contact">
-                     <button className="c-button c-button--gooey">
-                      Request Proposal
-                      <div className="c-button__blobs">
-                        <div></div>
-                        <div></div>
-                        <div></div>
-                      </div>
-                    </button>
-                    </Link>
+                    <div className="btn-req">
+                      <Link className="links" href="/contact/#contact">
+                        <button className="req">
+                     REQUEST PROPOSAL
+
+              
+                        </button>
+                      </Link>
                       {/* <button className="button">Request Proposal</button> */}
-                    </div> 
+                    </div>
                       
                   </div>
                 </div>

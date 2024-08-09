@@ -4,6 +4,7 @@ import ajay from "../../images/ajay.png";
 import "../../styles/service.css";
 import closeImage from "../../images/closeImage.png";
 import Image from "next/image";
+import drop from "../../images/drop.png"
 import "../../styles/about.css";
 
 import Link from "next/link";
@@ -15,6 +16,11 @@ import service from "../../images/service.png";
 import serviceb from "../../images/serviceb.png";
 
 const Page = () => {
+  const [isOpen, setIsOpen] = useState(false);
+
+  const toggleDropdown = () => {
+    setIsOpen(!isOpen);
+  };
   const [selectedPage, setSelectedPage] = useState("/services");
   return (
     <>
@@ -67,6 +73,56 @@ const Page = () => {
             <div className="all-padding home">
               <div className="service-top-padding">
                 <div className="service-flex">
+                  <div className="responsive">
+                  <div className="servicess">
+                    <div className="arrow">
+                      <p className="our-services">Our Services</p>
+                      <Image  onClick={toggleDropdown} src={drop} className="cursor-pointer"/>
+                      {/* <p onClick={toggleDropdown} className="cursor-pointer">V</p> */}
+                      </div>
+                      {isOpen && (
+                      <div className="social-div">
+                      <hr />
+                        <Link href="/services" className="style-none">
+                          <p
+                            style={{ cursor: "pointer" }}
+                            className={
+                              selectedPage === "/services" ? "underline" : ""
+                            }
+                            onClick={() => setSelectedPage("/services")}
+                          >
+                            Social Media Post
+                          </p>
+                          
+                        </Link>
+                        <Link href="/logodesign" className="style-none">
+                          <p
+                            style={{ cursor: "pointer" }}
+                            className={
+                              selectedPage === "/logodesign" ? "underline" : ""
+                            }
+                            onClick={() => setSelectedPage("/logodesign")}
+                          >
+                            Logo Design
+                          </p>
+                        </Link>
+                        <Link href="/brochure" className="style-none">
+                          <p
+                            style={{ cursor: "pointer" }}
+                            className={
+                              selectedPage === "/brochure" ? "underline" : ""
+                            }
+                            onClick={() => setSelectedPage("/brochure")}
+                          >
+                            Brochure Design
+                          </p>
+                        </Link>
+                      </div>
+                      )}
+                      </div>
+                  </div>
+
+
                   <div className="services">
                     <p className="our-services">Our Services</p>
                     <hr />
@@ -107,6 +163,9 @@ const Page = () => {
                     </div>
                   </div>
 
+
+
+
                   <div className="social-media">
                     <div className="marketing-main">
                       <p className="s-marketing">Social Media Marketing</p>
@@ -121,6 +180,7 @@ const Page = () => {
                         through social media platforms to build brand awareness,
                         engage with audiences, and drive business results.
                       </p>
+                      <div className="box-p">
                       <div className="div-flex">
                         <div className="marketing-social">
                           <p className="media-social">
@@ -148,6 +208,7 @@ const Page = () => {
                             <li>Analytics & Reporting</li>
                           </div>
                         </div>
+                      </div>
                       </div>
 
                       <div className="adjustments">
@@ -316,15 +377,12 @@ const Page = () => {
                         </div>
                       </div>
                     </div>
-                    <div className="btn">
+                    <div className="btn-req">
                       <Link className="links" href="/contact/#contact">
-                        <button className="c-button c-button--gooey">
-                          Request Proposal
-                          <div className="c-button__blobs">
-                            <div></div>
-                            <div></div>
-                            <div></div>
-                          </div>
+                        <button className="req">
+                     REQUEST PROPOSAL
+
+              
                         </button>
                       </Link>
                       {/* <button className="button">Request Proposal</button> */}
