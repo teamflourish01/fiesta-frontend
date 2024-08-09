@@ -226,7 +226,26 @@
 @media (max-width: 767px) {
   .client-text {
     padding-bottom: 20px;
+    font-size: 18px;
   }
+  .heading-design {
+    font-size: 20px;
+    line-height: 27.32px;
+    text-align: justify;
+}
+.design-services {
+  gap: 5px !important;
+}
+.design-description {
+  line-height: 21px !important;
+}
+.heading-graphic {
+  line-height: 25px !important;
+}
+.graphic-services {
+  gap: 10px !important;
+}
+
 }
 
 @media (max-width: 530px) {

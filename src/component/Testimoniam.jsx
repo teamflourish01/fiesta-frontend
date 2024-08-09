@@ -38,23 +38,23 @@ const Testimoniam = () => {
 
   const testimonials = [
     {
-      text: "The team at Fiesta completely transformed our brand's visual identity. Their creativity and attention to detail were exceptional, and the final designs exceeded our expectations. We couldn't be happier with the results.",
-      name: "Jigar Rathod",
+      text: "The team at Fiesta completely transformed our brand's visual identity. Their creativity and attention to detail were exceptional, and the final designs exceeded our expectations. We couldn't be happier with the results",
+      name: "Jay Patel",
       position: "Director at Bright Solutions",
     },
     {
       text: "Working with Fiesta was a fantastic experience. Their designers brought our vision to life with exceptional creativity and professionalism. The new graphics have significantly enhanced our marketing materials. Highly recommended!",
-      name: "Maulik Navadia",
+      name: "Mayur Savalia",
       position: "CEO at Greenfield Enterprises",
     },
     {
       text: "The graphic design team at Fiesta delivered eye-catching and engaging designs that perfectly captured our brand's essence. Their work has made a noticeable impact on our customer engagement and overall brand image. Thank you!",
-      name: "Prince Mendapara",
+      name: "Paresh Patel",
       position: "Founder at Codercat",
     },
     {
       text: "Fiesta provides innovative and timely graphic design solutions for our company. Their ability to understand our needs and deliver top-notch designs within tight deadlines was truly impressive. We look forward to collaborating with them again!",
-      name: "Satyen Mori",
+      name: "Sarthak Rathod",
       position: "Founder at Mori Builders",
     },
   ];

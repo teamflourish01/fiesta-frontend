@@ -18,7 +18,7 @@ function Page() {
           <div className="under-1320">
             <div className="all-padding home">
             <div className="destination-container">
-              <div className="destination-flex">
+              <div className="destination-flex-blog">
                 <div className="destination-right">
                   <p className="Graphic">
                   Blog

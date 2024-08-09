@@ -1,0 +1,22 @@
+.destination-flex-contact {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 85px;
+  }
+
+
+@media screen and (max-width: 1024px) {
+    .destination-right-contact {
+      max-width: unset;
+      min-width: unset;
+      width: 100%;
+    }
+    .destination-flex-contact {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: center;
+      gap: 153px;
+    }
+}

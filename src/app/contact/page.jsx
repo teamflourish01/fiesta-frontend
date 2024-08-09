@@ -6,6 +6,7 @@ import "../../styles/homesection.css"
 
 import service from "../../images/contactemoji.png";
 import closeImage from "../../images/closeImage.png";
+import '../../styles/contact.css';
 
 
 function page() {
@@ -16,7 +17,7 @@ function page() {
           <div className="under-1320">
             <div className="all-padding home">
             <div className="destination-container">
-              <div className="destination-flex">
+              <div className="destination-flex-contact">
                 <div className="destination-right">
                   <p className="Graphic">
                   Contact Us
