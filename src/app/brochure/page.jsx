@@ -107,13 +107,7 @@ const page = () => {
             <hr />
         </div>
       </section> */}
-      <section>
-        <div className="main-width">
-          <div className="under-1320">
-            <div className="all-padding">
-              <div className="service-top-padding">
-                <div className="service-flex">
-                  <div className="responsive">
+      <div className="responsive">
                     <div className="servicess">
                       <div className="arrow">
                         <p className="our-services">Our Services</p>
@@ -170,6 +164,13 @@ const page = () => {
                       )}
                     </div>
                   </div>
+      <section>
+        <div className="main-width">
+          <div className="under-1320">
+            <div className="all-padding">
+              <div className="service-top-padding">
+                <div className="service-flex">
+                  
 
                   <div className="services">
                     <p className="our-services">Our Services</p>

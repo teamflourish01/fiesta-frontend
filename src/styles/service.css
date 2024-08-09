@@ -287,8 +287,8 @@
   .servicess {
     max-width: 100%;
     height: auto;
-    position: -webkit-sticky;
-    position: sticky;
+    /* position: -webkit-sticky; */
+    /* position: sticky; */
     z-index: 0;
     margin: 0 auto;
     background: #FDEDE7;
