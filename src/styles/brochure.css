@@ -2,27 +2,29 @@
   font-family: Manrope-Bold;
   font-size: 25px;
   line-height: 30px;
-  padding-bottom: 15px;
+  padding-bottom: 7px;
   text-align: justify;
 }
 .Personalized {
   font-size: 22px;
-  font-family: Manrope-Medium;
-  line-height: 30px;
+  font-family: Manrope-SemiBold;
+
+
+  /* line-height: 30px; */
   /* padding-bottom: 5px; */
 }
 .appealing {
-  padding: 5px 0 5px 0;
+  padding: 2px 0 7px 0;
   font-size: 18px;
   font-family: Manrope-Regular;
-  line-height: 30px;
+  /* line-height: 30px; */
   text-align: justify;
 }
 .appealings {
   font-size: 18px;
   font-family: Manrope-Regular;
   line-height: 30px;
-  padding: 5px 0 0 0;
+  padding: 2px 0 0 0;
 }
 .Simple-clean {
   font-size: 18px;
@@ -93,21 +95,47 @@
   padding: 10px;
 }
 
+.side-padding{
+  padding: 0 0 0 25px;
+}
+
+.products-brochure{
+ 
+    font-family: Manrope-Regular;
+    font-size: 18px;
+    /* line-height: 30px; */
+    /* padding-bottom: 7px; */
+    text-align: justify;
+    padding: 2px 0 15px 0;
+
+}
+
 /* Responsive  */
 
 @media screen and (max-width: 1024px) {
   .Personalized {
     text-align: justify;
   }
-
+  
+  .mark-padding{
+    padding: 0 18px;
+    text-align: left;
+  }
 }
 @media screen and (max-width: 767px){
-    .promotes{
+    .Promotes{
         font-size: 18px;
     }
     .Personalized{
         font-size: 16px;
         text-align: justify;
+    }
+    .mark-padding{
+      padding: 0;
+      text-align: left;
+    }
+    .brand-padding{
+      padding: 50px 0 15px 0;
     }
     .appealing{
         font-size: 16px;

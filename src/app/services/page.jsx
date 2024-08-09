@@ -70,10 +70,10 @@ const Page = () => {
       <section>
         <div className="main-width">
           <div className="under-1320">
-            <div className="all-padding home">
+            <div className="all-padding">
               <div className="service-top-padding">
                 <div className="service-flex">
-                  <div className="responsive">
+                <div className="responsive">
                   <div className="servicess">
                     <div className="arrow">
                       <p className="our-services">Our Services</p>
@@ -84,6 +84,7 @@ const Page = () => {
                       <div className="social-div">
                       <hr />
                         <Link href="/services" className="style-none">
+                       
                           <p
                             style={{ cursor: "pointer" }}
                             className={
@@ -91,11 +92,15 @@ const Page = () => {
                             }
                             onClick={() => setSelectedPage("/services")}
                           >
+                           <span className="side-padding">
                             Social Media Post
+                            </span>
                           </p>
+                         
                           
                         </Link>
                         <Link href="/logodesign" className="style-none">
+                        
                           <p
                             style={{ cursor: "pointer" }}
                             className={
@@ -103,10 +108,14 @@ const Page = () => {
                             }
                             onClick={() => setSelectedPage("/logodesign")}
                           >
+                           <span className="side-padding">
                             Logo Design
+                            </span>
                           </p>
+                          
                         </Link>
                         <Link href="/brochure" className="style-none">
+
                           <p
                             style={{ cursor: "pointer" }}
                             className={
@@ -114,7 +123,9 @@ const Page = () => {
                             }
                             onClick={() => setSelectedPage("/brochure")}
                           >
+                            <span className="side-padding">
                             Brochure Design
+                          </span>
                           </p>
                         </Link>
                       </div>
@@ -168,7 +179,7 @@ const Page = () => {
 
                   <div className="social-media">
                     <div className="marketing-main">
-                      <p className="s-marketing">Social Media Marketing</p>
+                      <p className="s-marketing ">Social Media Marketing</p>
                       <p className="Promote">
                         Promote Your Brand Story with the Right Strategies
                       </p>

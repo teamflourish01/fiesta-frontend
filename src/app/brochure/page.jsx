@@ -1,20 +1,17 @@
 "use client";
 
-
-
-import React,{useState} from "react";
+import React, { useState } from "react";
 import ajay from "../../images/ajay.png";
 import "../../styles/service.css";
 import "../../styles/brochure.css";
-import drop from "../../images/drop.png"
-
+import drop from "../../images/drop.png";
 
 import closeImage from "../../images/closeImage.png";
 import Image from "next/image";
 import Link from "next/link";
 // import round from "../images/round.png";
 // import sround from "../images/sround.png";
-import "../../styles/about.css"
+import "../../styles/about.css";
 import Homesection from "@/component/Homesection";
 import abbg from "../../images/abbg.png";
 
@@ -28,40 +25,40 @@ const page = () => {
   return (
     <>
       <section>
-        <div className="main-width"> 
+        <div className="main-width">
           <div className="under-1320">
             <div className="all-padding home">
-            <div className="destination-container">
-              <div className="destination-flex">
-                <div className="destination-right">
-                  <p className="Graphic">
-                    We are Specialized Brochure Design Services Provider
-                  </p>
-                  <div className="care">
-                    <li>Best Brochure providers in Ahmedabad</li>
-                    <li className="banner">
-                      Banner with sample of brochure images
-                    </li>
+              <div className="destination-container">
+                <div className="destination-flex">
+                  <div className="destination-right">
+                    <p className="Graphic">
+                      We are Specialized Brochure Design Services Provider
+                    </p>
+                    <div className="care">
+                      <li>Best Brochure providers in Ahmedabad</li>
+                      <li className="banner">
+                        Banner with sample of brochure images
+                      </li>
+                    </div>
+                  </div>
+                  <div className="destination-left">
+                    <Image src={ajay} alt="" className="main-image" />
+                    <div className="round-img"></div>
+                    <div className="top-round"></div>
+                    <div className="s-round"></div>
+                    <Image
+                      src={closeImage}
+                      alt=""
+                      className="corner-image top-right rotating"
+                    />
+                    <Image
+                      src={closeImage}
+                      alt=""
+                      className="corner-image bottom-left rotating"
+                    />
                   </div>
                 </div>
-                <div className="destination-left">
-                  <Image src={ajay} alt="" className="main-image" />
-                  <div className="round-img"></div>
-                  <div className="top-round"></div>
-                  <div className="s-round"></div>
-                  <Image
-                    src={closeImage}
-                    alt=""
-                    className="corner-image top-right rotating"
-                  />
-                  <Image
-                    src={closeImage}
-                    alt=""
-                    className="corner-image bottom-left rotating"
-                  />
-                </div>
               </div>
-            </div>
             </div>
           </div>
           <hr />
@@ -73,53 +70,62 @@ const page = () => {
             <div className="all-padding">
               <div className="service-top-padding">
                 <div className="service-flex">
-                <div className="responsive">
-                  <div className="servicess">
-                    <div className="arrow">
-                      <p className="our-services">Our Services</p>
-                      <Image  onClick={toggleDropdown} src={drop} className="cursor-pointer"/>
-                      {/* <p onClick={toggleDropdown} className="cursor-pointer">V</p> */}
+                  <div className="responsive">
+                    <div className="servicess">
+                      <div className="arrow">
+                        <p className="our-services">Our Services</p>
+                        <Image
+                          onClick={toggleDropdown}
+                          src={drop}
+                          className="cursor-pointer"
+                        />
+                        {/* <p onClick={toggleDropdown} className="cursor-pointer">V</p> */}
                       </div>
                       {isOpen && (
-                      <div className="social-div">
-                      <hr />
-                        <Link href="/services" className="style-none">
-                          <p
-                            style={{ cursor: "pointer" }}
-                            className={
-                              selectedPage === "/services" ? "underline" : ""
-                            }
-                            onClick={() => setSelectedPage("/services")}
-                          >
-                            Social Media Post
-                          </p>
-                          
-                        </Link>
-                        <Link href="/logodesign" className="style-none">
-                          <p
-                            style={{ cursor: "pointer" }}
-                            className={
-                              selectedPage === "/logodesign" ? "underline" : ""
-                            }
-                            onClick={() => setSelectedPage("/logodesign")}
-                          >
-                            Logo Design
-                          </p>
-                        </Link>
-                        <Link href="/brochure" className="style-none">
-                          <p
-                            style={{ cursor: "pointer" }}
-                            className={
-                              selectedPage === "/brochure" ? "underline" : ""
-                            }
-                            onClick={() => setSelectedPage("/brochure")}
-                          >
-                            Brochure Design
-                          </p>
-                        </Link>
-                      </div>
+                        <div className="social-div">
+                          <hr />
+                          <Link href="/services" className="style-none">
+                            <p
+                              style={{ cursor: "pointer" }}
+                              className={
+                                selectedPage === "/services" ? "underline" : ""
+                              }
+                              onClick={() => setSelectedPage("/services")}
+                            >
+                              <span className="side-padding">
+                                Social Media Post
+                              </span>
+                            </p>
+                          </Link>
+                          <Link href="/logodesign" className="style-none">
+                            <p
+                              style={{ cursor: "pointer" }}
+                              className={
+                                selectedPage === "/logodesign"
+                                  ? "underline"
+                                  : ""
+                              }
+                              onClick={() => setSelectedPage("/logodesign")}
+                            >
+                              <span className="side-padding">Logo Design</span>
+                            </p>
+                          </Link>
+                          <Link href="/brochure" className="style-none">
+                            <p
+                              style={{ cursor: "pointer" }}
+                              className={
+                                selectedPage === "/brochure" ? "underline" : ""
+                              }
+                              onClick={() => setSelectedPage("/brochure")}
+                            >
+                              <span className="side-padding">
+                                Brochure Design
+                              </span>
+                            </p>
+                          </Link>
+                        </div>
                       )}
-                      </div>
+                    </div>
                   </div>
                   <div className="services">
                     <p className="our-services">Our Services</p>
@@ -139,41 +145,47 @@ const page = () => {
 
                   <div className="social-media">
                     <div className="marketing-main">
-                      <p className="s-marketing">
+                      <p className="s-marketing mark-padding   brand-padding">
                         Transform Your Brand Message with Stunning Brochure
                         Designs
                       </p>
-                      <p className="Promote">Best Brochure design company</p>
+                      <p className="Promote">
+                        Best Brochure Design Company in Ahmedabad
+                      </p>
                       <p className="media-marketing">
-                        Why do you need a brochure design?
+                        Why Do You Need a Brochure Design?
                       </p>
                       <p className="products">
                         A brochure design is essential for effectively
                         communicating your brand’s message, showcasing products
                         or services, and engaging potential customers.
                       </p>
-                      <p className="products">
-                        As a best brochure design company in Ahmedabad, we are
-                        specialized with brochure design that align with your
-                        business or organization. At Fiesta, we specialize in
-                        crafting creative brochures that effectively communicate
-                        your brand’s message and fascinate your audience. Our
-                        brochure design service is dedicated to delivering
-                        high-impact marketing materials that make a long lasting
-                        impression.
+                      <p className="products-brochure">
+                        As the best logo design company in Ahmedabad, we create
+                        and deliver with satisfaction through an aerodynamic
+                        process. We start each project by discovering and
+                        researching the project. The next step is to create
+                        concepts with initial ideas, transforming them into
+                        sketches and designs that align with the brand. Next, we
+                        present these designs to the client. After receiving
+                        feedback, we revise them through a revision process.
+                        After completing the logo design, we analyze it for
+                        improvements before finalizing the logo. Once finalized,
+                        we deliver the logo along with guidelines for consistent
+                        brand use.
                       </p>
                       <p className="Promotes">
-                        Why Our Brochure Designs Stand Out
+                      Why Do Our Brochure Designs Stand Out?
                       </p>
                       <p className="Personalized">
-                        Personalized with your brand
+                      Personalized with Your Brand
                       </p>
                       <p className="appealing">
                         Our design approach is client-centered, we create
                         designs that reflect your brand identity.
                       </p>
                       <p className="Personalized">
-                        Creative & Professional Design
+                      Creative & Professional Design
                       </p>
                       <p className="appealing">
                         Our professional team will craft a design with
@@ -181,7 +193,7 @@ const page = () => {
                         appealing and functionally effective.
                       </p>
                       <p className="Personalized">
-                        Comprehensive Design Solutions
+                      Comprehensive Design Solutions
                       </p>
                       <p className="appealing">
                         From creating concepts to the final delivery we handle
@@ -306,8 +318,8 @@ const page = () => {
 
                           <div className="basic-div">
                             <p className="clean-s">
-                              Typically 1-2 weeks, depending on the designer&apos;s
-                              schedule and client responsiveness
+                              Typically 1-2 weeks, depending on the
+                              designer&apos;s schedule and client responsiveness
                             </p>
                           </div>
                           <hr />
@@ -607,11 +619,7 @@ const page = () => {
 
                     <div className="btn-req">
                       <Link className="links" href="/contact/#contact">
-                        <button className="req">
-                     REQUEST PROPOSAL
-
-              
-                        </button>
+                        <button className="req">REQUEST PROPOSAL</button>
                       </Link>
                       {/* <button className="button">Request Proposal</button> */}
                     </div>

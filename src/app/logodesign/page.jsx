@@ -83,6 +83,7 @@ const page = () => {
                       <div className="social-div">
                       <hr />
                         <Link href="/services" className="style-none">
+                       
                           <p
                             style={{ cursor: "pointer" }}
                             className={
@@ -90,11 +91,15 @@ const page = () => {
                             }
                             onClick={() => setSelectedPage("/services")}
                           >
+                           <span className="side-padding">
                             Social Media Post
+                            </span>
                           </p>
+                         
                           
                         </Link>
                         <Link href="/logodesign" className="style-none">
+                        
                           <p
                             style={{ cursor: "pointer" }}
                             className={
@@ -102,10 +107,14 @@ const page = () => {
                             }
                             onClick={() => setSelectedPage("/logodesign")}
                           >
+                           <span className="side-padding">
                             Logo Design
+                            </span>
                           </p>
+                          
                         </Link>
                         <Link href="/brochure" className="style-none">
+
                           <p
                             style={{ cursor: "pointer" }}
                             className={
@@ -113,7 +122,9 @@ const page = () => {
                             }
                             onClick={() => setSelectedPage("/brochure")}
                           >
+                            <span className="side-padding">
                             Brochure Design
+                          </span>
                           </p>
                         </Link>
                       </div>
@@ -152,7 +163,7 @@ const page = () => {
                         or organization, designed to aid public recognition and
                         convey identity.
                       </p>
-                      <p className="products">
+                      <p className="products pro-padding">
                         Fiesta is a team of professional graphic designers with
                         more than 9 years experience and served more than 150+
                         Clients worldwide with over 1000+ projects. logo design

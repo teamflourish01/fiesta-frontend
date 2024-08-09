@@ -185,7 +185,7 @@ line-height: 30px;
           justify-items: center;
       /* display: flex; */
       align-items: center;
-      gap: 53px;
+      gap: 15px;
   }
   .main-title{
     padding: 50px 0 20px 0;
@@ -213,6 +213,16 @@ line-height: 30px;
       height: 65px;
       width: 65px;
   }
+  .mision-flex-img{
+    max-width: 67px;
+    /* max-width: 75px; */
+    min-width: 10px;
+    width: 100%;
+  }
+  .upgrate {
+
+    padding: 15px 10px 15px 10px;
+}
 }
 
 
