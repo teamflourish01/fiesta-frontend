@@ -23,17 +23,16 @@ function ContactForm() {
     setDetail({ ...detail, [name]: value });
   };
 
-  const handleSubmit = async () => {
+  const handleSubmit = async (e) => {
     try {
-      console.log(detail);
-      debugger;
-      let data = await fetch(`https://api.fiestadesign.in/contact`, {
-        method: "POST",
+      e.preventDefault()
+      let data=await fetch("https://api.fiestadesign.in/contact",{
+        method:"POST",
         body: JSON.stringify(detail),
         headers: {
           "Content-Type": "application/json",
         },
-      });
+      })
       data = await data.json();
       console.log(data);
     } catch (error) {
@@ -59,6 +58,7 @@ function ContactForm() {
                       Design soldiers
                     </p>
                   </div>
+                  <form onSubmit={handleSubmit}>
                   <div className="contact-form">
                     <div className="name-contact-row">
                       <div className="input-field name-contact">
@@ -67,6 +67,7 @@ function ContactForm() {
                             type="text"
                             className="input"
                             placeholder="Name"
+                            required
                             name="name"
                             onChange={(e) => handleChange(e)}
                             value={detail.name}
@@ -80,6 +81,7 @@ function ContactForm() {
                             className="input"
                             placeholder="Phone Number"
                             name="phone"
+                            required
                             onChange={(e) => handleChange(e)}
                             value={detail.phone}
                           />
@@ -94,6 +96,7 @@ function ContactForm() {
                             className="input"
                             placeholder="Email"
                             name="email"
+                            required
                             onChange={(e) => handleChange(e)}
                             value={detail.email}
                           />
@@ -116,6 +119,7 @@ function ContactForm() {
                           <select
                             className="input-dropdown"
                             name="service"
+                            required
                             onChange={(e) => handleChange(e)}
                           >
                             <option value="">Select Service</option>
@@ -142,6 +146,7 @@ function ContactForm() {
                             className="input"
                             placeholder="Whatsapp Number"
                             name="whatsapp"
+                            required
                             onChange={(e) => handleChange(e)}
                             value={detail.whatsapp}
                           />
@@ -155,6 +160,7 @@ function ContactForm() {
                             className="input"
                             placeholder="Message"
                             name="message"
+                            required
                             onChange={(e) => handleChange(e)}
                             value={detail.message}
                           />
@@ -162,7 +168,6 @@ function ContactForm() {
                         <div className="contact-button">
                           <button
                             type="submit"
-                            onClick={() => handleSubmit()}
                             className="btn-contact"
                           >
                             {" "}
@@ -172,6 +177,7 @@ function ContactForm() {
                       </div>
                     </div>
                   </div>
+                  </form>
                 </div>
               </div>
             </div>
