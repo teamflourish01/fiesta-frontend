@@ -1,3 +1,6 @@
+
+
+
 .banner {
   padding: 10px 0;
 }
@@ -36,8 +39,8 @@
   color: black;
   font-family: Manrope-Bold;
   font-size: 25px;
-  text-align: center;
-  padding: 15px 0;
+  text-align: left;
+  padding: 10px 0 10px 20px;
   line-height: 30px;
 }
 .service-top-padding {
@@ -46,9 +49,13 @@
 .social-div {
   font-size: 18px;
   line-height: 35px;
-  font-family: Manrope-Medium;
-  padding: 0px 0 15px 20px;
+  font-family: Manrope-SemiBold;
+  padding: 15px 0 0 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
 }
+
 .div-flex {
   display: flex;
   justify-content: space-between;
@@ -262,6 +269,7 @@ padding-left: 20px;
 .pro-padding{
   padding-top: 2px;
 }
+
 /* responsive social marketing */
 /* @media (min-width: 768px) and (max-width: 1024px) 
    @media screen and (max-width: 1024px) */
@@ -283,7 +291,7 @@ padding-left: 20px;
     border-radius: 10px;
   }
   .service-top-padding {
-    padding: 50px 0px 0px 0px;
+    padding:  0px;
   }
   .unset{
     padding: unset !important;
@@ -350,7 +358,7 @@ padding-left: 20px;
   .s-marketing {
     font-size: 30px;
     text-align: justify;
-   padding-bottom: 15px;
+    padding: 50px 0 15px;
     text-align: center;
     /* line-height: 30px; */
   }
@@ -482,7 +490,7 @@ padding-left: 20px;
 
   .s-marketing {
     font-size: 20px;
-    text-align: left;
+    text-align: center;
     padding: 50px 0px 15px;
   }
 
@@ -691,6 +699,32 @@ padding-left: 20px;
 .service-padding-about{
   padding: 5px 0;
 }
+.services .social-div p {
+  display: inline-block;
+  position: relative;
+  padding-bottom: 2px;
+  color: black;
+  font-family: Manrope-Medium;
+
+}
+
+.services .social-div p::after {
+  content: "";
+  display: block;
+  width: 0;
+  height: 2px;
+  background-color: black;
+  transition: width 0.3s ease;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.services .social-div p:hover::after,
+.services .social-div p.underline::after {
+  width: 100%;
+}
+
 
 @media screen and (max-width: 1024px) {
   .destination-right-about {
@@ -737,3 +771,5 @@ padding-left: 20px;
     gap: 30px;
   }
 }
+
+

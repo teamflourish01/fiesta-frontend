@@ -24,7 +24,7 @@ const page = () => {
   const toggleDropdown = () => {
     setIsOpen(!isOpen);
   };
-  const [selectedPage, setSelectedPage] = useState("/services");
+  const [selectedPage, setSelectedPage] = useState("/brochure");
   return (
     <>
       <section>
@@ -35,13 +35,14 @@ const page = () => {
                 <div className="destination-flex-about">
                   <div className="destination-right-about">
                     <p className="Graphic-about">
-                      We are Specialized Brochure Design Services Provider
+                    We are Specialized Brochure Design Services Providers
                     </p>
                     <div className="care-about">
                     <ul className="ul-dot">
-                      <li>Best Brochure providers in Ahmedabad</li>
+                      <li>Best Brochure Providers in Ahmedabad</li>
                       <li className="banner-about">
-                        Banner with sample of brochure images
+                      Banner with Samples of Brochure Images
+
                       </li>
                       </ul>
                     </div>
@@ -66,8 +67,9 @@ const page = () => {
               </div>
             </div>
           </div>
-          <hr />
+          
         </div>
+        <hr />
       </section>
 
 
@@ -134,7 +136,7 @@ const page = () => {
                               onClick={() => setSelectedPage("/services")}
                             >
                               <span className="side-padding">
-                                Social Media Post
+                              Social Media Post
                               </span>
                             </p>
                           </Link>
@@ -160,7 +162,7 @@ const page = () => {
                               onClick={() => setSelectedPage("/brochure")}
                             >
                               <span className="side-padding">
-                                Brochure Design
+                              Brochure Design
                               </span>
                             </p>
                           </Link>
@@ -176,24 +178,49 @@ const page = () => {
                 <div className="service-flex">
                   
 
-                  <div className="services">
+                <div className="services">
                     <p className="our-services">Our Services</p>
                     <hr />
                     <div className="social-div">
                       <Link href="/services" className="style-none">
-                        <p style={{ cursor: "pointer" }}>Social Media Post</p>
+                        <p
+                          style={{ cursor: "pointer" }}
+                          className={
+                            selectedPage === "/services" ? "underline" : ""
+                          }
+                          onClick={() => setSelectedPage("/services")}
+                        >
+                          Social Media Post
+                        </p>
                       </Link>
                       <Link href="/logodesign" className="style-none">
-                        <p style={{ cursor: "pointer" }}>Logo Design</p>
+                        <p
+                          style={{ cursor: "pointer" }}
+                          className={
+                            selectedPage === "/logodesign" ? "underline" : ""
+                          }
+                          onClick={() => setSelectedPage("/logodesign")}
+                        >
+                          Logo Design
+                        </p>
                       </Link>
                       <Link href="/brochure" className="style-none">
-                        <p style={{ cursor: "pointer" }}>Brochure Design</p>
+                        <p
+                          style={{ cursor: "pointer" }}
+                          className={
+                            selectedPage === "/brochure" ? "underline" : ""
+                          }
+                          onClick={() => setSelectedPage("/brochure")}
+                        >
+                          Brochure Design
+                        </p>
                       </Link>
                     </div>
                   </div>
 
                   <div className="social-media">
                     <div className="marketing-main">
+               
                       <p className="s-marketing mark-padding   brand-padding">
                         Transform Your Brand Message with Stunning Brochure
                         Designs

@@ -1,3 +1,34 @@
+.services .social-div p {
+  display: inline-block;
+  position: relative;
+  padding-bottom: 2px;
+}
+
+.services .social-div p::after {
+  content: "";
+  display: block;
+  width: 0;
+  height: 2px;
+  background-color: black;
+  transition: width 0.3s ease;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.services .social-div p:hover::after {
+  width: 100%;
+}
+
+.services .social-div p.underline::after {
+  width: 100%;
+  background-color: black;
+}
+
+
+
+
+
 .Promotes {
   font-family: Manrope-Bold;
   font-size: 25px;
@@ -111,7 +142,40 @@
 }
 
 .include-padding {
-  padding: 8px 0 0 !important;
+  padding: 8px 0 7px !important;
+}
+.center-head{
+  text-align: left;
+  display: flex;
+  justify-content: center;
+}
+
+
+.services .social-div p {
+  display: inline-block;
+  position: relative;
+  padding-bottom: 2px;
+}
+
+.services .social-div p::after {
+  content: "";
+  display: block;
+  width: 0;
+  height: 2px;
+  background-color: black;
+  transition: width 0.3s ease;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.services .social-div p:hover::after {
+  width: 100%;
+}
+
+.services .social-div p.underline::after {
+  width: 100%;
+  background-color: black;
 }
 
 /* Responsive  */
@@ -123,7 +187,7 @@
 
   .mark-padding {
     padding: 0 18px;
-    text-align: left;
+    text-align: center;
   }
   .pbrochure {
     padding: 15px 0 0 !important;
@@ -139,7 +203,7 @@
   }
   .mark-padding {
     padding: 0;
-    text-align: left;
+    text-align: center;
   }
   .brand-padding {
     padding: 50px 0 15px 0;
@@ -160,9 +224,17 @@
   .service-top-padding {
     padding: unset !important;
 }
+.products-brochure {
+  font-family: Manrope-Regular;
+  font-size: 16px;
+  /* line-height: 30px; */
+  /* padding-bottom: 7px; */
+  text-align: justify;
+  padding: 2px 0 15px 0;
+}
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .Graphic-about {
     padding: 30px 0 0;
     font-size: 20px;
