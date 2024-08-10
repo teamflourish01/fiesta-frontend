@@ -259,7 +259,7 @@ const page = () => {
                         without delay.
                       </p>
 
-                      <p className="Promotes">
+                      <p className="Promotes include-padding">
                         Our Brochure Design Service Includes:
                       </p>
                       <p className="Personalized">Concept Development</p>

@@ -36,6 +36,7 @@ const page = () => {
             <div className="all-padding home">
             <div className="destination-container">
               <div className="destination-flex">
+
                 <div className="destination-right-about">
                   <p className="Graphic-about">
                     We are Specialized Logo Design Services Provider
@@ -43,6 +44,7 @@ const page = () => {
 
                   <div className="care-about">
                   <ul className="ul-dot">
+
                     <li>Best logo providers in Ahmedabad</li>
                     <li className="banner">Best industry experts</li>
                     </ul>

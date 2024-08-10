@@ -121,7 +121,7 @@
   text-align: justify;
   font-family: Manrope-Bold;
 
-  padding: 15px 0 30px 0;
+  padding: 10px 0 15px 0;
   max-width: 556px;
     min-width: 200px;
     width: 100%;
@@ -157,6 +157,7 @@
   /* left: 18%; */
   left: 30px;
 }
+
 .s-round {
   background-image: url(../images/Vectorsmall.png);
   /* background-image: url(../images/Vector.png); */
@@ -243,7 +244,7 @@
   border-radius: 10px;
 }
 .home {
-  padding-bottom: 30px;
+  padding-bottom: 25px;
 }
 @media screen and (max-width: 1024px) {
   .main-image {
@@ -368,4 +369,8 @@
   /* font-size: 30px; */
     /* line-height: 40px; */
     /* padding-top: 50px; */
+}
+
+.service-banner{
+  padding: 5px 0 0 !important;
 }

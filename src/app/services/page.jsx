@@ -31,17 +31,17 @@ const Page = () => {
           <div className="under-1320">
             <div className="all-padding home">
               <div className="destination-container">
-                <div className="destination-flex-service">
-                  <div className="destination-right-about">
-                    <p className="Graphic-about">
+                <div className="destination-flex">
+                  <div className="destination-right">
+                    <p className="Graphic">
                       We are Specialized Social Media Marketing service provider
                     </p>
-                    <div className="care-about">
+                    <div className="care">
                       <li>
                         Best Social Media Marketing service providers in
                         Ahmedabad
                       </li>
-                      <li className="banner">
+                      <li className="banner service-banner">
                         banner with sample of Social Media Graphical images
                       </li>
                     </div>

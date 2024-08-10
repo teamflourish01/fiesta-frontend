@@ -114,7 +114,7 @@
     line-height: unset;
   }
 }
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   .provide-card-container {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
