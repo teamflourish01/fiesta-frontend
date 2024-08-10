@@ -134,13 +134,13 @@ const Page = () => {
             <div className="social-div">
               <hr />
               <Link href="/services" className="style-none">
-                <li
+                <p
                   style={{ cursor: "pointer" }}
                   className={selectedPage === "/services" ? "underline" : ""}
                   onClick={() => setSelectedPage("/services")}
                 >
                   <span className="side-padding">Social Media Post</span>
-                </li>
+                </p>
               </Link>
               <Link href="/logodesign" className="style-none">
                 <p

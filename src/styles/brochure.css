@@ -186,8 +186,9 @@
   }
 
   .mark-padding {
-    padding: 0 18px;
+    /* padding: 0 18px; */
     text-align: center;
+    padding: 50px 0 0 0;
   }
   .pbrochure {
     padding: 15px 0 0 !important;
