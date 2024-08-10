@@ -7,6 +7,8 @@ import "../../styles/service.css";
 import "../../styles/logodesign.css";
 import "../../styles/about.css";
 import drop from "../../images/drop.png"
+import "../../styles/homesection.css"
+import lbanner from "../../images/lbanner.png"
 
 import closeImage from "../../images/closeImage.png";
 import pclogo from "../../images/crlogopc.png";
@@ -34,19 +36,22 @@ const page = () => {
             <div className="all-padding home">
             <div className="destination-container">
               <div className="destination-flex">
-                <div className="destination-right">
-                  <p className="Graphic">
+
+                <div className="destination-right-about">
+                  <p className="Graphic-about">
                     We are Specialized Logo Design Services Provider
                   </p>
 
-                  <div className="care">
+                  <div className="care-about">
+                  <ul className="ul-dot">
 
                     <li>Best logo providers in Ahmedabad</li>
                     <li className="banner">Best industry experts</li>
+                    </ul>
                   </div>
                 </div>
                 <div className="destination-left">
-                  <Image src={logodesign} alt="" className="main-image" />
+                  <Image src={lbanner} alt="" className="main-image" />
                   <div className="round-img"></div>
                   <div className="top-round"></div>
                   <div className="s-round"></div>

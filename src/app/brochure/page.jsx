@@ -4,6 +4,8 @@ import React, { useState } from "react";
 import ajay from "../../images/ajay.png";
 import "../../styles/service.css";
 import "../../styles/brochure.css";
+import "../../styles/homesection.css"
+
 import drop from "../../images/drop.png";
 import aboutimg from "../../images/aboutbanner.png";
 import brimg from "../../images/brimg.png"
@@ -36,10 +38,12 @@ const page = () => {
                       We are Specialized Brochure Design Services Provider
                     </p>
                     <div className="care-about">
+                    <ul className="ul-dot">
                       <li>Best Brochure providers in Ahmedabad</li>
                       <li className="banner-about">
                         Banner with sample of brochure images
                       </li>
+                      </ul>
                     </div>
                   </div>
                   <div className="destination-left">
