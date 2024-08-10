@@ -173,7 +173,7 @@ const page = () => {
                       </p>
                       <p className="products pro-padding">
                         Fiesta is a team of professional graphic designers with
-                        more than 9 years of experience. We have served over 150
+                        more than 5 years of experience. We have served over 150
                         clients worldwide with more than 1,000+ projects. As the
                         best logo design company in Ahmedabad, Fiesta offers
                         logo design services at competitive prices. As a leading
