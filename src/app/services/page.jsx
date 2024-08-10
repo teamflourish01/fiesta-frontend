@@ -15,7 +15,7 @@ import aboutimg from "../../images/aboutbanner.png";
 import Link from "next/link";
 // import round from "../images/round.png";
 // import sround from "../images/sround.png";
-import serviceb from "../../images/service.png";
+// import serviceb from "../../images/service.png";
 
 const Page = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -78,7 +78,7 @@ const Page = () => {
               <div className="destination-flex-about">
                 <div className="destination-right-about">
                   <p className="Graphic-about">
-                  We are Specialized Social Media Marketing service provider
+                  We are Specialized Social Media Marketing Service Providers
                   </p>
                   <div className="care-about">
                   <ul className="ul-dot">
@@ -175,7 +175,7 @@ const Page = () => {
       <section>
         <div className="main-width">
           <div className="under-1320">
-              <div className="service-top-padding">
+              <div className="service-top-padding unset">
             <div className="all-padding">
                 <div className="service-flex">
 

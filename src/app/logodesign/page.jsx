@@ -166,7 +166,7 @@ const page = () => {
                         Best creative logo design company
                       </p>
                       <p className="media-marketing">What is Logo?</p>
-                      <p className="products">
+                      <p className="products twop">
                         A logo is a visual symbol representing a company, brand,
                         or organization, designed to aid public recognition and
                         convey identity.

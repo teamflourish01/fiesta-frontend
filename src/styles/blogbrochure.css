@@ -116,7 +116,7 @@
     padding: 0 0 33px;
 }
 .brochure-point-title {
-  padding: 8px 0 2px;
+  padding: 15px 0 2px;
 }
 .brochure-social-title {
   padding: 15px 0 2px;
@@ -124,7 +124,7 @@
 }
 @media (max-width: 767px) {
   .date-brochure {
-    padding: 30px 0 15px;
+    padding: 50px 0 15px;
 }
   .blog-brochure-title {
     font-size: 20px;
@@ -149,13 +149,14 @@
     font-family: Manrope-Bold;
     font-size: 18px;
     line-height: unset;
-    padding: 10px 0 5px;
-  }
-  .brochure-point-title {
-    font-size: 18px;
+    padding: 15px 0 2px;
   }
   .blog-brochure-container {
     padding: unset;
+  }
+  .pright{
+    padding: 8px 0 2px !important;
+
   }
   .element-desc {
     font-size: 16px;

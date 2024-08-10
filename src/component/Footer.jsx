@@ -29,7 +29,7 @@ const Footer = () => {
                 </div>
                 {/* <div className="footer-links"> */}
                 <ul className="link-tab">
-                  <li>
+                  <li >
                     <Link className=" links" href="/">
                       Home
                     </Link>
@@ -91,6 +91,12 @@ const Footer = () => {
           <div className="white-line"></div>
           <div className="copy-right">
             Copyrights © 2024 Fiesta All rights reserved.
+         {/* <br/> */}
+          <p className="fivep">
+            Design & Developed By : <Link href='https://teamflourish.co/' className="florish">
+              Flourish Creations Pvt. Ltd.
+            </Link>
+            </p>
           </div>
         </div>
       </section>

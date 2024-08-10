@@ -144,7 +144,9 @@
     font-size: 30px;
     line-height: 30px;
   }
-
+  .our {
+    font-size: 22px;
+  }
   .our-mission {
     max-width: 405px;
     min-width: 200px;
@@ -176,54 +178,61 @@
   .mission-main-flex {
     display: grid;
 
-          grid-template-columns: repeat(1, 1fr);
-          justify-items: center;
-      /* display: flex; */
-      align-items: center;
-      gap: 15px;
-
+    grid-template-columns: repeat(1, 1fr);
+    justify-items: center;
+    /* display: flex; */
+    align-items: center;
+    gap: 15px;
   }
   .main-title {
     padding: 50px 0 20px 0;
     font-size: 20px;
     line-height: 30px;
   }
-
-  .mision-flex-img{
+  .design-company {
+    line-height: unset;
+  }
+  .our {
+    font-size: 18px;
+}
+.upgrate {
+  padding: 15px 10px !important;
+}
+  .mision-flex-img {
     max-width: 67px;
     /* max-width: 75px; */
     min-width: 10px;
     width: 100%;
   }
   .upgrate {
-
     padding: 15px 10px 15px 10px;
-}
+  }
 }
 
-  .design-company {
-    font-size: 16px;
-    line-height: 25px;
-  }
-  .client {
-    font-size: 16px;
-    line-height: 25px;
-  }
-  /* .our {
+.design-company {
+  font-size: 16px;
+  line-height: 25px;
+}
+.client {
+  font-size: 16px;
+  line-height: 25px;
+}
+/* .our {
     font-size: 18px;
     line-height: 30px;
   } */
-  .img1 {
-    position: relative;
-    /* top: 23px; */
+.img1 {
+  position: relative;
+  /* top: 23px; */
 
-
-    /* left: 23px; */
-    height: 65px;
-    width: 65px;
+  /* left: 23px; */
+  height: 65px;
+  width: 65px;
+}
+.ul-dot{
+  list-style-type:disc;
+  padding-left: 20px;
   }
-
-
 @media screen and (max-width: 500px) {
   .round-img {
     background-image: url(/_next/static/media/round.bd6cdae9.png);
@@ -273,7 +282,8 @@
     min-width: 200px;
     width: 100%;
     min-height: 200px;
-    height: 540px;
+    /* height: 540px; */
+    height: 100%;
     max-height: 600px;
     border: 1px solid #000000;
     border-radius: 50px;
@@ -309,7 +319,7 @@
   width: 100%;
   text-align: left;
 }
-.service-padding-about{
+.service-padding-about {
   padding: 5px 0;
 }
 
@@ -339,5 +349,24 @@
   .care-about {
     line-height: unset;
   }
- 
+  .upgrate {
+  
+    padding: 10px;
+}
+}
+@media screen and (max-width: 768px) {
+  .Graphic-about {
+    padding: 30px 0 0;
+    font-size: 20px;
+    line-height: 27px;
+  }
+  .care-about {
+    font-size: 16px;
+    line-height: 20px;
+    padding: 10px 0 20px 0;
+    
+  }
+  .destination-flex-about {
+    gap: 12px;
+  }
 }

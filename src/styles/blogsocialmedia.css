@@ -229,15 +229,15 @@
     line-height: unset;
   }
   .socal-img-top {
-    padding: 30px 0;
+    padding: 15px 0;
     object-fit: cover;
   }
   .boost-desc {
     padding: 0 0 15px;
   }
   .img-ul-content {
-    padding: 10px 0;
-    gap: 10px;
+    padding: 7px 0;
+    gap: 7px;
   }
   .tips-title {
     text-align: left;
@@ -261,6 +261,7 @@
   }
   .power-title{
     font-size: 18px;
+    line-height: unset;
   }
   .power-desc{
     font-size: 16px;

@@ -198,7 +198,7 @@ const page = () => {
                         Transform Your Brand Message with Stunning Brochure
                         Designs
                       </p>
-                      <p className="Promote">
+                      <p className="Promote pbrochure">
                         Best Brochure Design Company in Ahmedabad
                       </p>
                       <p className="media-marketing">

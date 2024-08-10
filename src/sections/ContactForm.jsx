@@ -101,7 +101,7 @@ function ContactForm() {
                         <textarea className="input" placeholder='Message' name="message"  onChange={(e)=>handleChange(e)} value={detail.message} />
                       </div>
                       <div className='contact-button'>
-                    <button type='submit' onClick={()=>handleSubmit()} className="btn-contact">Submit</button>
+                    <button type='submit' onClick={()=>handleSubmit()} className="btn-contact"> <span>Submit</span></button>
                     </div>
                     </div>
                   </div>
