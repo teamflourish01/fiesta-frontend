@@ -33,13 +33,13 @@ const page = () => {
           <div className="under-1320">
             <div className="all-padding home">
             <div className="destination-container">
-              <div className="destination-flex-logodesign">
-                <div className="destination-right-about">
-                  <p className="Graphic-about">
+              <div className="destination-flex">
+                <div className="destination-right">
+                  <p className="Graphic">
                     We are Specialized Logo Design Services Provider
                   </p>
 
-                  <div className="care-about">
+                  <div className="care">
 
                     <li>Best logo providers in Ahmedabad</li>
                     <li className="banner">Best industry experts</li>
