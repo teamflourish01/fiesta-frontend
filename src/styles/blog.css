@@ -92,6 +92,10 @@
   bottom: 8px;
   right: -1px;
 }
+.link-remove{
+  text-decoration: none;
+  color: inherit;
+}
 
 .read-more {
   text-decoration: none;
@@ -178,7 +182,7 @@
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    gap: 153px;
+    gap: 30px;
   }
 }
 
@@ -224,7 +228,7 @@
     padding: unset;
   }
   .destination-flex-blog {
-    gap: 197px;
+    gap: 30px;
 }
   /* .blog-card-container {
           flex-wrap: wrap ;

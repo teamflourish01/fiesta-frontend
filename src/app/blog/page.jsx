@@ -62,6 +62,7 @@ function Page() {
                         <Image className="blog-img" src={blogImg} alt="Logo" />
                       </div>
                       <div className="blog-content">
+                      <Link href="blog/blogsocialmedia" className="link-remove">
                         <p className="date"> 20/07/2024</p>
                         <p className="blog-card-title">
                           Boost Your Brand with Effective Social Media Marketing
@@ -72,6 +73,7 @@ function Page() {
                           attainment, interact with customers, and construct a
                           sturdy brand presence...
                         </p>
+                        </Link>
                       </div>
                       <div className="read-more-container">
                         <Link href="blog/blogsocialmedia" className="read-more color">
