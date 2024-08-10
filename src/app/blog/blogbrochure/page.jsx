@@ -12,7 +12,7 @@ function page() {
           <div className="under-1320 b">
             <div className="all-padding">
             <div className="blog-brochure-container">
-              <div className="date-brochure">09/08/2024</div>
+              <div className="date-brochure">20/07/2024</div>
               <div className="brochure-top-content">
                 <div className="img-banner-brochure">
                   <Image

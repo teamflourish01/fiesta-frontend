@@ -15,7 +15,7 @@ function page() {
                         <div className="blog-social-main">
                             <div className="top-content-container">
                                 <div className="date-social">
-                                    20/07/2024
+                                09/08/2024
                                 </div>
                                 <div className="img-banner-social">
                                     <Image className="socal-img-top" src={SocialImgBanner} alt="Social Media Post" />

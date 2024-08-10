@@ -63,7 +63,7 @@ function Page() {
                       </div>
                       <div className="blog-content">
                       <Link href="blog/blogsocialmedia" className="link-remove">
-                        <p className="date"> 20/07/2024</p>
+                        <p className="date">09/08/2024</p>
                         <p className="blog-card-title">
                           Boost Your Brand with Effective Social Media Marketing
                         </p>
@@ -90,6 +90,7 @@ function Page() {
                         />
                       </div>
                       <div className="blog-content">
+                      <Link href="blog/bloglogo" className="link-remove">
                         <p className="date"> 30/07/2024</p>
                         <p className="blog-card-title">
                           Why Every Successful Brand Starts with a Unique Logo
@@ -100,6 +101,7 @@ function Page() {
                           has become more critical than ever. An excellent logo
                           stands...
                         </p>
+                        </Link>
                       </div>
                       <div className="read-more-container">
                         <Link href="blog/bloglogo" className="read-more color-two">
@@ -116,7 +118,8 @@ function Page() {
                         />
                       </div>
                       <div className="blog-content">
-                        <p className="date"> 09/08/2024</p>
+                      <Link href="blog/blogbrochure" className="link-remove">
+                        <p className="date"> 20/07/2024 </p>
                         <p className="blog-card-title">
                           Why Professional Brochure and Stationery Design
                           Matters for Your Business
@@ -127,6 +130,7 @@ function Page() {
                           These traditional marketing materials offer tangible
                           benefits that....
                         </p>
+                        </Link>
                       </div>
                       <div className="read-more-container">
                         <Link href="blog/blogbrochure" className="read-more color-three">
