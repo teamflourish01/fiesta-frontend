@@ -5,7 +5,12 @@ import "../../styles/service.css";
 import closeImage from "../../images/closeImage.png";
 import Image from "next/image";
 import drop from "../../images/drop.png"
+import "../../styles/homesection.css"
+import sbanner from "../../images/sbanner.png"
+
 import "../../styles/about.css";
+import aboutimg from "../../images/aboutbanner.png";
+
 
 import Link from "next/link";
 // import round from "../images/round.png";
@@ -21,7 +26,7 @@ const Page = () => {
   const [selectedPage, setSelectedPage] = useState("/services");
   return (
     <>
-      <section>
+      {/* <section>
         <div className="main-width">
           <div className="under-1320">
             <div className="all-padding home">
@@ -63,7 +68,51 @@ const Page = () => {
           </div>
           <hr />
         </div>
+      </section> */}
+
+      <section>
+        <div className="main-width">
+          <div className="under-1320">
+            <div className="all-padding home">
+            <div className="destination-container">
+              <div className="destination-flex-about">
+                <div className="destination-right-about">
+                  <p className="Graphic-about">
+                  We are Specialized Social Media Marketing service provider
+                  </p>
+                  <div className="care-about">
+                  <ul className="ul-dot">
+                    <li>Best Social Media Marketing service providers in Ahmedabad</li>
+                    <li className="service-padding-about">banner with sample of Social Media Graphical images</li>
+                    </ul>
+                    
+                  </div>
+                 
+                </div>
+                <div className="destination-left">
+                  <Image src={sbanner} alt="aboutimg" className="main-image" />
+                  <div className="round-img"></div>
+                  <div className="top-round"></div>
+                  <div className="s-round"></div>
+                  <Image
+                    src={closeImage}
+                    alt="closeimage1"
+                    className="corner-image top-right rotating"
+                  />
+                  <Image
+                    src={closeImage}
+                    alt="closeimage"
+                    className="corner-image bottom-left rotating"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          </div>
+            <hr />
+        </div>
       </section>
+
                 <div className="responsive">
                   <div className="servicess">
                     <div className="arrow">
