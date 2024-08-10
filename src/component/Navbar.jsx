@@ -4,19 +4,18 @@ import React, { useState, useEffect, useRef } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import flogo from "../images/flogo.webp";
-import logo from "../images/logo.png";
 import insta from "../images/insta.png";
 import facebook from "../images/facebook.png";
-import twitter from "../images/twitter.png";
+import whatapp from "../images/whatapp.png";
 import mail from "../images/mail.png";
 import hamburger from "../images/hamburger.png";
 import closeImage from "../images/closeImage.png";
-import whatapp from "../images/whatapp.png";
-
+import { usePathname } from "next/navigation";
 import "../styles/navbar.css";
 
 const Navbar = () => {
   const [clicked, setClicked] = useState(false);
+  const pathname = usePathname();
   const navbarRef = useRef(null);
 
   const handleClick = () => {
@@ -71,7 +70,7 @@ const Navbar = () => {
                           target="_blank"
                           rel="noopener noreferrer"
                         >
-                          <Image src={insta} alt="whatsapp" />
+                          <Image src={insta} alt="Instagram" />
                         </Link>
                         <Link
                           href="https://www.facebook.com/people/Fiesta-Design-Studio/100090484164019/?mibextid=ZbWKwL"
@@ -85,7 +84,7 @@ const Navbar = () => {
                           target="_blank"
                           rel="noopener noreferrer"
                         >
-                          <Image src={whatapp} alt="ytlink" />
+                          <Image src={whatapp} alt="WhatsApp" />
                         </Link>
                       </div>
                     </div>
@@ -102,7 +101,7 @@ const Navbar = () => {
           <div className="under1320width">
             <div className="all-padding">
               <div className="nav">
-                <Link href="/">
+                <Link href="/" className="logo-align">
                   <Image className="desi-logo" src={flogo} alt="Logo" />
                 </Link>
 
@@ -117,27 +116,52 @@ const Navbar = () => {
                   >
                     <div className="under-nav-flex">
                       <li className="naves">
-                        <Link className="under" href="/">
+                        <Link
+                          href="/"
+                          className={`under ${
+                            pathname === "/" ? "active" : ""
+                          }`}
+                        >
                           <span className="do">Home</span>
                         </Link>
                       </li>
                       <li className="naves">
-                        <Link className="under" href="/about">
+                        <Link
+                          href="/about"
+                          className={`under ${
+                            pathname === "/about" ? "active" : ""
+                          }`}
+                        >
                           <span className="do">About Us</span>
                         </Link>
                       </li>
                       <li className="naves">
-                        <Link className="under" href="/services">
+                        <Link
+                          href="/services"
+                          className={`under ${
+                            pathname === "/services" ? "active" : ""
+                          }`}
+                        >
                           <span className="do">Services</span>
                         </Link>
                       </li>
                       <li className="naves">
-                        <Link className="under" href="/blog">
+                        <Link
+                          href="/blog"
+                          className={`under ${
+                            pathname === "/blog" ? "active" : ""
+                          }`}
+                        >
                           <span className="do">Blogs</span>
                         </Link>
                       </li>
                       <li className="naves">
-                        <Link className="under" href="/contact">
+                        <Link
+                          href="/contact"
+                          className={`under ${
+                            pathname === "/contact" ? "active" : ""
+                          }`}
+                        >
                           <span className="do">Contact Us</span>
                         </Link>
                       </li>
@@ -148,7 +172,7 @@ const Navbar = () => {
                             target="_blank"
                             rel="noopener noreferrer"
                           >
-                            <Image src={insta} alt="whatsapp" />
+                            <Image src={insta} alt="Instagram" />
                           </Link>
                           <Link
                             href="https://www.facebook.com/people/Fiesta-Design-Studio/100090484164019/?mibextid=ZbWKwL"
@@ -162,7 +186,7 @@ const Navbar = () => {
                             target="_blank"
                             rel="noopener noreferrer"
                           >
-                            <Image src={whatapp} alt="ytlink" />
+                            <Image src={whatapp} alt="WhatsApp" />
                           </Link>
                         </div>
                       </div>

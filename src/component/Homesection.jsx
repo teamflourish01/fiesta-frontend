@@ -88,8 +88,8 @@ const Homesection = () => {
                 </div>
               </div>
             </div>
-            <hr />
           </div>
+          <hr />
         </div>
       </section>
 

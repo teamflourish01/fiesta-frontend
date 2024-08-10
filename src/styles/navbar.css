@@ -296,7 +296,10 @@ font-size: 18px;
 line-height: 35px;
 align-items: center;
 }
-
+.logo-align{
+  display: flex;
+  align-items: center;
+}
 @media screen and (max-width: 1024px) {
 .navs-main-icon {
   display: unset; 
@@ -440,3 +443,7 @@ width: 230px;
 }
 
 
+#navbar li a.active::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}

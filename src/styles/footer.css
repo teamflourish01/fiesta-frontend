@@ -39,7 +39,7 @@
 
 .footer-bg {
   width: 100%;
-  background-color: #170521;
+  background-color: black;
   margin-top: 100px;
   position: relative;
 }
@@ -105,7 +105,7 @@
   font-family: Manrope-Bold;
   transition: color 0.3s, border-bottom 0.3s;
   padding-bottom: 4px;
-  border-bottom: 2px solid #170521;
+  border-bottom: 2px solid black;
 }
 .link-tab li a:hover {
   border-bottom: 2px solid #fff ;
@@ -122,30 +122,10 @@ transform-origin: bottom right;
   transform: scaleX(1);
   transform-origin: bottom left;
 }
-/* .link a:hover,
-.link a.active {
-  color: #fff;
-}
 
-.link a::after {
-  content: "";
-  display: block;
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  height: 2px;
-  background-color: #fff;
-  transform: scaleX(0);
-  transition: transform 0.3s;
-  transform-origin: bottom right;
+.link-tab li a.active {
+  border-bottom: 2px solid #fff; /* This will show the underline */
 }
-
-.link a:hover::after,
-.link a.active::after {
-  transform: scaleX(1);
-  transform-origin: bottom left;
-} */
 
 .footer-social-icons {
   color: #fff;

@@ -99,57 +99,6 @@ textarea::placeholder {
   padding: 15px 0 0;
 }
 
-/* .btn-contact {
-  display: block;
-  max-width: 1320px;
-  min-width: 200px;
-  width: 100%;
-  background-color: #170521;
-  color: white;
-  border: none;
-  border-radius: 10px;
-  padding: 10px 20px;
-  font-size: 16px;
-  cursor: pointer;
-  text-align: center;
-  text-transform: uppercase;
-  font-size: 18px;
-  line-height: 20px;
-  font-family: Manrope-SemiBold;
-  position: relative;
-  transition: all 2s;
-  
-}
-.btn-contact a{
-  position: relative;
-  z-index: 2px;
-}
-.btn-contact:after{
-  position: absolute;
-  content: "";
-  top: 0;
-  left: 0;
-  width: 0;
-  height: 100%;
-  background: #fff;
-  transition: all 2s;
-  color: #170521 !important;
-
-  
-}
-
-.btn-contact:hover{
-  color: #170521 !important;
-  border: 2px solid #170521;
-  border-radius: 10px;
-}
-
-.btn-contact:hover:after{
-  width: 100%;
-} */
-
-
-
 .btn-contact {
   /* display: block; */
   max-width: 1320px;
@@ -201,28 +150,84 @@ textarea::placeholder {
 
 
 
-
-
-
-
-
-
-
-
 .input-dropdown {
   width: 100%;
   border: none;
   box-sizing: border-box;
   border-radius: 10px;
   outline: none;
-  /* padding: 10px; */
-  /* padding: 6px 0 6px 14px; */
   padding: 9px 0 10px 12px;
   font-family: Manrope-Regular;
   font-size: 18px;
   line-height: 24.59px;
   color: #170521;
+  -webkit-appearance: none; 
+  -moz-appearance: none;  
+  appearance: none;        
+  background: none; 
+  position: relative; 
+  
 }
+.name-contact-input{
+  /* display: flex;
+  align-items: center;
+  background-color: #fff;
+  border-radius: 10px; */
+position: absolute;
+}
+.input-group {
+  position: relative;
+  background-color: #fff;
+}
+
+.input-group::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  right: 12px;
+  transform: translateY(-50%);
+  pointer-events: none; 
+}
+
+.arrow-contact{
+  /* font-size: 16px;
+  padding-right: 12px;
+  display: flex;
+  align-items: center;
+  position: absolute;
+  top: 15px;
+  left: 620px; */
+
+
+  position: absolute;
+  top: 53%;
+  left: 96%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+
+
+
+
+
+
+/* .input-dropdown {
+  width: 100%;
+  border: none;
+  box-sizing: border-box;
+  border-radius: 10px;
+  outline: none;
+  padding: 9px 0 10px 12px;
+  font-family: Manrope-Regular;
+  font-size: 18px;
+  line-height: 24.59px;
+  color: #170521;
+} */
 
 @media (max-width: 1024px) {
   .heading {
