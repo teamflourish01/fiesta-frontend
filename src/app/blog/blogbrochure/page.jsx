@@ -12,7 +12,7 @@ function page() {
           <div className="under-1320 b">
             <div className="all-padding">
             <div className="blog-brochure-container">
-              <div className="date-brochure">08.08.2021</div>
+              <div className="date-brochure">09/08/2024</div>
               <div className="brochure-top-content">
                 <div className="img-banner-brochure">
                   <Image
@@ -285,7 +285,7 @@ function page() {
                       </div>
                     </div>
                     <div className="brochure-point">
-                      <div className="brochure-point-title">
+                      <div className="brochure-point-title pright">
                         Finding the Right Design Partner
                       </div>
                       <div className="brochure-point-desc">

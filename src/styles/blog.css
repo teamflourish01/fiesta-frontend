@@ -259,4 +259,8 @@
   text-align: left;
   line-height: unset;
 }
+.blog-content {
+  /* padding: 20px; */
+  padding: 10px;
+}
 }

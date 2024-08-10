@@ -56,7 +56,10 @@
   .notion-circle {
     padding: 13px 0px;
   }
+  .twop{
+    padding: 0  0 2px;
 
+  }
 }
 
 @media screen and (max-width: 767px) {
@@ -75,6 +78,9 @@
   .logi-idia{
     font-size: 16px;
   }
+  .service-top-padding {
+    padding:unset;
+}
 }
 
 /* .destination-flex-about {

@@ -99,8 +99,8 @@ textarea::placeholder {
   padding: 15px 0 0;
 }
 
-.btn-contact {
-  /* width: 1320px; */
+/* .btn-contact {
+  display: block;
   max-width: 1320px;
   min-width: 200px;
   width: 100%;
@@ -116,7 +116,98 @@ textarea::placeholder {
   font-size: 18px;
   line-height: 20px;
   font-family: Manrope-SemiBold;
+  position: relative;
+  transition: all 2s;
+  
 }
+.btn-contact a{
+  position: relative;
+  z-index: 2px;
+}
+.btn-contact:after{
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  background: #fff;
+  transition: all 2s;
+  color: #170521 !important;
+
+  
+}
+
+.btn-contact:hover{
+  color: #170521 !important;
+  border: 2px solid #170521;
+  border-radius: 10px;
+}
+
+.btn-contact:hover:after{
+  width: 100%;
+} */
+
+
+
+.btn-contact {
+  /* display: block; */
+  max-width: 1320px;
+  min-width: 200px;
+  width: 100%;
+  background-color: black;
+  color: white;
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 18px;
+  line-height: 20px;
+  font-family: Manrope-SemiBold;
+  position: relative;
+  transition: all 1s;
+}
+
+.btn-contact span {
+  position: relative;
+  z-index: 3; /* Ensure text is above the :after element */
+}
+
+.btn-contact:after {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  border-radius: 10px;
+  background: #fff;
+  transition: all 1s;
+  z-index: 2; /* Ensure it's behind the text */
+}
+
+.btn-contact:hover {
+  color: #000000 !important; /* Font color changes to black */
+  /* border: 2px solid #000000;  */
+}
+
+.btn-contact:hover:after {
+  width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 .input-dropdown {
   width: 100%;

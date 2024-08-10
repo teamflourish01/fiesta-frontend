@@ -32,9 +32,11 @@ const page = () => {
                   We are Specialized Graphic Design Services Provider
                   </p>
                   <div className="care-about">
+                  <ul className="ul-dot">
                     <li>Best Graphics providers in Ahmedabad</li>
                     <li className="service-padding-about">All services are at one place</li>
                     <li>Best industry experts</li>
+                    </ul>
                   </div>
                  
                 </div>

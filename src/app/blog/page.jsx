@@ -21,7 +21,7 @@ function Page() {
               <div className="destination-flex-blog">
                 <div className="destination-right">
                   <p className="Graphic">
-                  Blog
+                  Explore the Verities of Design Blogs
                   </p>
                 </div>
                 <div className="destination-left">
@@ -62,7 +62,7 @@ function Page() {
                         <Image className="blog-img" src={blogImg} alt="Logo" />
                       </div>
                       <div className="blog-content">
-                        <p className="date"> 08.08.2021</p>
+                        <p className="date"> 20/07/2024</p>
                         <p className="blog-card-title">
                           Boost Your Brand with Effective Social Media Marketing
                         </p>
@@ -88,7 +88,7 @@ function Page() {
                         />
                       </div>
                       <div className="blog-content">
-                        <p className="date"> 08.08.2021</p>
+                        <p className="date"> 30/07/2024</p>
                         <p className="blog-card-title">
                           Why Every Successful Brand Starts with a Unique Logo
                         </p>
@@ -114,7 +114,7 @@ function Page() {
                         />
                       </div>
                       <div className="blog-content">
-                        <p className="date"> 08.08.2021</p>
+                        <p className="date"> 09/08/2024</p>
                         <p className="blog-card-title">
                           Why Professional Brochure and Stationery Design
                           Matters for Your Business
