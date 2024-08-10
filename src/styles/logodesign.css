@@ -51,7 +51,31 @@
 .side-padding{
   padding: 0 0 0 25px;
 }
+.services .social-div p {
+  display: inline-block;
+  position: relative;
+  padding-bottom: 2px;
+  color: black;
+  font-family: Manrope-Medium;
 
+}
+
+.services .social-div p::after {
+  content: "";
+  display: block;
+  width: 0;
+  height: 2px;
+  background-color: black;
+  transition: width 0.3s ease;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.services .social-div p:hover::after,
+.services .social-div p.underline::after {
+  width: 100%;
+}
 @media screen and (max-width: 1024px) {
   .notion-circle {
     padding: 13px 0px;
