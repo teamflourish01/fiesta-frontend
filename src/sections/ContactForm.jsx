@@ -1,6 +1,7 @@
 "use client";
 
 import React, { useState } from "react";
+import Swal from "sweetalert2";
 import "../styles/contactform.css";
 import "../styles/about.css";
 
@@ -16,7 +17,7 @@ function ContactForm() {
     message: "",
     service: "",
   });
-  const [isLoading,setIsLoading]=useState(false)
+  const [isLoading, setIsLoading] = useState(false);
   const handleChange = (e) => {
     const { name, value } = e.target;
     setDetail({ ...detail, [name]: value });
@@ -25,7 +26,7 @@ function ContactForm() {
   const handleSubmit = async (e) => {
     try {
       e.preventDefault();
-      setIsLoading(true)
+      setIsLoading(true);
       let data = await fetch("https://api.fiestadesign.in/user/add", {
         method: "POST",
         body: JSON.stringify(detail),
@@ -34,7 +35,15 @@ function ContactForm() {
         },
       });
       data = await data.json();
-      setIsLoading(false)
+      setIsLoading(false);
+
+      // SweetAlert2 success message
+      Swal.fire({
+        title: "Success!",
+        text: "Submit Successfully",
+        icon: "success",
+        confirmButtonText: "OK",
+      });
 
       setDetail({
         name: "",
@@ -47,6 +56,15 @@ function ContactForm() {
       console.log(data);
     } catch (error) {
       console.log(error);
+
+      // SweetAlert2 error message
+      Swal.fire({
+        title: "Error!",
+        text: "Something went wrong. Please try again.",
+        icon: "error",
+        confirmButtonText: "OK",
+      });
+      setIsLoading(false);
     }
   };
 
@@ -64,8 +82,8 @@ function ContactForm() {
                   <div className="contact-text">
                     <p className="call-back">Request a Call Back</p>
                     <p className="book-consultation">
-                      Book a free consultation call with our top-rated Graphic
-                      Design soldiers
+                      Book a Free Consultation Call with Our Top-rated Graphic
+                      Design Soldiers
                     </p>
                   </div>
                   <form onSubmit={handleSubmit}>
@@ -102,7 +120,7 @@ function ContactForm() {
                         <div className="input-field name-contact">
                           <div className="input-group name-contact-input">
                             <input
-                              type="text"
+                              type="email"
                               className="input"
                               placeholder="Email"
                               name="email"
@@ -134,11 +152,11 @@ function ContactForm() {
                             >
                               <option value="">Select Service</option>
                               <option value="Social Media management">
-                                Social Media management
+                              Social Media Management
                               </option>
                               <option value="Logo Design">Logo Design</option>
                               <option value="Brochure Design">
-                                Brochure Design
+                              Brochure Design
                               </option>
                             </select>
                             <span className="arrow-contact">
@@ -178,8 +196,11 @@ function ContactForm() {
                           <div className="contact-button">
                             <button type="submit" className="btn-contact">
                               {" "}
-                              {isLoading?<span>...Please Wait</span>:<span>submit</span>}
-                              
+                              {isLoading ? (
+                                <span>...Please Wait</span>
+                              ) : (
+                                <span>submit</span>
+                              )}
                             </button>
                           </div>
                         </div>

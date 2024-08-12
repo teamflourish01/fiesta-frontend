@@ -29,9 +29,9 @@ const page = () => {
                 <div className="destination-flex-about">
                   <div className="destination-right-about">
                     <p className="Graphic-about">
-                      We are Specialized Graphic Design Services Provider
+                      We Are Specialized Graphic Design Services Provider
                     </p>
-                    <div className="care-about">
+                    {/* <div className="care-about">
                       <ul className="ul-dot">
                         <li>Best Graphics providers in Ahmedabad</li>
                         <li className="service-padding-about">
@@ -39,7 +39,7 @@ const page = () => {
                         </li>
                         <li>Best industry experts</li>
                       </ul>
-                    </div>
+                    </div> */}
                   </div>
                   <div className="destination-left">
                     <Image
@@ -73,13 +73,13 @@ const page = () => {
         <div className="main-width">
           <div className="under-1320">
             <div className="all-padding">
-              <div className="main-title">Who we are?</div>
+              <div className="main-title">Who We Are?</div>
               <div className="design-companyee">
                 <p>
                   Fiesta is a graphic design company and digital design partner
-                  of your business. We believe by connecting together we can
-                  achieve good deliverable results. We are a full graphic design
-                  company with a team of more than 15+ members and with in-house
+                  of your business. We believe by connecting we can achieve good
+                  deliverable results. We are a full graphic design company with
+                  a team of more than 15+ members and with in-house
                   award-winning designers.
                 </p>
                 <p className="member">
@@ -94,15 +94,15 @@ const page = () => {
                   We all are passionate and curious about the work we do. Our
                   greatest satisfaction comes when clients approve the design on
                   the first attempt and we always work for our satisfaction. We
-                  are committed to ensuring that our services make our client’s
-                  businesses successful.
+                  are committed to ensuring that our services make our
+                  client&apos;s businesses successful.
                 </p>
                 <p className="members">
-                  Connect with our team today and discuss your requirements
-                  about Social Media posts, Logo Design, Brochure Design, and
-                  Stationery Design. Working together we can help you to
-                  increase your brand’s visibility, brand’s identity, and
-                  brand’s growth locally and globally.
+                  Connect with our team today and discuss your requirements for
+                  social media posts, logo design, brochure design, and
+                  stationery design. Working together we can help you to
+                  increase your brand&apos;s visibility, brand&apos;s identity,
+                  and brand&apos;s growth locally and globally.
                 </p>
               </div>
             </div>
@@ -131,9 +131,9 @@ const page = () => {
                     </div>
                     <div className="upgrate">
                       <p className="client">
-                        To upgrade clients’ brands and realize their Design
+                        To upgrade clients’ brands and realize their design
                         goals by providing innovative and effective solutions
-                        for them. In addition, our aim is to create a seamless
+                        for them. In addition, we aim to create a seamless
                         harmony between our clients and Fiesta. We always
                         respect client values and their needs to offer the best
                         opportunities for them.

@@ -76,6 +76,8 @@
 .footer-logo {
   width: 160px;
   height: 64px;
+  display: flex;
+  align-items: center;
 }
 
 .footer-links {

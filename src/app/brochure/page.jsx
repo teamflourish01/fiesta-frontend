@@ -4,11 +4,11 @@ import React, { useState } from "react";
 import ajay from "../../images/ajay.png";
 import "../../styles/service.css";
 import "../../styles/brochure.css";
-import "../../styles/homesection.css"
+import "../../styles/homesection.css";
 
 import drop from "../../images/drop.png";
 import aboutimg from "../../images/aboutbanner.png";
-import brimg from "../../images/brimg.png"
+import brimg from "../../images/brimg.png";
 import closeImage from "../../images/closeImage.png";
 import Image from "next/image";
 import Link from "next/link";
@@ -35,17 +35,8 @@ const Page = () => {
                 <div className="destination-flex-about">
                   <div className="destination-right-about">
                     <p className="Graphic-about">
-                    We are Specialized Brochure Design Services Providers
+                      We Are Specialized Brochure Design Services Providers
                     </p>
-                    <div className="care-about">
-                    <ul className="ul-dot">
-                      <li>Best Brochure Providers in Ahmedabad</li>
-                      <li className="banner-about">
-                      Banner with Samples of Brochure Images
-
-                      </li>
-                      </ul>
-                    </div>
                   </div>
                   <div className="destination-left">
                     <Image src={brimg} alt="" className="main-image" />
@@ -67,118 +58,62 @@ const Page = () => {
               </div>
             </div>
           </div>
-          
         </div>
         <hr />
       </section>
 
-
-      {/* <section>
-        <div className="main-width">
-          <div className="under-1320">
-            <div className="all-padding home">
-            <div className="destination-container">
-              <div className="destination-flex-about">
-                <div className="destination-right-about">
-                  <p className="Graphic-about">
-                  We are Specialized Graphic Design Services Provider
-                  </p>
-                  <div className="care-about">
-                    <li>Best Graphics providers in Ahmedabad</li>
-                    <li className="service-padding-about">All services are at one place</li>
-                    <li>Best industry experts</li>
-                  </div>
-                 
-                </div>
-                <div className="destination-left">
-                  <Image src={brimg} alt="aboutimg" className="main-image" />
-                  <div className="round-img"></div>
-                  <div className="top-round"></div>
-                  <div className="s-round"></div>
-                  <Image
-                    src={closeImage}
-                    alt="closeimage1"
-                    className="corner-image top-right rotating"
-                  />
-                  <Image
-                    src={closeImage}
-                    alt="closeimage"
-                    className="corner-image bottom-left rotating"
-                  />
-                </div>
-              </div>
-            </div>
-          </div>
-          </div>
-            <hr />
-        </div>
-      </section> */}
       <div className="responsive">
-                    <div className="servicess">
-                      <div className="arrow">
-                        <p className="our-services">Our Services</p>
-                        <Image
-                          onClick={toggleDropdown}
-                          src={drop}
-                          className="cursor-pointer"
-                        />
-                        {/* <p onClick={toggleDropdown} className="cursor-pointer">V</p> */}
-                      </div>
-                      {isOpen && (
-                        <div className="social-div">
-                          <hr />
-                          <Link href="/services" className="style-none">
-                            <p
-                              style={{ cursor: "pointer" }}
-                              className={
-                                selectedPage === "/services" ? "underline" : ""
-                              }
-                              onClick={() => setSelectedPage("/services")}
-                            >
-                              <span className="side-padding">
-                              Social Media Post
-                              </span>
-                            </p>
-                          </Link>
-                          <Link href="/logodesign" className="style-none">
-                            <p
-                              style={{ cursor: "pointer" }}
-                              className={
-                                selectedPage === "/logodesign"
-                                  ? "underline"
-                                  : ""
-                              }
-                              onClick={() => setSelectedPage("/logodesign")}
-                            >
-                              <span className="side-padding">Logo Design</span>
-                            </p>
-                          </Link>
-                          <Link href="/brochure" className="style-none">
-                            <p
-                              style={{ cursor: "pointer" }}
-                              className={
-                                selectedPage === "/brochure" ? "underline" : ""
-                              }
-                              onClick={() => setSelectedPage("/brochure")}
-                            >
-                              <span className="side-padding">
-                              Brochure Design
-                              </span>
-                            </p>
-                          </Link>
-                        </div>
-                      )}
-                    </div>
-                  </div>
+        <div className="servicess">
+          <div className="arrow">
+            <p className="our-services">Our Services</p>
+            <Image
+              onClick={toggleDropdown}
+              src={drop}
+              className="cursor-pointer"
+            />
+            {/* <p onClick={toggleDropdown} className="cursor-pointer">V</p> */}
+          </div>
+          {isOpen && (
+            <div className="social-div">
+              <hr />
+              <Link href="/services" className="style-none">
+                <p
+                  style={{ cursor: "pointer" }}
+                  className={selectedPage === "/services" ? "underline" : ""}
+                  onClick={() => setSelectedPage("/services")}
+                >
+                  <span className="side-padding">Social Media Post</span>
+                </p>
+              </Link>
+              <Link href="/logodesign" className="style-none">
+                <p
+                  style={{ cursor: "pointer" }}
+                  className={selectedPage === "/logodesign" ? "underline" : ""}
+                  onClick={() => setSelectedPage("/logodesign")}
+                >
+                  <span className="side-padding">Logo Design</span>
+                </p>
+              </Link>
+              <Link href="/brochure" className="style-none">
+                <p
+                  style={{ cursor: "pointer" }}
+                  className={selectedPage === "/brochure" ? "underline" : ""}
+                  onClick={() => setSelectedPage("/brochure")}
+                >
+                  <span className="side-padding">Brochure Design</span>
+                </p>
+              </Link>
+            </div>
+          )}
+        </div>
+      </div>
       <section>
         <div className="main-width">
           <div className="under-1320">
             <div className="all-padding">
               <div className="service-top-padding">
                 <div className="service-flex">
-                  
-
-                <div className="services">
+                  <div className="services">
                     <p className="our-services">Our Services</p>
                     <hr />
                     <div className="social-div">
@@ -220,7 +155,6 @@ const Page = () => {
 
                   <div className="social-media">
                     <div className="marketing-main">
-               
                       <p className="s-marketing mark-padding   brand-padding">
                         Transform Your Brand Message with Stunning Brochure
                         Designs
@@ -237,45 +171,40 @@ const Page = () => {
                         or services, and engaging potential customers.
                       </p>
                       <p className="products-brochure">
-                        As the best logo design company in Ahmedabad, we create
-                        and deliver with satisfaction through an aerodynamic
-                        process. We start each project by discovering and
-                        researching the project. The next step is to create
-                        concepts with initial ideas, transforming them into
-                        sketches and designs that align with the brand. Next, we
-                        present these designs to the client. After receiving
-                        feedback, we revise them through a revision process.
-                        After completing the logo design, we analyze it for
-                        improvements before finalizing the logo. Once finalized,
-                        we deliver the logo along with guidelines for consistent
-                        brand use.
+                        As a best brochure design company in Ahmedabad, we
+                        specialize in brochure designs that align with your
+                        business or organization. At Fiesta, We specialize in
+                        crafting creative brochures that effectively communicate
+                        your brand’s message and fascinate your audience. Our
+                        brochure design service is dedicated to delivering
+                        high-impact marketing materials that make a lasting
+                        impression.
                       </p>
                       <p className="Promotes">
-                      Why Do Our Brochure Designs Stand Out?
+                        Why Do Our Brochure Designs Stand Out?
                       </p>
                       <p className="Personalized">
-                      Personalized with Your Brand
+                        Personalized with Your Brand
                       </p>
                       <p className="appealing">
-                        Our design approach is client-centered, we create
+                        Our design approach is client-centered. We create
                         designs that reflect your brand identity.
                       </p>
                       <p className="Personalized">
-                      Creative & Professional Design
+                        Creative & Professional Design
                       </p>
                       <p className="appealing">
                         Our professional team will craft a design with
-                        creativity that not just aligns but is both visually
+                        creativity that not only aligns but is both visually
                         appealing and functionally effective.
                       </p>
                       <p className="Personalized">
-                      Comprehensive Design Solutions
+                        Comprehensive Design Solutions
                       </p>
                       <p className="appealing">
-                        From creating concepts to the final delivery we handle
-                        each step of brochure design carefully with the client
-                        central management system, and this will make us best of
-                        most.
+                        From creating concepts to final delivery, we handle each
+                        step of brochure design carefully with a client-centered
+                        management system, which makes us one of the best.
                       </p>
 
                       <p className="Personalized">Turnaround</p>
@@ -303,8 +232,8 @@ const Page = () => {
 
                       <p className="Personalized">Content Integration</p>
                       <p className="appealing">
-                        Incorporate your brand text, images, and graphics in a
-                        way that enhances readability and engagement.
+                        Incorporate your brand&apos;s text, images, and graphics
+                        in a way that enhances readability and engagement.
                       </p>
 
                       <p className="Personalized">Print Coordination</p>
@@ -321,33 +250,33 @@ const Page = () => {
                           <p className="Basic-Plan">Basic Plan</p>
                           <div className="basic-div">
                             <p className="clean-s">
-                              Simple and clean design layout
+                              Simple and Clean Design Layout
                             </p>
                           </div>
                           <hr />
 
                           <div className="basic-div">
                             <p className="clean-s">
-                              Standard brochure size options
+                              Standard Brochure Size Options
                             </p>
                           </div>
                           <hr />
 
                           <div className="basic-div">
                             <p className="clean-s">
-                              Basic graphics and elements
+                              Basic Graphics and Elements
                             </p>
                           </div>
                           <hr />
 
                           <div className="basic-div">
-                            <p className="clean-s">Up to 2 revisions</p>
+                            <p className="clean-s">Up to 2 Revisions</p>
                           </div>
                           <hr />
 
                           <div className="basic-div">
                             <p className="clean-s">
-                              Additional revisions may incur extra charges
+                              Additional Revisions may Incur Extra Charges
                             </p>
                           </div>
                           <hr />
@@ -359,43 +288,43 @@ const Page = () => {
 
                           <div className="basic-div">
                             <p className="clean-s">
-                              No custom illustrations or photography
+                              No Custom Illustrations or Photography
                             </p>
                           </div>
                           <hr />
 
                           <div className="basic-div">
                             <p className="clean-s">
-                              Basic text layout and formatting
+                              Basic Text Layout and Formatting
                             </p>
                           </div>
                           <hr />
 
                           <div className="basic-div">
                             <p className="clean-s">
-                              No professional copywriting included
+                              No Professional Copywriting Included
                             </p>
                           </div>
                           <hr />
 
                           <div className="basic-div">
                             <p className="clean-s">
-                              Final files provided in standard formats
+                              Final Files Provided in Standard Formats
                             </p>
                           </div>
                           <hr />
 
                           <div className="basic-div">
                             <p className="clean-s">
-                              Print-ready and digital versions available
+                              Print-Ready and Digital Versions Available
                             </p>
                           </div>
                           <hr />
 
                           <div className="basic-div">
                             <p className="clean-s">
-                              Typically 1-2 weeks, depending on the
-                              designer&apos;s schedule and client responsiveness
+                              Typically 1-2 weeks, Depending on the
+                              Designer&apos;s Schedule and Client Responsiveness
                             </p>
                           </div>
                           <hr />
@@ -432,21 +361,21 @@ const Page = () => {
                           <p className="Basic-Plan">Standard Plan</p>
                           <div className="basic-div">
                             <p className="clean-s">
-                              Tailored to your brand and content
+                              Tailored to Your Brand and Content
                             </p>
                           </div>
                           <hr />
 
                           <div className="basic-div">
                             <p className="clean-s">
-                              Choice of various formats (bi-fold, tri-fold,
+                              Choice of Various Formats (bi-fold, tri-fold,
                               multi-page, etc.)
                             </p>
                           </div>
                           <hr />
 
                           <div className="basic-div">
-                            <p className="clean-s">Use of provided images</p>
+                            <p className="clean-s">Use of Provided Images</p>
                           </div>
                           <hr />
 
@@ -457,39 +386,39 @@ const Page = () => {
 
                           <div className="basic-div">
                             <p className="clean-s">
-                              Custom graphics and iconography to enhance the
-                              visual appeal
+                              Custom Graphics and Iconography to Enhance the
+                              Visual Appeal
                             </p>
                           </div>
                           <hr />
 
                           <div className="basic-div">
                             <p className="clean-s">
-                              Custom font choices to align with brand identity
+                              Custom Font Choices to Align with Brand Identity
                             </p>
                           </div>
                           <hr />
 
                           <div className="basic-div">
                             <p className="clean-s">
-                              A well-coordinated colour scheme to enhance
-                              readability and aesthetics
+                              A Well Co-Ordinated Color Scheme to Enhance
+                              Readability and Aesthetics
                             </p>
                           </div>
                           <hr />
 
                           <div className="basic-div">
                             <p className="clean-s">
-                              Up to 4 rounds of revisions to ensure satisfaction
-                              with the final design
+                              Up to 4 Rounds of Revisions to Ensure Satisfaction
+                              with the Final Design
                             </p>
                           </div>
                           <hr />
 
                           <div className="basic-div">
                             <p className="clean-s">
-                              Basic editing of provided text for clarity and
-                              grammar
+                              Basic Editing of Provided Text for Clarity and
+                              Grammar
                             </p>
                           </div>
                           <hr />
@@ -504,50 +433,49 @@ const Page = () => {
 
                           <div className="basic-div">
                             <p className="clean-s">
-                              Alignment of the text with the design to ensure a
-                              cohesive look
+                              Alignment of the Text with the Design to Ensure a
+                              Cohesive Look
                             </p>
                           </div>
                           <hr />
 
                           <div className="basic-div">
                             <p className="clean-s">
-                              Final files provided in print-ready formats (PDF,
-                              high-resolution images)
+                              Final Files Provided in Print-Ready Formats (PDF,
+                              High-Resolution Images)
                             </p>
                           </div>
                           <hr />
 
                           <div className="basic-div">
                             <p className="clean-s">
-                              Initial consultation to discuss requirements and
-                              preferences
+                              Initial Consultation to Discuss Requirements and
+                              Preferences
                             </p>
                           </div>
                           <hr />
 
                           <div className="basic-div">
                             <p className="clean-s">
-                              Option for digital versions if needed (e.g., for
-                              online distribution)
+                              Option for Digital Versions if Needed (e.g., for
+                              Online Distribution)
                             </p>
                           </div>
                           <hr />
 
                           <div className="basic-div">
                             <p className="clean-s">
-                              Ongoing communication throughout the design
-                              process to ensure alignment with client
-                              expectations
+                              Ongoing Communication throughout the Design Process
+                              to ensure Alignment with Client Expectations
                             </p>
                           </div>
                           <hr />
 
                           <div className="basic-div">
                             <p className="clean-s">
-                              Typically completed within 1-3 weeks, depending on
-                              the complexity and the number of revisions
-                              required
+                              Typically Completed within 1-3 Weeks, Depending on
+                              the Complexity and the Number of Revisions
+                              Required
                             </p>
                           </div>
                           <hr />
@@ -564,24 +492,24 @@ const Page = () => {
                           <p className="Basic-Plan">Premium Plan</p>
                           <div className="basic-div">
                             <p className="clean-s">
-                              Highly Customised Design Photography
+                              Highly Customized Design Photography
                             </p>
                           </div>
                           <hr />
 
                           <div className="basic-div">
                             <p className="clean-s">
-                              Unique and creative layout tailored to your brand
-                              identity
+                              Unique and Creative Layout Tailored to Your Brand
+                              Identity
                             </p>
                           </div>
                           <hr />
 
                           <div className="basic-div">
                             <p className="clean-s">
-                              Use of original illustrations or professional
-                              photography, possibly including a photoshoot if
-                              required
+                              Use of Original Illustrations or Professional
+                              Photography, Possibly Including a Photoshoot If
+                              Required
                             </p>
                           </div>
                           <hr />
@@ -595,16 +523,16 @@ const Page = () => {
 
                           <div className="basic-div">
                             <p className="clean-s">
-                              Custom graphics and icons designed specifically
-                              for the brochure
+                              Custom Graphics and Icons Designed Specifically
+                              for the Brochure
                             </p>
                           </div>
                           <hr />
 
                           <div className="basic-div">
                             <p className="clean-s">
-                              Integration of high-quality stock images or custom
-                              visuals
+                              Integration of High-Quality Stock Images or Custom
+                              Visuals
                             </p>
                           </div>
                           <hr />
@@ -618,8 +546,8 @@ const Page = () => {
 
                           <div className="basic-div">
                             <p className="clean-s">
-                              Includes proofreading and editing to ensure
-                              clarity and impact
+                              Includes Proofreading and Editing to Ensure
+                              Clarity and Impact
                             </p>
                           </div>
                           <hr />
@@ -631,16 +559,16 @@ const Page = () => {
 
                           <div className="basic-div">
                             <p className="clean-s">
-                              Typically includes 5 or more rounds of revisions
-                              to refine and perfect the design and content
+                              Typically Includes 5 or More Rounds of Revisions
+                              to Refine and Perfect the Design and Content
                             </p>
                           </div>
                           <hr />
 
                           <div className="basic-div">
                             <p className="clean-s">
-                              Flexibility in making adjustments based on
-                              feedback and new ideas
+                              Flexibility in Making Adjustments Based on
+                              Feedback and New Ideas
                             </p>
                           </div>
                           <hr />
@@ -652,33 +580,33 @@ const Page = () => {
 
                           <div className="basic-div">
                             <p className="clean-s">
-                              Ongoing collaboration throughout the design
-                              process to ensure the final product meets your
-                              expectations
+                              Ongoing Collaboration Throughout the Design
+                              Process to Ensure the Final Product Meets Your
+                              Expectations
                             </p>
                           </div>
                           <hr />
 
                           <div className="basic-div">
                             <p className="clean-s">
-                              Options for unique folding techniques or custom
-                              sizes and shapes
+                              Options for Unique Folding Techniques or Custom
+                              Sizes and Shapes
                             </p>
                           </div>
                           <hr />
 
                           <div className="basic-div">
                             <p className="clean-s">
-                              Final files provided in various formats (PDF,
-                              print-ready, digital versions, etc.)
+                            Final Files Provided in Various Formats (PDF, Print-Ready, Digital Versions, etc.)
+
                             </p>
                           </div>
                           <hr />
 
                           <div className="basic-div">
                             <p className="clean-s">
-                              Source files (like Adobe Illustrator or InDesign
-                              files) may be included upon request
+                            Source Files (Like Adobe Illustrator or InDesign Files) May be Included Upon Request
+
                             </p>
                           </div>
                           <hr />

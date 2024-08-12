@@ -11,7 +11,6 @@
 // import three from '..//images/three.png';
 // import four from '../images/four.png';
 
-
 // function Client() {
 //   return (
 //     <>
@@ -42,7 +41,6 @@
 //                 </div>
 //               </div>
 //             </div>
-
 
 //             <div className="services-design-graphic">
 //               <div className="design-services">
@@ -128,8 +126,6 @@
 
 // export default Client;
 
-
-
 "use client";
 import React from "react";
 import "../styles/client.css";
@@ -151,7 +147,6 @@ import eight from "../images/eight.png";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-
 
 function Client() {
   const sliderSettings = {
@@ -209,7 +204,7 @@ function Client() {
                 </div>
                 <p className="client-text">
                   Check out a few of our most important clients we helped with
-                  Designing services
+                  designing services
                 </p>
 
                 <div className="logo-card-container">
@@ -219,86 +214,86 @@ function Client() {
                         <Image
                           className="client-logo"
                           src={one}
-                          alt="Client Logo" 
+                          alt="Client Logo"
                           width={254}
                           height={185}
                         />
                       </div>
                     </div>
                     <div className="logo-height">
-                    <div className="logo-card">
-                      <Image
-                        className="client-logo"
-                        src={two}
-                        alt="Client Logo"
-                        width={254}
-                        height={185}
-                      />
-                    </div>
-                    </div>
-                    <div className="logo-height">
-                    <div className="logo-card">
-                      <Image
-                        className="client-logo-utpal"
-                        src={three}
-                        alt="Client Logo"
-                      />
-                    </div>
+                      <div className="logo-card">
+                        <Image
+                          className="client-logo"
+                          src={two}
+                          alt="Client Logo"
+                          width={254}
+                          height={185}
+                        />
+                      </div>
                     </div>
                     <div className="logo-height">
-                    <div className="logo-card">
-                      <Image
-                        className="client-logo"
-                        src={four}
-                        alt="Client Logo"
-                        width={254}
-                        height={185}
-                      />
-                    </div>
+                      <div className="logo-card">
+                        <Image
+                          className="client-logo-utpal"
+                          src={three}
+                          alt="Client Logo"
+                        />
+                      </div>
                     </div>
                     <div className="logo-height">
-                    <div className="logo-card">
-                      <Image
-                        className="client-logo"
-                        src={five}
-                        alt="Client Logo"
-                        width={254}
-                        height={185}
-                      />
-                    </div>
-                    </div>
-                    <div className="logo-height">
-                    <div className="logo-card">
-                      <Image
-                        className="client-logo"
-                        src={six}
-                        alt="Client Logo"
-                        width={254}
-                        height={185}
-                      />
-                    </div>
+                      <div className="logo-card">
+                        <Image
+                          className="client-logo"
+                          src={four}
+                          alt="Client Logo"
+                          width={254}
+                          height={185}
+                        />
+                      </div>
                     </div>
                     <div className="logo-height">
-                    <div className="logo-card">
-                      <Image
-                        className="client-logo"
-                        src={seven}
-                        alt="Client Logo"
-                        width={254}
-                        height={185}
-                      />
-                    </div>
+                      <div className="logo-card">
+                        <Image
+                          className="client-logo"
+                          src={five}
+                          alt="Client Logo"
+                          width={254}
+                          height={185}
+                        />
+                      </div>
                     </div>
                     <div className="logo-height">
-                    <div className="logo-card">
-                      <Image
-                        className="client-logo"
-                        src={eight}
-                        alt="Client Logo"
-                        width={254}
-                        height={185}
-                      />
+                      <div className="logo-card">
+                        <Image
+                          className="client-logo"
+                          src={six}
+                          alt="Client Logo"
+                          width={254}
+                          height={185}
+                        />
+                      </div>
                     </div>
+                    <div className="logo-height">
+                      <div className="logo-card">
+                        <Image
+                          className="client-logo"
+                          src={seven}
+                          alt="Client Logo"
+                          width={254}
+                          height={185}
+                        />
+                      </div>
+                    </div>
+                    <div className="logo-height">
+                      <div className="logo-card">
+                        <Image
+                          className="client-logo"
+                          src={eight}
+                          alt="Client Logo"
+                          width={254}
+                          height={185}
+                        />
+                      </div>
                     </div>
                   </Slider>
                 </div>
@@ -327,20 +322,20 @@ function Client() {
                     </div>
                     <div className="design-description">
                       Whether you are running a small business or a big
-                      enterprise then Graphic design service is the main body
+                      enterprise then graphic design service is the main body
                       part of your business. A graphic design service decides
                       how your business creates positive impacts on online
                       platforms such as Instagram, Facebook, Twitter, Linkedin,
                       and Pinterest. Create and handle own graphics can be
                       tricky for every business, but not with a graphic design
-                      company like us. We are a dedicated Graphic Design Company
+                      company like us. We are a dedicated graphic design company
                       in Ahmedabad, India with a team of 15+ creative designers
                       and content writers who are ready to go beyond your
                       imagination to create designs for you.
                     </div>
                     <div className="ul-text">
                       <ul className="li-text">
-                        <li>5+ years of Experience in Graphic Design</li>
+                        <li>5+ Years of Experience in Graphic Design </li>
                         <li>Exponatioal Graphic Design Strategy</li>
                         <li>Team of Social Media Soldiers</li>
                         <li>90% Success Ratio</li>
@@ -353,31 +348,29 @@ function Client() {
                   <div className="design-content">
                     <div className="heading-graphic">
                       <p className="graphic-title">
-                        Why Choose our Graphic Design Services for Your
+                        Why Choose Our Graphic Design Services for Your
                         Business?
                       </p>
                     </div>
                     <div className="design-description size">
                       <p className="space">
-                      Graphic design is a service that is connected to all age
-                      groups, genders, cultures, religions, castes, and
-                      countries. Though it&apos;s maximum chances for any
-                      businesses can make their spotlight with Graphic Design
-                      services. But how can any business utilize this perk of
-                      Graphic Design services?
+                        Graphic design is a service that is connected to all age
+                        groups, genders, cultures, religions, castes, and
+                        countries. Though it&apos;s maximum chances for any
+                        businesses can make their spotlight with graphic design
+                        services. But how can any business utilize this perk of
+                        graphic design services?
                       </p>
                       <p className="space">
-                      With the right selection of Graphic Design Company, anyone
-                      can drive the most Graphic Design potential and goodwill
-                      for their business.
+                        With the right selection of graphic design companies,
+                        anyone can drive the most graphic design potential and
+                        goodwill for their business.
                       </p>
                       Starting from the concept part to its creation, and from
                       community management to brand making, everything will be
                       shorted from our side and you will get the growth you
                       crave and the results you want.
                     </div>
-
-            
                   </div>
                   {/* <div className="graphic-img-container">
                                     <div className="graphic-img-bg">
@@ -402,4 +395,3 @@ function Client() {
 }
 
 export default Client;
-

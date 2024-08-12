@@ -44,7 +44,7 @@ const Footer = () => {
                   </li>
                   <li>
                     <Link className={`links ${pathname === '/blog' ? 'active' : ''}`} href="/blog">
-                      Blog
+                      Blogs
                     </Link>
                   </li>
                   <li>

@@ -1,4 +1,3 @@
-
 "use client";
 
 import React, { useEffect, useRef } from "react";
@@ -8,7 +7,6 @@ import ajay from "../images/ajay.png";
 import closeImage from "../images/closeImage.png";
 import Image from "next/image";
 import Link from "next/link";
-
 
 const Homesection = () => {
   const mainImageRef = useRef(null);
@@ -31,7 +29,6 @@ const Homesection = () => {
         <div className="main-width">
           <div className="under-1320">
             <div className="all-padding home">
-
               <div className="destination-container">
                 <div className="destination-flex">
                   <div
@@ -40,21 +37,22 @@ const Homesection = () => {
                     data-aos-duration="1000"
                   >
                     <p className="Graphic">
-                      Destination Of All Your Graphic Design Needs
+                      Destination of All Your Graphic Design Needs
                     </p>
                     <p className="care">
-                      We take care of all your Design needs so you can feel
+                      We take care of all your design needs so you can feel
                       relaxed about your business
                     </p>
                     <Link className="links" href="/contact/#contact">
-                    <button className="c-button c-button--gooey">
-                      Request Proposal
-                      <div className="c-button__blobs">
-                        <div></div>
-                        <div></div>
-                        <div></div>
-                      </div>
-                    </button>
+                      <button className="c-button c-button--gooey">
+                      Request Proposal 
+
+                        <div className="c-button__blobs">
+                          <div></div>
+                          <div></div>
+                          <div></div>
+                        </div>
+                      </button>
                     </Link>
                   </div>
                   <div
@@ -83,8 +81,6 @@ const Homesection = () => {
                       className="corner-image bottom-left rotating"
                     />
                   </div>
-
-         
                 </div>
               </div>
             </div>
@@ -116,29 +112,27 @@ const Homesection = () => {
         </defs>
       </svg> */}
       <svg
-  xmlns="http://www.w3.org/2000/svg"
-  version="1.1"
-  style={{ display: "block", height: "0", width: "0" }}
->
-  
-  <defs>
-    <filter id="goo">
-      <feGaussianBlur
-        in="SourceGraphic"
-        stdDeviation="10"
-        result="blur"
-      ></feGaussianBlur>
-      <feColorMatrix
-        in="blur"
-        mode="matrix"
-        values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 18 -7"
-        result="goo"
-      ></feColorMatrix>
-      <feBlend in="SourceGraphic" in2="goo"></feBlend>
-    </filter>
-  </defs>
-</svg>
-
+        xmlns="http://www.w3.org/2000/svg"
+        version="1.1"
+        style={{ display: "block", height: "0", width: "0" }}
+      >
+        <defs>
+          <filter id="goo">
+            <feGaussianBlur
+              in="SourceGraphic"
+              stdDeviation="10"
+              result="blur"
+            ></feGaussianBlur>
+            <feColorMatrix
+              in="blur"
+              mode="matrix"
+              values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 18 -7"
+              result="goo"
+            ></feColorMatrix>
+            <feBlend in="SourceGraphic" in2="goo"></feBlend>
+          </filter>
+        </defs>
+      </svg>
     </>
   );
 };
