@@ -353,8 +353,8 @@ function Client() {
                   <div className="design-content">
                     <div className="heading-graphic">
                       <p className="graphic-title">
-                        Why choose our Graphic Design Services for your
-                        business?
+                        Why Choose our Graphic Design Services for Your
+                        Business?
                       </p>
                     </div>
                     <div className="design-description size">

@@ -304,7 +304,7 @@ function GraphicDesign() {
                                 <div className="benefit-tables">
                                     <div className="hire-us">
                                         <div className="hire-us-title">
-                                            <p className='hire-us-text'>Why should you hire us as a Graphic Design Company?</p>
+                                            <p className='hire-us-text'>Why Should You Hire Us as a Graphic Design Company?</p>
                                         </div>
                                         <div className="hire-us-desc">
                                             <p>Over 5 Billion Social Media users in the world and do you still think you should get more
@@ -321,7 +321,7 @@ function GraphicDesign() {
                                     </div>
                                     <div className="hire-us">
                                         <div className="hire-us-title">
-                                            <p className='hire-us-text'>Contact your Graphic Design soldiers</p>
+                                            <p className='hire-us-text'>Contact Our Graphic Design Soldiers</p>
                                         </div>
                                         <div className="hire-us-desc">
                                             <p>
