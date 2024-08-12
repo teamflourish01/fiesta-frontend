@@ -69,7 +69,7 @@ const page = () => {
           <div className="under-1320">
             <div className="all-padding">
             <div className="main-title">Who we are?</div>
-            <div className="design-company">
+            <div className="design-companyee">
               <p>
                 Fiesta is a Graphic design company and Digital Design partner of
                 your business. We believe by connecting together we can achieve

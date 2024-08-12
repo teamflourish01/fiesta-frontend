@@ -8,9 +8,15 @@ import GraphicDesign from "@/sections/GraphicDesign";
 import Provide from "@/sections/Provide";
 import "../styles/background.css";
 import Test from "@/sections/test";
+import Head from "next/head";
 
 export default function Home() {
   return (
+    <>
+  <Head>
+  <title>Home | Fiesta</title>
+    <meta></meta>
+  </Head>
     <main>
       <section>
         <div className="main-width">
@@ -41,5 +47,6 @@ export default function Home() {
         </div>
       </section>
     </main>
+    </>
   );
 }

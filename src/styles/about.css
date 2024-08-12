@@ -7,7 +7,7 @@
 .member {
   padding: 5px 0;
 }
-.design-company {
+.design-companyee {
   font-size: 18px;
   /* line-height: 30px; */
   text-align: justify;
@@ -189,7 +189,7 @@
     font-size: 20px;
     line-height: 30px;
   }
-  .design-company {
+  .design-companyee {
     line-height: unset;
   }
   .our {
@@ -207,12 +207,12 @@
   .upgrate {
     padding: 15px 10px 15px 10px;
   }
+  .design-companyee {
+    font-size: 16px;
+    line-height: 25px;
+  }
 }
 
-.design-company {
-  font-size: 16px;
-  line-height: 25px;
-}
 .client {
   font-size: 16px;
   line-height: 25px;
