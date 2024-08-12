@@ -20,7 +20,7 @@ function page() {
               <div className="destination-flex-contact">
                 <div className="destination-right">
                   <p className="Graphic">
-                  Let's Connect and Grow Together
+                  Let&apos;s Connect and Grow Together
                   </p>
                 </div>
                 <div className="destination-left">

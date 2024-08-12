@@ -46,7 +46,7 @@ function Provide() {
                                             <div className="card-title">
                                                 Social Media Post
                                             </div>
-                                            <p className='text-provide'>Boost your brand's presence with social media expertise.</p>
+                                            <p className='text-provide'>Boost your brand&apos;s presence with social media expertise.</p>
                                             <Link href="/services" className="style-none">
                                             <div className="learn-more">
                                                 Learn More

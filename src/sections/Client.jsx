@@ -219,7 +219,7 @@ function Client() {
                         <Image
                           className="client-logo"
                           src={one}
-                          alt="Client Logo"
+                          alt="Client Logo" 
                           width={254}
                           height={185}
                         />

@@ -18,7 +18,7 @@ import "../../styles/about.css";
 import Homesection from "@/component/Homesection";
 import abbg from "../../images/abbg.png";
 
-const page = () => {
+const Page = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   const toggleDropdown = () => {
@@ -710,4 +710,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default Page;
