@@ -398,7 +398,9 @@ const Page = () => {
                       </div>
 
                       <div className="basic-plans">
-                        <p className="Basic-Plan">Basic Plan</p>
+                        <p className="Basic-Plan">Premium Plan
+
+</p>
                         <div className="logo-plan">
                           <p className="logi-idia">Logo Design Idea - 3</p>
                         </div>
