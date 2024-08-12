@@ -37,15 +37,8 @@ const Page = () => {
                 <div className="destination-flex">
                   <div className="destination-right-about">
                     <p className="Graphic-about">
-                      We are Specialized Logo Design Service Provider
+                      We Are Specialized Logo Design Service Provider
                     </p>
-
-                    <div className="care-about">
-                      <ul className="ul-dot">
-                        <li>Best Logo Provider in Ahmedabad</li>
-                        <li className="banner">Industry best experts</li>
-                      </ul>
-                    </div>
                   </div>
                   <div className="destination-left">
                     <Image src={lbanner} alt="" className="main-image" />
@@ -121,7 +114,7 @@ const Page = () => {
             <div className="all-padding">
               <div className="service-top-padding">
                 <div className="service-flex">
-                  <div className="services">  
+                  <div className="services">
                     <p className="our-services">Our Services</p>
                     <hr />
                     <div className="social-div">
@@ -173,7 +166,7 @@ const Page = () => {
                       </p>
                       <p className="products pro-padding">
                         Fiesta is a team of professional graphic designers with
-                        more than 5 years of experience. We have served over 150
+                        more than 9 years of experience. We have served over 150
                         clients worldwide with more than 1,000+ projects. As the
                         best logo design company in Ahmedabad, Fiesta offers
                         logo design services at competitive prices. As a leading
@@ -373,7 +366,7 @@ const Page = () => {
                         <div className="Payment-Duration">
                           <p className="logi-idia">
                             {" "}
-                            Responsive Profile Pics for all Social Media
+                            Responsive Profile Pics for All Social Media
                             Accounts
                           </p>
                         </div>
@@ -398,9 +391,7 @@ const Page = () => {
                       </div>
 
                       <div className="basic-plans">
-                        <p className="Basic-Plan">Premium Plan
-
-</p>
+                        <p className="Basic-Plan">Premium Plan</p>
                         <div className="logo-plan">
                           <p className="logi-idia">Logo Design Idea - 3</p>
                         </div>
@@ -461,7 +452,7 @@ const Page = () => {
 
                         <div className="Design-Duration">
                           <p className="logi-idia">
-                            {" "}
+                           
                             Competitors Logo Analysis
                           </p>
                         </div>
@@ -469,8 +460,8 @@ const Page = () => {
 
                         <div className="Payment-Duration">
                           <p className="logi-idia">
-                            {" "}
-                            Responsive Profile Pics for all Social Media
+                         
+                            Responsive Profile Pics for All Social Media
                             Accounts
                           </p>
                         </div>

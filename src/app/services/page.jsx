@@ -25,50 +25,6 @@ const Page = () => {
   const [selectedPage, setSelectedPage] = useState("/services");
   return (
     <>
-      {/* <section>
-        <div className="main-width">
-          <div className="under-1320">
-            <div className="all-padding home">
-              <div className="destination-container">
-                <div className="destination-flex">
-                  <div className="destination-right">
-                    <p className="Graphic">
-                      We are Specialized Social Media Marketing service provider
-                    </p>
-                    <div className="care">
-                      <li>
-                        Best Social Media Marketing service providers in
-                        Ahmedabad
-                      </li>
-                      <li className="banner service-banner">
-                        banner with sample of Social Media Graphical images
-                      </li>
-                    </div>
-                  </div>
-                  <div className="destination-left">
-                    <Image src={serviceb} alt="" className="main-image" />
-                    <div className="round-img"></div>
-                    <div className="top-round"></div>
-                    <div className="s-round"></div>
-                    <Image
-                      src={closeImage}
-                      alt=""
-                      className="corner-image top-right rotating"
-                    />
-                    <Image
-                      src={closeImage}
-                      alt=""
-                      className="corner-image bottom-left rotating"
-                    />
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <hr />
-        </div>
-      </section> */}
-
       <section>
         <div className="main-width">
           <div className="under-1320">
@@ -77,20 +33,9 @@ const Page = () => {
                 <div className="destination-flex-about">
                   <div className="destination-right-about">
                     <p className="Graphic-about">
-                      We are Specialized Social Media Marketing Service
+                      We Are Specialized Social Media Marketing Service
                       Providers
                     </p>
-                    <div className="care-about">
-                      <ul className="ul-dot">
-                        <li>
-                          Best Social Media Marketing service providers in
-                          Ahmedabad
-                        </li>
-                        <li className="service-padding-about">
-                          banner with sample of Social Media Graphical images
-                        </li>
-                      </ul>
-                    </div>
                   </div>
                   <div className="destination-left">
                     <Image
@@ -170,36 +115,42 @@ const Page = () => {
             <div className="service-top-padding unset">
               <div className="all-padding">
                 <div className="service-flex">
-                <div className="services">
-      <p className="our-services">Our Services</p>
-      <hr />
-      <div className="social-div">
-        <Link href="/services">
-          <p
-            className={selectedPage === "/services" ? "underline" : ""}
-            onClick={() => setSelectedPage("/services")}
-          >
-            Social Media Post
-          </p>
-        </Link>
-        <Link href="/logodesign">
-          <p
-            className={selectedPage === "/logodesign" ? "underline" : ""}
-            onClick={() => setSelectedPage("/logodesign")}
-          >
-            Logo Design
-          </p>
-        </Link>
-        <Link href="/brochure">
-          <p
-            className={selectedPage === "/brochure" ? "underline" : ""}
-            onClick={() => setSelectedPage("/brochure")}
-          >
-            Brochure Design
-          </p>
-        </Link>
-      </div>
-    </div>
+                  <div className="services">
+                    <p className="our-services">Our Services</p>
+                    <hr />
+                    <div className="social-div">
+                      <Link href="/services">
+                        <p
+                          className={
+                            selectedPage === "/services" ? "underline" : ""
+                          }
+                          onClick={() => setSelectedPage("/services")}
+                        >
+                          Social Media Post
+                        </p>
+                      </Link>
+                      <Link href="/logodesign">
+                        <p
+                          className={
+                            selectedPage === "/logodesign" ? "underline" : ""
+                          }
+                          onClick={() => setSelectedPage("/logodesign")}
+                        >
+                          Logo Design
+                        </p>
+                      </Link>
+                      <Link href="/brochure">
+                        <p
+                          className={
+                            selectedPage === "/brochure" ? "underline" : ""
+                          }
+                          onClick={() => setSelectedPage("/brochure")}
+                        >
+                          Brochure Design
+                        </p>
+                      </Link>
+                    </div>
+                  </div>
 
                   <div className="social-media">
                     <div className="marketing-main">
@@ -249,16 +200,18 @@ const Page = () => {
 
                       <div className="adjustments">
                         <p>
-                        Detailed analytics to measure the effectiveness of your social media campaigns. 
-                        </p>
-                        <p>
-                          Regular reports and insights to guide strategy
-                          adjustments and improvements.
+                          Detailed analytics to measure the effectiveness of
+                          your social media campaigns. Regular reports and
+                          insights to guide strategy adjustments and
+                          improvements.
                         </p>
                       </div>
                       <p className="choose-us">Why Choose Us?</p>
                       <p className="dynamic">
-                        At Fiesta, we blend graphic design skills with advanced social media marketing to deliver outstanding results. Our team adapts to the latest trends, ensuring your brand excels in the dynamic world of social media.
+                        At Fiesta, we blend graphic design skills with advanced
+                        social media marketing to deliver outstanding results.
+                        Our team adapts to the latest trends, ensuring your
+                        brand excels in the dynamic world of social media.
                       </p>
                       <p className="Pricing">Pricing</p>
                     </div>
@@ -272,7 +225,7 @@ const Page = () => {
                           <hr />
                           <p className="image-post">3 Story Designs</p>
                           <hr />
-                          <p className="image-post"> Festival Posts</p>
+                          <p className="image-post">Festival Posts</p>
                           <hr />
                           <p className="image-post">N.A.</p>
                           <hr />
@@ -291,8 +244,8 @@ const Page = () => {
                           </p>
                           <hr />
                           <p className="image-post">
-                            Create in the Visuals (It is best if you can give us
-                            real photos of the business)
+                            Create in the Visuals (It is Best if You can Give Us
+                            Real Photos of the Business)
                           </p>
                           <hr />
                           <p className="image-post">Real Time Reporting</p>
@@ -339,8 +292,8 @@ const Page = () => {
                           </p>
                           <hr />
                           <p className="image-post">
-                            Create in the Visuals (It is best if you can give us
-                            real photos of the business)
+                            Create in the Visuals (It Is Best If You can Give Us
+                            Real Photos of the Business)
                           </p>
                           <hr />
                           <p className="image-post">Real Time Reporting</p>
@@ -387,8 +340,8 @@ const Page = () => {
                           </p>
                           <hr />
                           <p className="image-post">
-                            Create in the Visuals (It is best if you can give us
-                            real photos of the business)
+                            Create in the Visuals (It Is Best If you can Give Us
+                            Real Photos of the Business)
                           </p>
                           <hr />
                           <p className="image-post">Real Time Reporting</p>

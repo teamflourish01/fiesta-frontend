@@ -36,7 +36,7 @@ function Provide() {
                         <div className="all-padding">
                         <div className="provide-container">
                             <div className="heading">
-                                <p className='title'>What We Provide</p>
+                                <p className='title'>What We Provide </p>
                             </div>
                             <div className="provide-card-container ">
                                 <div className="provider-card btn-style700 " data-aos="fade-up" data-aos-duration="1000">
@@ -44,7 +44,7 @@ function Provide() {
                                         <Image className="provider-icons" src={SocialMediaImg} alt="Social Media Post" />
                                         <div className="provider-card-desc">
                                             <div className="card-title">
-                                                Social Media Post
+                                            Social Media Post
                                             </div>
                                             <p className='text-provide'>Boost your brand&apos;s presence with social media expertise.</p>
                                             <Link href="/services" className="style-none">
@@ -64,7 +64,7 @@ function Provide() {
                                             <Image className="provider-icons" src={logoImg} alt="Logo Design" />
                                             <div className="provider-card-desc">
                                                 <div className="card-title">
-                                                    Logo Design
+                                                Logo Design
                                                 </div>
                                                 <p className='text-provide'>Design a unique logo that defines your brand.</p>
                                                 <Link href="/logodesign" className="style-none">
@@ -85,7 +85,7 @@ function Provide() {
                                             <Image className="provider-icons" src={brochureImg} alt="Brochure Design" />
                                             <div className="provider-card-desc">
                                                 <div className="card-title">
-                                                    Brochure Design
+                                                Brochure Design
                                                 </div>
                                                 <p className='text-provide'>Create professional brochures that captivate your audience.</p>
                                                 <Link href="/brochure" className="style-none">
