@@ -37,7 +37,7 @@ const page = () => {
                 <div className="destination-flex">
                   <div className="destination-right-about">
                     <p className="Graphic-about">
-                      We are Specialized LOGO Design Service Provider
+                      We are Specialized Logo Design Service Provider
                     </p>
 
                     <div className="care-about">

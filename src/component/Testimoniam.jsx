@@ -68,7 +68,7 @@ const Testimoniam = () => {
             <div className="title-text">
               <div className="tittle-flex">
                 <Image src={closeImage} alt="Close Icon" className="cross" />
-                <p className="service">Client’s review of our services</p>
+                <p className="service">Client’s Review of Our Services</p>
                 <Image src={closeImage} alt="Close Icon" className="cross" />
               </div>
             </div>
